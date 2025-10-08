@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title>TITULO</title>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+<body BGCOLOR="e0e4e8">
+<ajs name="Descartes" width=790 height=500 code="Descartes">
+   <param name="tamaño" value="790x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="sonido" value="sí">
+   <param name="álgebra" value="sí">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.332, 2014-12-01">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R2' id='E1' fijo='sí' escala='80' despl_imagen='arr-izq' fondo='13235b' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='n6' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Otro ejercicio' expresión='(180,350,150,30)' fijo='sí' visible='sí' color='blanco' color-int='ff7600' negrita='sí' fuente puntos='22' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='otra=(otra=maximo)?1:otra+1\notro()\nima=1' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='listo'">
+   <param name="C_02" value="id='g1' tipo='gráfico' espacio='E1' color='azul' color-int='rojo' tamaño='60' imagen='images/cuadro1.png' dibujar-si='pp'">
+   <param name="C_03" value="id='g1.x' tipo='numérico' región='exterior' espacio='E1' nombre='g1.x' incr='.1' min='-3.5' max='3.6' decimales='1' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12'">
+   <param name="C_04" value="id='g1.y' tipo='numérico' región='exterior' espacio='E1' nombre='g1.y' min='-2.5' max='2.5' decimales='1' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_05" value="id='g2' tipo='gráfico' espacio='E1' color='azul' color-int='rojo' tamaño='60' imagen='images/cuadro1.png' dibujar-si='pp'">
+   <param name="C_06" value="id='g2.x' tipo='numérico' región='exterior' espacio='E1' nombre='g1.x' min='-3.5' max='3.6' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_07" value="id='g2.y' tipo='numérico' región='exterior' espacio='E1' nombre='g1.y' min='-2.5' max='2.5' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_08" value="id='g3' tipo='gráfico' espacio='E1' color='azul' color-int='rojo' tamaño='60' imagen='images/cuadro1.png' dibujar-si='pp'">
+   <param name="C_09" value="id='g3.x' tipo='numérico' región='exterior' espacio='E1' nombre='g1.x' min='-3.5' max='3.6' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_10" value="id='g3.y' tipo='numérico' región='exterior' espacio='E1' nombre='g1.y' min='-2.5' max='2.5' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_11" value="id='g4' tipo='gráfico' espacio='E1' color='azul' color-int='rojo' tamaño='60' imagen='images/cuadro1.png' dibujar-si='pp'">
+   <param name="C_12" value="id='g4.x' tipo='numérico' región='exterior' espacio='E1' nombre='g1.x' min='-3.5' max='3.6' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_13" value="id='g4.y' tipo='numérico' región='exterior' espacio='E1' nombre='g1.y' min='-2.5' max='2.5' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_14" value="id='g5' tipo='gráfico' espacio='E1' color='azul' color-int='rojo' tamaño='60' imagen='images/cuadro1.png' dibujar-si='pp'">
+   <param name="C_15" value="id='g5.x' tipo='numérico' región='exterior' espacio='E1' nombre='g1.x' min='-3.5' max='3.6' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_16" value="id='g5.y' tipo='numérico' región='exterior' espacio='E1' nombre='g1.y' min='-2.5' max='2.5' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_17" value="id='g6' tipo='gráfico' espacio='E1' color='azul' color-int='rojo' tamaño='60' imagen='images/cuadro1.png' dibujar-si='pp'">
+   <param name="C_18" value="id='g6.x' tipo='numérico' región='exterior' espacio='E1' nombre='g1.x' min='-3.5' max='3.6' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_19" value="id='g6.y' tipo='numérico' región='exterior' espacio='E1' nombre='g1.y' min='-2.5' max='2.5' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="A_01" value="id='N2' vector='sí' evaluar='una-sola-vez' tamaño='101' expresión='N2[0]=0;N2[1]=0;N2[2]=0' archivo='datos/textos.txt'">
+   <param name="A_02" value="id='N' vector='sí' evaluar='una-sola-vez' tamaño='11' expresión='N[0]=0;N[1]=0;N[2]=0'">
+   <param name="A_03" value="id='VecAux1' vector='sí' evaluar='una-sola-vez' tamaño='n_numeros+100' expresión='VecAux1[0]=0;VecAux1[1]=0;VecAux1[2]=0'">
+   <param name="A_04" value="id='resultadoVec' vector='sí' evaluar='una-sola-vez' tamaño='n_numeros+100' expresión='resultadoVec[0]=0;resultadoVec[1]=0;resultadoVec[2]=0'">
+   <param name="A_05" value="id='X' vector='sí' evaluar='una-sola-vez' tamaño='7' expresión='X[0]=0;X[1]=0;X[2]=0'">
+   <param name="A_06" value="id='Y' vector='sí' evaluar='una-sola-vez' tamaño='7' expresión='Y[0]=0;Y[1]=0;Y[2]=0'">
+   <param name="A_07" value="id='initVecAux1()' algoritmo='sí' algoritmo='sí' inicio='_indexT=0;_ancla=minRango' hacer='VecAux1[_indexT]=_ancla;_indexT=_indexT+1;_ancla=_ancla+1' mientras='_indexT<n_numeros'">
+   <param name="A_08" value="id='reacomodaVector(_posBorrar)' algoritmo='sí' algoritmo='sí' inicio='_indexAcomoda=_posBorrar' hacer='VecAux1[_indexAcomoda]=VecAux1[_indexAcomoda+1];_indexAcomoda=_indexAcomoda+1' mientras='_indexAcomoda<(n_numeros-1)'">
+   <param name="A_09" value="id='creaAleatorios()' algoritmo='sí' algoritmo='sí' inicio='initVecAux1();_indexCrearAl=0' hacer='_cuantosQuedan=(n_numeros-_indexCrearAl);_indexAleatorio=ent(rnd*_cuantosQuedan);resultadoVec[_indexCrearAl]=VecAux1[_indexAleatorio];reacomodaVector(_indexAleatorio);_indexCrearAl=_indexCrearAl+1' mientras='_indexCrearAl<n_numeros'">
+   <param name="A_10" value="id='otro()' algoritmo='sí' algoritmo='sí' hacer='N[1]=N2[7*(otra-1)+1];N[2]=N2[7*(otra-1)+2];N[3]=N2[7*(otra-1)+3];N[4]=N2[7*(otra-1)+4];N[5]=N2[7*(otra-1)+5];N[6]=N2[7*(otra-1)+6];N[7]=N2[7*(otra-1)+7];minRango=1;maxRango=7;n_numeros=ent(maxRango-minRango);initVecAux1();creaAleatorios();j1=resultadoVec[0];j2=resultadoVec[1];j3=resultadoVec[2];j4=resultadoVec[3];j5=resultadoVec[4];j6=resultadoVec[5];X[j1]=-3.5;Y[j1]=0.5;X[j2]=-3.5;Y[j2]=-0.5;X[j3]=-3.5;Y[j3]=-1.5;X[j4]=0.5;Y[j4]=0.5;X[j5]=.5;Y[j5]=-0.5;X[j6]=0.5;Y[j6]=-1.5;g1.x=X[1];g2.x=X[2];g3.x=X[3];g4.x=X[4];g5.x=X[5];g6.x=X[6];g1.y=Y[1];g2.y=Y[2];g3.y=Y[3];g4.y=Y[4];g5.y=Y[5];g6.y=Y[6]'">
+   <param name="A_11" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='N[1]=N2[1];N[2]=N2[2];N[3]=N2[3];N[4]=N2[4];N[5]=N2[5];N[6]=N2[6];N[7]=N2[7];minRango=1;maxRango=7;n_numeros=ent(maxRango-minRango);initVecAux1();creaAleatorios();j1=resultadoVec[0];j2=resultadoVec[1];j3=resultadoVec[2];j4=resultadoVec[3];j5=resultadoVec[4];j6=resultadoVec[5];X[j1]=-3.5;Y[j1]=0.5;X[j2]=-3.5;Y[j2]=-0.5;X[j3]=-3.5;Y[j3]=-1.5;X[j4]=0.5;Y[j4]=0.5;X[j5]=.5;Y[j5]=-0.5;X[j6]=0.5;Y[j6]=-1.5;maximo=N2[0];otra=1;ima=1;'">
+   <param name="A_12" value="id='e5' evento='sí' condición='otra=1' acción='calcular' parámetro='g1.x=X[1]\ng2.x=X[2]\ng3.x=X[3]\ng4.x=X[4]\ng5.x=X[5]\ng6.x=X[6]\ng1.y=Y[1]\ng2.y=Y[2]\ng3.y=Y[3]\ng4.y=Y[4]\ng5.y=Y[5]\ng6.y=Y[6]\n' parámetro.fuente='Monospaced,PLAIN,12' ejecución='alternar' pos_mensajes='centro'">
+   <param name="A_13" value="id='CALCULOS' algoritmo='sí' evaluar='siempre'">
+   <param name="A_14" value="id='a6' algoritmo='sí' evaluar='siempre' hacer='g1.x=(g1.x>3)?3.6:g1.x;g1.y=(g1.x>3)?ent(g1.y)+.5:g1.y;g2.x=(g2.x>3)?3.6:g2.x;g2.y=(g2.x>3)?ent(g2.y)+.5:g2.y;g3.x=(g3.x>3)?3.6:g3.x;g3.y=(g3.x>3)?ent(g3.y)+.5:g3.y;g4.x=(g4.x>3)?3.6:g4.x;g4.y=(g4.x>3)?ent(g4.y)+.5:g4.y;g5.x=(g5.x>3)?3.6:g5.x;g5.y=(g5.x>3)?ent(g5.y)+.5:g5.y;g6.x=(g6.x>3)?3.6:g6.x;g6.y=(g6.x>3)?ent(g6.y)+.5:g6.y;'">
+   <param name="A_15" value="id='a7' algoritmo='sí' evaluar='siempre' hacer='monta1=(g1.x>3)&(g2.x>3)&(g1.y=g2.y);monta2=(g1.x>3)&(g3.x>3)&(g1.y=g3.y);monta3=(g1.x>3)&(g4.x>3)&(g1.y=g4.y);monta4=(g1.x>3)&(g5.x>3)&(g1.y=g5.y);monta5=(g1.x>3)&(g6.x>3)&(g1.y=g6.y);monta6=(g2.x>3)&(g3.x>3)&(g2.y=g3.y);monta7=(g2.x>3)&(g4.x>3)&(g2.y=g4.y);monta8=(g2.x>3)&(g5.x>3)&(g2.y=g5.y);monta9=(g2.x>3)&(g6.x>3)&(g2.y=g6.y);monta10=(g3.x>3)&(g4.x>3)&(g3.y=g4.y);monta11=(g3.x>3)&(g5.x>3)&(g3.y=g5.y);monta12=(g3.x>3)&(g6.x>3)&(g3.y=g6.y);monta13=(g4.x>3)&(g5.x>3)&(g4.y=g5.y);monta14=(g4.x>3)&(g6.x>3)&(g4.y=g6.y);monta15=(g5.x>3)&(g6.x>3)&(g5.y=g6.y);error1=monta1+monta2+monta3+monta4+monta5+monta6+monta7+monta8+monta9;error2=monta10+monta11+monta12+monta13+monta14+monta15;error=error1+error2;'">
+   <param name="A_16" value="id='a9' algoritmo='sí' evaluar='siempre' hacer='a1=g1.y+3.5;a2=g2.y+3.5;a3=g3.y+3.5;a4=g4.y+3.5;a5=g5.y+3.5;a6=g6.y+3.5'">
+   <param name="A_17" value="id='a10' algoritmo='sí' evaluar='siempre' hacer='listo=(g1.x>3)&(g2.x>3)&(g3.x>3)&(g4.x>3)&(g5.x>3)&(g6.x>3)&(error=0);b1=(a1=6);b2=(a2=5);b3=(a3=4);b4=(a4=3);b5=(a5=2);b6=(a6=1);correcto=((b1+b2+b3+b4+b5+b6)=6)&(listo);c1=(a1=1);c2=(a2=2);c3=(a3=3);c4=(a4=4);c5=(a5=5);c6=(a6=6);correcto2=((c1+c2+c3+c4+c5+c6)=6)&(listo)'">
+   <param name="A_18" value="id='e8' evento='sí' condición='ima=1' acción='animar' ejecución='siempre' pos_mensajes='centro'">
+   <param name="G_01" value="espacio='E1' tipo='polígono' color='13235b' expresión='(2,s)(4.8,s)(4.8,s+1)(2,s+1)(2,s)' familia='s' s.intervalo='[-3,2]' s.pasos='5' relleno='41a62a' ancho='2'">
+   <param name="G_02" value="espacio='E1' tipo='texto' expresión='[1,1]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs56 Arrastra los textos hacia la\par tabla, {\*\mjaformula{\expr N[1]}},\par de arriba hacia abajo\cf1 .\fs76}' fuente='Arial,PLAIN,28' fijo='sí'">
+   <param name="G_03" value="espacio='E1' tipo='texto' expresión='[2,2]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}{\colortbl\red255\green255\blue255;\red0\green0\blue255;}\f1\fs56\cf0 Arrastra los textos hacia la\par tabla, {\*\mjaformula{\expr N[1]}},\par de arriba hacia abajo.\fs76\cf1}' fuente='Arial,PLAIN,28' fijo='sí'">
+   <param name="G_04" value="espacio='E1' tipo='imagen' expresión='(g1.x-1.4,g1.y+.5)' archivo='images/cuadro1.png'">
+   <param name="G_05" value="espacio='E1' tipo='imagen' expresión='(g2.x-1.4,g2.y+.5)' archivo='images/cuadro1.png'">
+   <param name="G_06" value="espacio='E1' tipo='imagen' expresión='(g3.x-1.4,g3.y+.5)' archivo='images/cuadro1.png'">
+   <param name="G_07" value="espacio='E1' tipo='imagen' expresión='(g4.x-1.4,g4.y+.5)' archivo='images/cuadro1.png'">
+   <param name="G_08" value="espacio='E1' tipo='imagen' expresión='(g5.x-1.4,g5.y+.5)' archivo='images/cuadro1.png'">
+   <param name="G_09" value="espacio='E1' tipo='imagen' expresión='(g6.x-1.4,g6.y+.5)' archivo='images/cuadro1.png'">
+   <param name="G_10" value="espacio='E1' tipo='texto' dibujar-si='error' expresión='[12,172]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs76\b\cf0\u161 Hay textos montados!\b0\cf1}' fuente='Arial Bold,BOLD,38' fijo='sí'">
+   <param name="G_11" value="espacio='E1' tipo='texto' dibujar-si='error' expresión='[11,171]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green0\blue255;}\f1\fs76\b\cf0\u161 Hay textos montados!\b0\cf1}' fuente='Arial Bold,BOLD,38' fijo='sí'">
+   <param name="G_12" value="espacio='E1' tipo='texto' dibujar-si='correcto2=1' expresión='[1,171]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs80\i            \b\cf1   \u161 No es correcto!\par Los ordenaste al contrario \f3\fs76\b0\i0\cf2}' fuente='Times New Roman Italic,ITALIC,40' fijo='sí'">
+   <param name="G_13" value="espacio='E1' tipo='texto' dibujar-si='correcto2=1' expresión='[0,170]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs80\i            \b   \u161 No es correcto!\par Los ordenaste al contrario \f3\fs76\b0\i0\cf1}' fuente='Times New Roman Italic,ITALIC,40' fijo='sí'">
+   <param name="G_14" value="espacio='E1' tipo='texto' dibujar-si='correcto=1' expresión='[1,171]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs80\i            \b\cf1   \u161 Excelente!\f3\fs76\b0\i0\cf2}' fuente='Times New Roman Italic,ITALIC,40' fijo='sí'">
+   <param name="G_15" value="espacio='E1' tipo='texto' dibujar-si='correcto=1' expresión='[2,172]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green255\blue0;\red0\green0\blue255;}\cf0\f1\fs80\i           \cf1  \b   \u161 Excelente!\f3\fs76\b0\i0\cf2}' fuente='Times New Roman Italic,ITALIC,40' fijo='sí'">
+   <param name="G_16" value="espacio='E1' tipo='texto' dibujar-si='(correcto2+correcto=0)&(listo)' expresión='[1,171]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Times New Roman;\f4\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs80\i            \b\cf1   \fs60\u161 No es correcto!\par Una ayuda: el primer texto\par    es {\*\mjaformula{\expr N[2]\decimals 0\fixed1}} y el \u250 ltimo es {\*\mjaformula{\expr N[7]\decimals 0\fixed1}} \f4\fs76\b0\i0\cf2}' fuente='Times New Roman Italic,ITALIC,40' fijo='sí'">
+   <param name="G_17" value="espacio='E1' tipo='texto' dibujar-si='(correcto2+correcto=0)&(listo)' expresión='[2,172]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Times New Roman;\f4\fcharset0 Arial;}{\colortbl\red255\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs80\i            \b\cf1  \fs60  \cf0\u161 No es correcto!\par Una ayuda: el primer texto\par    es {\*\mjaformula{\expr N[2]\decimals 0\fixed1}} y el \u250 ltimo es {\*\mjaformula{\expr N[7]\decimals 0\fixed1}} \f4\fs76\b0\i0\cf2}' fuente='Times New Roman Italic,ITALIC,40' fijo='sí'">
+   <param name="G_18" value="espacio='E1' tipo='imagen' dibujar-si='(correcto2+correcto=0)&(listo)' expresión='(-5,-.5)' archivo='images/triste.png'">
+   <param name="G_19" value="espacio='E1' tipo='imagen' dibujar-si='correcto2=1' expresión='(-5,-.5)' archivo='images/triste.png'">
+   <param name="G_20" value="espacio='E1' tipo='imagen' dibujar-si='correcto' expresión='(-5,-.5)' archivo='images/feliz.png'">
+   <param name="G_21" value="espacio='E1' tipo='texto' expresión='[290+80*g1.x,230-80*g1.y]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;}\cf0\f1\fs68\b{\*\mjaformula{\expr N[2]}}\f2\fs60\b0}' fuente='Times New Roman Bold,BOLD,34' fijo='sí'">
+   <param name="G_22" value="espacio='E1' tipo='texto' expresión='[290+80*g2.x,230-80*g2.y]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;}\cf0\f1\fs68\b{\*\mjaformula{\expr N[3]}}\f2\fs60\b0}' fuente='Times New Roman Bold,BOLD,34' fijo='sí'">
+   <param name="G_23" value="espacio='E1' tipo='texto' expresión='[290+80*g3.x,230-80*g3.y]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;}\cf0\f1\fs68\b{\*\mjaformula{\expr N[4]}}\f2\fs60\b0}' fuente='Times New Roman Bold,BOLD,34' fijo='sí'">
+   <param name="G_24" value="espacio='E1' tipo='texto' expresión='[290+80*g4.x,230-80*g4.y]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;}\cf0\f1\fs68\b{\*\mjaformula{\expr N[5]}}\f2\fs60\b0}' fuente='Times New Roman Bold,BOLD,34' fijo='sí'">
+   <param name="G_25" value="espacio='E1' tipo='texto' expresión='[290+80*g5.x,230-80*g5.y]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;}\cf0\f1\fs68\b{\*\mjaformula{\expr N[6]}}\f2\fs60\b0}' fuente='Times New Roman Bold,BOLD,34' fijo='sí'">
+   <param name="G_26" value="espacio='E1' tipo='texto' expresión='[290+80*g6.x,230-80*g6.y]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;}\cf0\f1\fs68\b{\*\mjaformula{\expr N[7]}}\f2\fs60\b0}' fuente='Times New Roman Bold,BOLD,34' fijo='sí'">
+   <param name="Animación" value="controles='no' auto='no' inicio='ggg=0;ima=0' hacer='ggg=ggg+1;otro()' mientras='ggg<20'">
+</ajs>
+</body>
+<script type="descartes/vectorFile" id="datos/textos.txt">
+4
+'Daily routine'
+'wake up'
+'get up'
+'have breakfast'
+'go to school'
+'go home'
+'have dinner'
+
+'Daily routine'
+'wake up'
+'get up'
+'have breakfast'
+'have lunch'
+'have dinner'
+'go to bed'
+
+'Daily routine'
+'have breakfast'
+'go to school'
+'go home'
+'do homework'
+'have dinner'
+'go to bed'
+
+'Daily routine'
+'wake up'
+'get up'
+'have breakfast'
+'brush your teeth'
+'go to home'
+'have a shower'
+
+</script>
+</html>

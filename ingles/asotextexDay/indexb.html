@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title>Asocia imágenes</title>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+<body BGCOLOR="e0e4e8">
+<ajs name="Descartes" width=790 height=500 code="Descartes">
+   <param name="tamaño" value="790x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="sonido" value="sí">
+   <param name="álgebra" value="sí">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R2' fijo='sí' escala='90' O.x='-30' O.y='60' imagen='imagenes1/mapa.jpg' despl_imagen='expand.' fondo='006024' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='g1' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' dibujar-si='raro=1'">
+   <param name="C_02" value="id='g1.x' tipo='numérico' región='interior' nombre='g1.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_03" value="id='g1.y' tipo='numérico' región='interior' nombre='g1.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_04" value="id='g2' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_05" value="id='g2.x' tipo='numérico' región='interior' nombre='g2.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_06" value="id='g2.y' tipo='numérico' región='interior' nombre='g2.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_07" value="id='g3' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_08" value="id='g3.x' tipo='numérico' región='interior' nombre='g1.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_09" value="id='g3.y' tipo='numérico' región='interior' nombre='g1.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_10" value="id='g4' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_11" value="id='g4.x' tipo='numérico' región='interior' nombre='g2.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_12" value="id='g4.y' tipo='numérico' región='interior' nombre='g2.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_13" value="id='g5' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_14" value="id='g5.x' tipo='numérico' región='interior' nombre='g1.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_15" value="id='g5.y' tipo='numérico' región='interior' nombre='g1.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_16" value="id='g6' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_17" value="id='g6.x' tipo='numérico' región='interior' nombre='g2.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_18" value="id='g6.y' tipo='numérico' región='interior' nombre='g2.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_19" value="id='g7' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_20" value="id='g7.x' tipo='numérico' región='interior' nombre='g1.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_21" value="id='g7.y' tipo='numérico' región='interior' nombre='g1.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_22" value="id='g8' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_23" value="id='g8.x' tipo='numérico' región='interior' nombre='g2.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_24" value="id='g8.y' tipo='numérico' región='interior' nombre='g2.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_25" value="id='g9' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_26" value="id='g9.x' tipo='numérico' región='interior' nombre='g1.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_27" value="id='g9.y' tipo='numérico' región='interior' nombre='g1.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_28" value="id='g10' tipo='gráfico' color='faffffff' color-int='faffffff' tamaño='40' fuente='Monospaced,PLAIN,12' fijo='sí' dibujar-si='raro=1'">
+   <param name="C_29" value="id='g10.x' tipo='numérico' región='interior' nombre='g2.x' expresión='(10,570)' valor='(rnd*2.5)' min='-4' max='4' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_30" value="id='g10.y' tipo='numérico' región='interior' nombre='g2.y' expresión='(10,570)' valor='(rnd*4)-1.5' min='-2' max='3' fijo='sí' visible='sí' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_31" value="id='n17' tipo='numérico' interfaz='botón' región='interior' nombre='Revolver' expresión='(675,75,110,22)' fijo='sí' visible='sí' color='blanco' color-int='naranja' negrita='sí' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='g1.x=(rnd*2.5)\ng2.x=(rnd*2.5)\ng3.x=(rnd*2.5)\ng4.x=(rnd*2.5)\ng5.x=(rnd*2.5)\ng6.x=(rnd*2.5)\ng7.x=(rnd*2.5)\ng8.x=(rnd*2.5)\ng9.x=(rnd*2.5)\ng10.x=(rnd*2.5)\ng1.y=(rnd*4)-1.5\ng2.y=(rnd*4)-1.5\ng3.y=(rnd*4)-1.5\ng4.y=(rnd*4)-1.5\ng5.y=(rnd*4)-1.5\ng6.y=(rnd*4)-1.5\ng7.y=(rnd*4)-1.5\ng8.y=(rnd*4)-1.5\ng9.y=(rnd*4)-1.5\ng10.y=(rnd*4)-1.5\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='s!=25' pos_mensajes='centro'">
+   <param name="C_32" value="id='n21' tipo='numérico' interfaz='botón' región='interior' nombre='Otro test' expresión='(675,105,110,22)' fijo='sí' visible='sí' color='blanco' color-int='naranja' negrita='sí' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='otra=(otra=T[0])?1:otra+1\ncambia()\nim=1' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="A_01" value="id='T' vector='sí' evaluar='una-sola-vez' tamaño='20' expresión='T[0]=0;T[1]=0;T[2]=0' archivo='datos/temas.txt'">
+   <param name="A_02" value="id='P' vector='sí' evaluar='una-sola-vez' tamaño='16' expresión='P[0]=0;P[1]=0;P[2]=0'">
+   <param name="A_03" value="id='I' vector='sí' evaluar='una-sola-vez' tamaño='13' expresión='I[0]=&squot;&squot;;I[1]=&squot;&squot;;I[2]=&squot;&squot;;'">
+   <param name="A_04" value="id='T1' vector='sí' evaluar='una-sola-vez' tamaño='101' expresión='T1[0]=0;T1[1]=0;T1[2]=0' archivo='datos/textos1.txt'">
+   <param name="A_05" value="id='T2' vector='sí' evaluar='una-sola-vez' tamaño='101' expresión='T2[0]=0;T2[1]=0;T2[2]=0' archivo='datos/textos2.txt'">
+   <param name="A_06" value="id='VecAux1' vector='sí' evaluar='una-sola-vez' tamaño='n_numeros+100' expresión='VecAux1[0]=0;VecAux1[1]=0;VecAux1[2]=0'">
+   <param name="A_07" value="id='resultadoVec' vector='sí' evaluar='una-sola-vez' tamaño='n_numeros+100' expresión='resultadoVec[0]=0;resultadoVec[1]=0;resultadoVec[2]=0'">
+   <param name="A_08" value="id='initVecAux1()' algoritmo='sí' algoritmo='sí' inicio='_indexT=0;_ancla=minRango' hacer='VecAux1[_indexT]=_ancla;_indexT=_indexT+1;_ancla=_ancla+1' mientras='_indexT<n_numeros'">
+   <param name="A_09" value="id='reacomodaVector(_posBorrar)' algoritmo='sí' algoritmo='sí' inicio='_indexAcomoda=_posBorrar' hacer='VecAux1[_indexAcomoda]=VecAux1[_indexAcomoda+1];_indexAcomoda=_indexAcomoda+1' mientras='_indexAcomoda<(n_numeros-1)'">
+   <param name="A_10" value="id='creaAleatorios()' algoritmo='sí' algoritmo='sí' inicio='initVecAux1();_indexCrearAl=0' hacer='_cuantosQuedan=(n_numeros-_indexCrearAl);_indexAleatorio=ent(rnd*_cuantosQuedan);resultadoVec[_indexCrearAl]=VecAux1[_indexAleatorio];reacomodaVector(_indexAleatorio);_indexCrearAl=_indexCrearAl+1' mientras='_indexCrearAl<n_numeros'">
+   <param name="A_11" value="id='cambia()' algoritmo='sí' expresión='x' algoritmo='sí' hacer='g1.x=(rnd*2.5);g2.x=(rnd*2.5);g3.x=(rnd*2.5);g4.x=(rnd*2.5);g5.x=(rnd*2.5);g6.x=(rnd*2.5);g7.x=(rnd*2.5);g8.x=(rnd*2.5);g9.x=(rnd*2.5);g10.x=(rnd*2.5);g1.y=(rnd*4)-1.5;g2.y=(rnd*4)-1.5;g3.y=(rnd*4)-1.5;g4.y=(rnd*4)-1.5;g5.y=(rnd*4)-1.5;g6.y=(rnd*4)-1.5;g7.y=(rnd*4)-1.5;g8.y=(rnd*4)-1.5;g9.y=(rnd*4)-1.5;g10.y=(rnd*4)-1.5;minRango=1;maxRango=11;n_numeros=ent(maxRango-minRango);initVecAux1();creaAleatorios();I[1]=&squot;imagenes1/g&squot;+resultadoVec[0]+&squot;.png&squot;;I[2]=&squot;imagenes1/g&squot;+resultadoVec[1]+&squot;.png&squot;;I[3]=&squot;imagenes1/g&squot;+resultadoVec[2]+&squot;.png&squot;;I[4]=&squot;imagenes1/g&squot;+resultadoVec[3]+&squot;.png&squot;;I[5]=&squot;imagenes1/g&squot;+resultadoVec[4]+&squot;.png&squot;;I[6]=&squot;imagenes1/g&squot;+resultadoVec[5]+&squot;.png&squot;;I[7]=&squot;imagenes1/g&squot;+resultadoVec[6]+&squot;.png&squot;;I[8]=&squot;imagenes1/g&squot;+resultadoVec[7]+&squot;.png&squot;;I[9]=&squot;imagenes1/g&squot;+resultadoVec[8]+&squot;.png&squot;;I[10]=&squot;imagenes1/g&squot;+resultadoVec[9]+&squot;.png&squot;;'">
+   <param name="A_12" value="id='otra' constante='sí' expresión='1' evaluar='una-sola-vez'">
+   <param name="A_13" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='minRango=1;maxRango=11;n_numeros=ent(maxRango-minRango);initVecAux1();creaAleatorios();I[1]=&squot;imagenes1/g&squot;+resultadoVec[0]+&squot;.png&squot;;I[2]=&squot;imagenes1/g&squot;+resultadoVec[1]+&squot;.png&squot;;I[3]=&squot;imagenes1/g&squot;+resultadoVec[2]+&squot;.png&squot;;I[4]=&squot;imagenes1/g&squot;+resultadoVec[3]+&squot;.png&squot;;I[5]=&squot;imagenes1/g&squot;+resultadoVec[4]+&squot;.png&squot;;I[6]=&squot;imagenes1/g&squot;+resultadoVec[5]+&squot;.png&squot;;I[7]=&squot;imagenes1/g&squot;+resultadoVec[6]+&squot;.png&squot;;I[8]=&squot;imagenes1/g&squot;+resultadoVec[7]+&squot;.png&squot;;I[9]=&squot;imagenes1/g&squot;+resultadoVec[8]+&squot;.png&squot;;I[10]=&squot;imagenes1/g&squot;+resultadoVec[9]+&squot;.png&squot;;I[11]=&squot;imagenes1/f1.png&squot;;I[12]=&squot;imagenes1/f2.png&squot;;g1.x=(rnd*2.5);g2.x=(rnd*2.5);g3.x=(rnd*2.5);g4.x=(rnd*2.5);g5.x=(rnd*2.5);g6.x=(rnd*2.5);g7.x=(rnd*2.5);g8.x=(rnd*2.5);g9.x=(rnd*2.5);g10.x=(rnd*2.5);g1.y=(rnd*4)-1.5;g2.y=(rnd*4)-1.5;g3.y=(rnd*4)-1.5;g4.y=(rnd*4)-1.5;g5.y=(rnd*4)-1.5;g6.y=(rnd*4)-1.5;g7.y=(rnd*4)-1.5;g8.y=(rnd*4)-1.5;g9.y=(rnd*4)-1.5;g10.y=(rnd*4)-1.5;im=1;'">
+   <param name="A_14" value="id='a1' algoritmo='sí' evaluar='siempre' hacer='g1.x=(g1.x<-1)?ent(g1.x)+.5:g1.x;g1.y=(g1.x<-1)?ent(g1.y)+.5:g1.y;g2.x=(g2.x<-1)?ent(g2.x)+.5:g2.x;g2.y=(g2.x<-1)?ent(g2.y)+.5:g2.y;g3.x=(g3.x<-1)?ent(g3.x)+.5:g3.x;g3.y=(g3.x<-1)?ent(g3.y)+.5:g3.y;g4.x=(g4.x<-1)?ent(g4.x)+.5:g4.x;g4.y=(g4.x<-1)?ent(g4.y)+.5:g4.y;g5.x=(g5.x<-1)?ent(g5.x)+.5:g5.x;g5.y=(g5.x<-1)?ent(g5.y)+.5:g5.y;g6.x=(g6.x<-1)?ent(g6.x)+.5:g6.x;g6.y=(g6.x<-1)?ent(g6.y)+.5:g6.y;g7.x=(g7.x<-1)?ent(g7.x)+.5:g7.x;g7.y=(g7.x<-1)?ent(g7.y)+.5:g7.y;g8.x=(g8.x<-1)?ent(g8.x)+.5:g8.x;g8.y=(g8.x<-1)?ent(g8.y)+.5:g8.y;g9.x=(g9.x<-1)?ent(g9.x)+.5:g9.x;g9.y=(g9.x<-1)?ent(g9.y)+.5:g9.y;g10.x=(g10.x<-1)?ent(g10.x)+.5:g10.x;g10.y=(g10.x<-1)?ent(g10.y)+.5:g10.y;'">
+   <param name="A_15" value="id='a9' algoritmo='sí' evaluar='siempre' hacer='s1=((4*g1.y+g2.y=12.5)&(g1.x!=g2.x))|((4*g3.y+g4.y=12.5)&(g3.x!=g4.x))|((4*g5.y+g6.y=12.5)&(g5.x!=g6.x))|((4*g7.y+g8.y=12.5)&(g7.x!=g8.x))|((4*g9.y+g10.y=12.5)&(g9.x!=g10.x));s2=((4*g1.y+g2.y=7.5)&(g1.x!=g2.x))|((4*g3.y+g4.y=7.5)&(g3.x!=g4.x))|((4*g5.y+g6.y=7.5)&(g5.x!=g6.x))|((4*g7.y+g8.y=7.5)&(g7.x!=g8.x))|((4*g9.y+g10.y=7.5)&(g9.x!=g10.x));s3=((4*g1.y+g2.y=2.5)&(g1.x!=g2.x))|((4*g3.y+g4.y=2.5)&(g3.x!=g4.x))|((4*g5.y+g6.y=2.5)&(g5.x!=g6.x))|((4*g7.y+g8.y=2.5)&(g7.x!=g8.x))|((4*g9.y+g10.y=2.5)&(g9.x!=g10.x));s4=((4*g1.y+g2.y=-2.5)&(g1.x!=g2.x))|((4*g3.y+g4.y=-2.5)&(g3.x!=g4.x))|((4*g5.y+g6.y=-2.5)&(g5.x!=g6.x))|((4*g7.y+g8.y=-2.5)&(g7.x!=g8.x))|((4*g9.y+g10.y=-2.5)&(g9.x!=g10.x));s5=((4*g1.y+g2.y=-7.5)&(g1.x!=g2.x))|((4*g3.y+g4.y=-7.5)&(g3.x!=g4.x))|((4*g5.y+g6.y=-7.5)&(g5.x!=g6.x))|((4*g7.y+g8.y=-7.5)&(g7.x!=g8.x))|((4*g9.y+g10.y=-7.5)&(g9.x!=g10.x));s=s1+s2+s3+s4+s5'">
+   <param name="A_16" value="id='a10' algoritmo='sí' evaluar='siempre' hacer='doble1=((g1.x=-3.5)&(g1.y=2.5))+((g2.x=-3.5)&(g2.y=2.5))+((g3.x=-3.5)&(g3.y=2.5))+((g4.x=-3.5)&(g4.y=2.5))+((g5.x=-3.5)&(g5.y=2.5))+((g6.x=-3.5)&(g6.y=2.5))+((g7.x=-3.5)&(g7.y=2.5))+((g8.x=-3.5)&(g8.y=2.5))+((g9.x=-3.5)&(g9.y=2.5))+((g10.x=-3.5)&(g10.y=2.5));doble2=((g1.x=-3.5)&(g1.y=1.5))+((g2.x=-3.5)&(g2.y=1.5))+((g3.x=-3.5)&(g3.y=1.5))+((g4.x=-3.5)&(g4.y=1.5))+((g5.x=-3.5)&(g5.y=1.5))+((g6.x=-3.5)&(g6.y=1.5))+((g7.x=-3.5)&(g7.y=1.5))+((g8.x=-3.5)&(g8.y=1.5))+((g9.x=-3.5)&(g9.y=1.5))+((g10.x=-3.5)&(g10.y=1.5));doble3=((g1.x=-3.5)&(g1.y=.5))+((g2.x=-3.5)&(g2.y=.5))+((g3.x=-3.5)&(g3.y=.5))+((g4.x=-3.5)&(g4.y=.5))+((g5.x=-3.5)&(g5.y=.5))+((g6.x=-3.5)&(g6.y=.5))+((g7.x=-3.5)&(g7.y=.5))+((g8.x=-3.5)&(g8.y=.5))+((g9.x=-3.5)&(g9.y=.5))+((g10.x=-3.5)&(g10.y=.5));doble4=((g1.x=-3.5)&(g1.y=-.5))+((g2.x=-3.5)&(g2.y=-.5))+((g3.x=-3.5)&(g3.y=-.5))+((g4.x=-3.5)&(g4.y=-.5))+((g5.x=-3.5)&(g5.y=-.5))+((g6.x=-3.5)&(g6.y=-.5))+((g7.x=-3.5)&(g7.y=-.5))+((g8.x=-3.5)&(g8.y=-.5))+((g9.x=-3.5)&(g9.y=-.5))+((g10.x=-3.5)&(g10.y=-.5));doble5=((g1.x=-3.5)&(g1.y=-1.5))+((g2.x=-3.5)&(g2.y=-1.5))+((g3.x=-3.5)&(g3.y=-1.5))+((g4.x=-3.5)&(g4.y=-1.5))+((g5.x=-3.5)&(g5.y=-1.5))+((g6.x=-3.5)&(g6.y=-1.5))+((g7.x=-3.5)&(g7.y=-1.5))+((g8.x=-3.5)&(g8.y=-1.5))+((g9.x=-3.5)&(g9.y=-1.5))+((g10.x=-3.5)&(g10.y=-1.5));doble6=((g1.x=-1.5)&(g1.y=2.5))+((g2.x=-1.5)&(g2.y=2.5))+((g3.x=-1.5)&(g3.y=2.5))+((g4.x=-1.5)&(g4.y=2.5))+((g5.x=-1.5)&(g5.y=2.5))+((g6.x=-1.5)&(g6.y=2.5))+((g7.x=-1.5)&(g7.y=2.5))+((g8.x=-1.5)&(g8.y=2.5))+((g9.x=-1.5)&(g9.y=2.5))+((g10.x=-1.5)&(g10.y=2.5));doble7=((g1.x=-1.5)&(g1.y=1.5))+((g2.x=-1.5)&(g2.y=1.5))+((g3.x=-1.5)&(g3.y=1.5))+((g4.x=-1.5)&(g4.y=1.5))+((g5.x=-1.5)&(g5.y=1.5))+((g6.x=-1.5)&(g6.y=1.5))+((g7.x=-1.5)&(g7.y=1.5))+((g8.x=-1.5)&(g8.y=1.5))+((g9.x=-1.5)&(g9.y=1.5))+((g10.x=-1.5)&(g10.y=1.5));doble8=((g1.x=-1.5)&(g1.y=.5))+((g2.x=-1.5)&(g2.y=.5))+((g3.x=-1.5)&(g3.y=.5))+((g4.x=-1.5)&(g4.y=.5))+((g5.x=-1.5)&(g5.y=.5))+((g6.x=-1.5)&(g6.y=.5))+((g7.x=-1.5)&(g7.y=.5))+((g8.x=-1.5)&(g8.y=.5))+((g9.x=-1.5)&(g9.y=.5))+((g10.x=-1.5)&(g10.y=.5));doble9=((g1.x=-1.5)&(g1.y=-.5))+((g2.x=-1.5)&(g2.y=-.5))+((g3.x=-1.5)&(g3.y=-.5))+((g4.x=-1.5)&(g4.y=-.5))+((g5.x=-1.5)&(g5.y=-.5))+((g6.x=-1.5)&(g6.y=-.5))+((g7.x=-1.5)&(g7.y=-.5))+((g8.x=-1.5)&(g8.y=-.5))+((g9.x=-1.5)&(g9.y=-.5))+((g10.x=-1.5)&(g10.y=-.5));doble10=((g1.x=-1.5)&(g1.y=-1.5))+((g2.x=-1.5)&(g2.y=-1.5))+((g3.x=-1.5)&(g3.y=-1.5))+((g4.x=-1.5)&(g4.y=-1.5))+((g5.x=-1.5)&(g5.y=-1.5))+((g6.x=-1.5)&(g6.y=-1.5))+((g7.x=-1.5)&(g7.y=-1.5))+((g8.x=-1.5)&(g8.y=-1.5))+((g9.x=-1.5)&(g9.y=-1.5))+((g10.x=-1.5)&(g10.y=-1.5))'">
+   <param name="A_17" value="id='e6' evento='sí' condición='im=1' acción='animar' ejecución='siempre' pos_mensajes='centro'">
+   <param name="G_01" value="tipo='polígono' color='negro' expresión='(s,2)(s,3)(s+1,3)(s+1,2)(s,2)' familia='s' s.intervalo='[-4,-2]' s.pasos='2' relleno='blanco'">
+   <param name="G_02" value="tipo='polígono' color='negro' expresión='(s,1)(s,2)(s+1,2)(s+1,1)(s,1)' familia='s' s.intervalo='[-4,-2]' s.pasos='2' relleno='blanco'">
+   <param name="G_03" value="tipo='polígono' color='negro' expresión='(s,0)(s,1)(s+1,1)(s+1,0)(s,0)' familia='s' s.intervalo='[-4,-2]' s.pasos='2' relleno='blanco'">
+   <param name="G_04" value="tipo='polígono' color='negro' expresión='(s,-1)(s,0)(s+1,0)(s+1,-1)(s,-1)' familia='s' s.intervalo='[-4,-2]' s.pasos='2' relleno='blanco'">
+   <param name="G_05" value="tipo='polígono' color='negro' expresión='(s,-2)(s,-1)(s+1,-1)(s+1,-2)(s,-2)' familia='s' s.intervalo='[-4,-2]' s.pasos='2' relleno='blanco'">
+   <param name="G_06" value="tipo='imagen' dibujar-si='s5=0' expresión='(-3,-1)' archivo='I[11]'">
+   <param name="G_07" value="tipo='imagen' dibujar-si='s1=1' expresión='(-3,3)' archivo='I[12]'">
+   <param name="G_08" value="tipo='imagen' dibujar-si='s2=1' expresión='(-3,2)' archivo='I[12]'">
+   <param name="G_09" value="tipo='imagen' dibujar-si='s3=1' expresión='(-3,1)' archivo='I[12]'">
+   <param name="G_10" value="tipo='imagen' dibujar-si='s4=0' expresión='(-3,0)' archivo='I[11]'">
+   <param name="G_11" value="tipo='imagen' dibujar-si='s4=1' expresión='(-3,0)' archivo='I[12]'">
+   <param name="G_12" value="tipo='imagen' dibujar-si='s5=1' expresión='(-3,-1)' archivo='I[12]'">
+   <param name="G_13" value="tipo='imagen' dibujar-si='s3=0' expresión='(-3,1)' archivo='I[11]'">
+   <param name="G_14" value="tipo='imagen' dibujar-si='s1=0' expresión='(-3,3)' archivo='I[11]'">
+   <param name="G_15" value="tipo='imagen' dibujar-si='s2=0' expresión='(-3,2)' archivo='I[11]'">
+   <param name="G_16" value="tipo='texto' dibujar-si='pa>70' expresión='[21,421]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green122\blue0;\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs34\b{\*\mjaformula\cf1 Porcentaje de la imagen {\expr pa\decimals 0\fixed1}%\cf0}\f2\fs24\b0\cf2\par \par}' fuente='Arial,BOLD,17' fijo='sí'">
+   <param name="G_17" value="tipo='texto' dibujar-si='pa>70' expresión='[20,420]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green122\blue0;\red54\green212\blue106;\red0\green0\blue255;}\cf0\f1\fs34\b{\*\mjaformula\cf1 Porcentaje de la imagen {\expr pa\decimals 0\fixed1}%\cf0}\f2\fs24\b0\cf2\par \par}' fuente='Arial,BOLD,17' fijo='sí'">
+   <param name="G_18" value="tipo='texto' dibujar-si='s=5' expresión='[421,351]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs60\b\u161 EXCELENTE!\f2\fs24\b0\cf1\par \par }' fuente='Arial Bold,BOLD,30' fijo='sí'">
+   <param name="G_19" value="tipo='texto' dibujar-si='s=5' expresión='[420,350]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green255\blue0;\red0\green0\blue255;}\f1\fs60\b\cf0\u161 EXCELENTE!\f2\fs24\b0\cf1\par \par }' fuente='Arial Bold,BOLD,30' fijo='sí'">
+   <param name="G_20" value="tipo='texto' dibujar-si='s!=16' expresión='[280,470]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green255\blue0;\red0\green0\blue255;}\f1\fs24\cf0 Ten cuidado al soltar la pieza, es posible que quede debajo de otra.\par Si esto ocurre, aparecer\u225  un cuadrado de color verde.\cf1\f2\fs24\par }' fuente='Arial,PLAIN,12' fijo='sí'">
+   <param name="G_21" value="tipo='segmento' color='negro' expresión='(-3.01,-2)(-3.01,3)' fuente='Monospaced,PLAIN,12' fijo='sí' tamaño='.2'">
+   <param name="G_22" value="tipo='texto' color='ffd86b' expresión='[1,2]' texto='[T[otra]]' fuente='Arial,BOLD,32' decimales='0' fijo='sí' ancho='700' color_borde_texto='negro'">
+   <param name="G_23" value="tipo='imagen' expresión='(2.3,3.3)' archivo='imagenes1/subtitulo.png'">
+   <param name="G_24" value="tipo='polígono' color='8200ff00' dibujar-si='doble1>1' expresión='(-4,2)(-4,3)(-3,3)(-3,2)(-4,2)' ancho='6'">
+   <param name="G_25" value="tipo='polígono' color='8200ff00' dibujar-si='doble2>1' expresión='(-4,1)(-4,2)(-3,2)(-3,1)(-4,1)' ancho='6'">
+   <param name="G_26" value="tipo='polígono' color='8200ff00' dibujar-si='doble3>1' expresión='(-4,0)(-4,1)(-3,1)(-3,0)(-4,0)' ancho='6'">
+   <param name="G_27" value="tipo='polígono' color='8200ff00' dibujar-si='doble4>1' expresión='(-4,-1)(-4,0)(-3,0)(-3,-1)(-4,-1)' ancho='6'">
+   <param name="G_28" value="tipo='polígono' color='8200ff00' dibujar-si='doble5>1' expresión='(-4,-2)(-4,-1)(-3,-1)(-3,-2)(-4,-2)' ancho='6'">
+   <param name="G_29" value="tipo='polígono' color='8200ff00' dibujar-si='doble6>1' expresión='(-2,2)(-2,3)(-1,3)(-1,2)(-2,2)' ancho='6'">
+   <param name="G_30" value="tipo='polígono' color='8200ff00' dibujar-si='doble7>1' expresión='(-2,1)(-2,2)(-1,2)(-1,1)(-2,1)' ancho='6'">
+   <param name="G_31" value="tipo='polígono' color='8200ff00' dibujar-si='doble8>1' expresión='(-2,0)(-2,1)(-1,1)(-1,0)(-2,0)' ancho='6'">
+   <param name="G_32" value="tipo='polígono' color='8200ff00' dibujar-si='doble9>1' expresión='(-2,-1)(-2,0)(-1,0)(-1,-1)(-2,-1)' ancho='6'">
+   <param name="G_33" value="tipo='polígono' color='8200ff00' dibujar-si='doble10>1' expresión='(-2,-2)(-2,-1)(-1,-1)(-1,-2)(-2,-2)' ancho='6'">
+   <param name="G_34" value="tipo='imagen' expresión='(g2.x-.5,g2.y+.5)' archivo='I[1]'">
+   <param name="G_35" value="tipo='texto' color='verde' expresión='[325+90*g2.x,300-90*g2.y,90,20]' texto='[T1[5*(otra-1)+1]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='90' color_borde_texto='negro'">
+   <param name="G_36" value="tipo='imagen' expresión='(g4.x-.5,g4.y+.5)' archivo='I[2]'">
+   <param name="G_37" value="tipo='texto' color='verde' expresión='[325+90*g4.x,300-90*g4.y,90,20]' texto='[T1[5*(otra-1)+2]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_38" value="tipo='imagen' expresión='(g6.x-.5,g6.y+.5)' archivo='I[3]'">
+   <param name="G_39" value="tipo='texto' color='verde' expresión='[325+90*g6.x,300-90*g6.y,90,20]' texto='[T1[5*(otra-1)+3]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_40" value="tipo='imagen' expresión='(g8.x-.5,g8.y+.5)' archivo='I[4]'">
+   <param name="G_41" value="tipo='texto' color='verde' expresión='[325+90*g8.x,300-90*g8.y,90,20]' texto='[T1[5*(otra-1)+4]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='90' color_borde_texto='negro'">
+   <param name="G_42" value="tipo='imagen' expresión='(g10.x-.5,g10.y+.5)' archivo='I[5]'">
+   <param name="G_43" value="tipo='texto' color='verde' expresión='[325+90*g10.x,300-90*g10.y,90,20]' texto='[T1[5*(otra-1)+5]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_44" value="tipo='imagen' expresión='(g1.x-.5,g1.y+.5)' archivo='I[6]'">
+   <param name="G_45" value="tipo='texto' color='verde' expresión='[325+90*g1.x,300-90*g1.y,90,20]' texto='[T2[5*(otra-1)+1]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_46" value="tipo='imagen' expresión='(g3.x-.5,g3.y+.5)' archivo='I[7]'">
+   <param name="G_47" value="tipo='texto' color='verde' expresión='[325+90*g3.x,300-90*g3.y,90,20]' texto='[T2[5*(otra-1)+2]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_48" value="tipo='imagen' expresión='(g5.x-.5,g5.y+.5)' archivo='I[8]'">
+   <param name="G_49" value="tipo='texto' color='verde' expresión='[325+90*g5.x,300-90*g5.y,90,20]' texto='[T2[5*(otra-1)+3]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_50" value="tipo='imagen' expresión='(g7.x-.5,g7.y+.5)' archivo='I[9]'">
+   <param name="G_51" value="tipo='texto' color='verde' expresión='[325+90*g7.x,300-90*g7.y,90,20]' texto='[T2[5*(otra-1)+4]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="G_52" value="tipo='imagen' expresión='(g9.x-.5,g9.y+.5)' archivo='I[10]'">
+   <param name="G_53" value="tipo='texto' color='verde' expresión='[325+90*g9.x,300-90*g9.y,90,20]' texto='[T2[5*(otra-1)+5]]' fuente='Times New Roman Bold,BOLD,17' decimales='0' fijo='sí' ancho='100' color_borde_texto='negro'">
+   <param name="Animación" value="controles='no' auto='no' inicio='ggg=0;im=0' hacer='ggg=ggg+1' mientras='ggg<20'">
+</ajs>
+<script type="descartes/vectorFile" id="datos/temas.txt">
+2
+'Days of the Week'
+'Days of the Week'
+</script>
+<script type="descartes/vectorFile" id="datos/textos1.txt">
+0
+'MONDAY'
+'FRIDAY'
+'WEDNESDAY'
+'SUNDAY'
+'TUESDAY'
+'THURSDAY'
+'SATURDAY'
+'WEDNESDAY'
+'TUESDAY'
+'SUNDAY'
+</script>
+<script type="descartes/vectorFile" id="datos/textos2.txt">
+0
+'Lunes'
+'Viernes'
+'Mièrcoles'
+'Domingo'
+'Martes'
+'Jueves'
+'Sàbado'
+'Mièrcoles'
+'Martes'
+'Domingo'
+</script>
+</html>

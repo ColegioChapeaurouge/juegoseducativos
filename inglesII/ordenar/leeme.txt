@@ -1,0 +1,6 @@
+Se debe preguntar por el número de ejercicios, que será el primer dato del fichero textos.txt
+
+Para cada ejercicio debe haber un texto
+inicial que indique que se va a hacer "en orden alfabético", " de mayor a menor", etc.
+
+Luego vienen 7 textos por cada bloque, ordenados según la consigna anterior

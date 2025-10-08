@@ -1,0 +1,11 @@
+0
+'Hexágono'
+'Círculo'
+'Triángulo'
+'Cuadrado'
+'Flecha'
+'Conejo'
+'Perro'
+'Gato'
+'León'
+'Tortuga'

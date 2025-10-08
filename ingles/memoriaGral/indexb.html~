@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title>Asocia imágenes</title>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+<body BGCOLOR="e0e4e8">
+      <ajs name="Descartes" width=790 height=500 code="Descartes">
+   <param name="tamaño" value="790x500">
+   <param name="image_loader" value="">
+   <param name="expand" value="">
+   <param name="sonido" value="sí">
+   <param name="álgebra" value="sí">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="sí">
+   <param name="nombre" value="Descartes">
+   <param name="Versión" value="5.335, 2015-01-12">
+   <param name="Idioma" value="español">
+   <param name="Botones" value="créditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R2' id='E1' fijo='sí' escala='30' O.x='-395' O.y='230' imagen='imagenes/fondo.jpg' despl_imagen='expand.' fondo='gris' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='n1' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x1,480-30*y11,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n1=1 \ndestapa=destapa+1\ns1=(n1+n2=2)&(destapa=2)?1:s1 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s1=0)&(n1=0)'">
+   <param name="C_02" value="id='n2' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x2,480-30*y22,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n2=1 \ndestapa=destapa+1\ns1=(n1+n2=2)&(destapa=2)?1:s1 \nn1=(n1=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s1=0)&(n2=0)' pos_mensajes='centro'">
+   <param name="C_03" value="id='n3' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x1,480-30*y12,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n3=1 \ndestapa=destapa+1\ns2=(n3+n4=2)&(destapa=2)?1:s2 \nn2=(n2=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s2=0)&(n3=0)' pos_mensajes='centro'">
+   <param name="C_04" value="id='n4' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x3,480-30*y31,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n4=1 \ndestapa=destapa+1\ns2=(n3+n4=2)&(destapa=2)?1:s2 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s2=0)&(n4=0)' pos_mensajes='centro'">
+   <param name="C_05" value="id='n5' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x5,480-30*y51,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n5=1 \ndestapa=destapa+1\ns3=(n5+n6=2)&(destapa=2)?1:s3 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s3=0)&(n5=0)' pos_mensajes='centro'">
+   <param name="C_06" value="id='n6' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x4,480-30*y42,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n6=1 \ndestapa=destapa+1\ns3=(n5+n6=2)&(destapa=2)?1:s3 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s3=0)&(n6=0)' pos_mensajes='centro'">
+   <param name="C_07" value="id='n7' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x5,480-30*y52,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n7=1 \ndestapa=destapa+1\ns4=(n7+n8=2)&(destapa=2)?1:s4 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s4=0)&(n7=0)' pos_mensajes='centro'">
+   <param name="C_08" value="id='n8' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x2,480-30*y21,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n8=1 \ndestapa=destapa+1\ns4=(n7+n8=2)&(destapa=2)?1:s4 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s4=0)&(n8=0)' pos_mensajes='centro'">
+   <param name="C_09" value="id='n9' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x3,480-30*y32,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n9=1 \ndestapa=destapa+1\ns5=(n9+n10=2)&(destapa=2)?1:s5 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn10=(n10=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s5=0)&(n9=0)' pos_mensajes='centro'">
+   <param name="C_10" value="id='n10' tipo='numérico' interfaz='botón' región='interior' espacio='E1' expresión='(30*x4,480-30*y41,120,120)' fijo='sí' visible='sí' imagen='imagenes/ficha.png' acción='calcular' parámetro='n10=1 \ndestapa=destapa+1\ns5=(n9+n10=2)&(destapa=2)?1:s5 \nn2=(n2=1)&(destapa=2)?1:0 \nn3=(n3=1)&(destapa=2)?1:0 \nn4=(n4=1)&(destapa=2)?1:0 \nn5=(n5=1)&(destapa=2)?1:0 \nn6=(n6=1)&(destapa=2)?1:0 \nn7=(n7=1)&(destapa=2)?1:0 \nn8=(n8=1)&(destapa=2)?1:0 \nn9=(n9=1)&(destapa=2)?1:0 \nn1=(n1=1)&(destapa=2)?1:0 \nn11=(n11=1)&(destapa=2)?1:0 \nn12=(n12=1)&(destapa=2)?1:0 \nn13=(n13=1)&(destapa=2)?1:0 \nn14=(n14=1)&(destapa=2)?1:0 \nn15=(n15=1)&(destapa=2)?1:0 \nn16=(n16=1)&(destapa=2)?1:0 \n\n' parámetro.fuente='Monospaced,PLAIN,12' dibujar-si='(s5=0)&(n10=0)' pos_mensajes='centro'">
+   <param name="C_11" value="id='n17' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Barajar' expresión='(680,410,100,30)' fijo='sí' visible='sí' color='blanco' color-int='fe5110' negrita='sí' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='parejainicio=2*ent(rnd*5)+1\nn=0\nn1=0 \nn2=0 \nn3=0 \nn4=0 \nn5=0 \nn6=0 \nn7=0 \nn8=0 \nn9=0 \nn10=0 \nn11=0 \nn12=0 \nn13=0 \nn14=0\nn15=0\nn16=0\ns1=0\ns2=0\ns3=0\ns4=0\ns5=0\ns6=0\ns7=0\ns8=0\nx1=4*ent(rnd*5)\nx1=(x1=0)?0.5:x1\nx1=(x1=4)?5:x1\nx1=(x1=8)?9.5:x1\nx1=(x1=12)?14:x1\nx1=(x1=16)?18.5:x1\ny11=4*ent(rnd*2)+8\ny11=(y11=8)?7.5:y11\ny12=(y11=12)?7.5:y11+4.5\nx2=(x1=18.5)?0.5:x1+4.5\ny21=4*ent(rnd*2)+8\ny21=(y21=8)?7.5:y21\ny22=(y21=12)?7.5:y21+4.5\nx3=(x2=18.5)?0.5:x2+4.5\ny31=4*ent(rnd*2)+8\ny31=(y31=8)?7.5:y31\ny32=(y31=12)?7.5:y31+4.5\nx4=(x3=18.5)?0.5:x3+4.5\ny41=4*ent(rnd*2)+8\ny41=(y41=8)?7.5:y41\ny42=(y41=12)?7.5:y41+4.5\nx5=(x4=18.5)?0.5:x4+4.5\ny51=4*ent(rnd*2)+8\ny51=(y51=8)?7.5:y51\ny52=(y51=12)?7.5:y51+4.5\nk1=0\nk2=0\nk3=0\nk4=0\nk5=0\nk6=0\nk7=0\nk8=0\nk9=0\nkk=0\ndestapa=0\nintentos=0\n\n' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_12" value="id='n18' tipo='numérico' interfaz='botón' región='interior' espacio='E1' nombre='Otro tema' expresión='(680,450,100,30)' fijo='sí' visible='sí' color='blanco' color-int='fe5110' negrita='sí' fuente puntos='18' imagen='_STYLE_|border=1|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=ff0000|font=sansSerif|shadowTextColor=000000|shadowBoxColor=808080' acción='calcular' parámetro='otra=(otra=T[0])?1:otra+1\nparejainicio=2*ent(rnd*5)+1\nn=0\nn1=0 \nn2=0 \nn3=0 \nn4=0 \nn5=0 \nn6=0 \nn7=0 \nn8=0 \nn9=0 \nn10=0 \nn11=0 \nn12=0 \nn13=0 \nn14=0\nn15=0\nn16=0\ns1=0\ns2=0\ns3=0\ns4=0\ns5=0\ns6=0\ns7=0\ns8=0\nx1=4*ent(rnd*5)\nx1=(x1=0)?0.5:x1\nx1=(x1=4)?5:x1\nx1=(x1=8)?9.5:x1\nx1=(x1=12)?14:x1\nx1=(x1=16)?18.5:x1\ny11=4*ent(rnd*2)+8\ny11=(y11=8)?7.5:y11\ny12=(y11=12)?7.5:y11+4.5\nx2=(x1=18.5)?0.5:x1+4.5\ny21=4*ent(rnd*2)+8\ny21=(y21=8)?7.5:y21\ny22=(y21=12)?7.5:y21+4.5\nx3=(x2=18.5)?0.5:x2+4.5\ny31=4*ent(rnd*2)+8\ny31=(y31=8)?7.5:y31\ny32=(y31=12)?7.5:y31+4.5\nx4=(x3=18.5)?0.5:x3+4.5\ny41=4*ent(rnd*2)+8\ny41=(y41=8)?7.5:y41\ny42=(y41=12)?7.5:y41+4.5\nx5=(x4=18.5)?0.5:x4+4.5\ny51=4*ent(rnd*2)+8\ny51=(y51=8)?7.5:y51\ny52=(y51=12)?7.5:y51+4.5\nk1=0\nk2=0\nk3=0\nk4=0\nk5=0\nk6=0\nk7=0\nk8=0\nk9=0\nkk=0\ndestapa=0\nintentos=0\n\n' parámetro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="A_01" value="id='T' vector='sí' evaluar='una-sola-vez' tamaño='20' expresión='T[0]=0;T[1]=0;T[2]=0' archivo='datos/temas.txt'">
+   <param name="A_02" value="id='P' vector='sí' evaluar='una-sola-vez' tamaño='11' expresión='P[0]=0;P[1]=0;P[2]=0'">
+   <param name="A_03" value="id='I' vector='sí' evaluar='una-sola-vez' tamaño='T[0]+1' expresión=';' archivo='datos/terminos.txt'">
+   <param name="A_04" value="id='INICIO2' algoritmo='sí' evaluar='una-sola-vez' hacer='dY=45;randomize();initY();vertexto0;SOM.Top=220;SOM.Left=200;SOM.transp=0.40;SOM.rojo=0;SOM.verde=0.40;SOM.azul=0;;;'">
+   <param name="A_05" value="id='otra' constante='sí' expresión='1' evaluar='una-sola-vez'">
+   <param name="A_06" value="id='parejainicio' constante='sí' expresión='2*ent(rnd*5)+1' evaluar='una-sola-vez'">
+   <param name="A_07" value="id='kk' constante='sí' expresión='0' evaluar='una-sola-vez'">
+   <param name="A_08" value="id='a5' algoritmo='sí' evaluar='siempre' hacer='p1=parejainicio;p2=(parejainicio=10)?1:parejainicio+1;p3=(parejainicio+2>10)?parejainicio-8:parejainicio+2;p4=(parejainicio+3>10)?parejainicio-7:parejainicio+3;p5=(parejainicio+4>10)?parejainicio-6:parejainicio+4;p6=(parejainicio+5>10)?parejainicio-5:parejainicio+5;p7=(parejainicio+6>10)?parejainicio-4:parejainicio+6;p8=(parejainicio+7>10)?parejainicio-3:parejainicio+7;p9=(parejainicio+8>10)?parejainicio-2:parejainicio+8;p10=(parejainicio+9>10)?parejainicio-1:parejainicio+9;P[1]=I[10*(otra-1)+p1];P[2]=I[10*(otra-1)+p2];P[3]=I[10*(otra-1)+p3];P[4]=I[10*(otra-1)+p4];P[5]=I[10*(otra-1)+p5];P[6]=I[10*(otra-1)+p6];P[7]=I[10*(otra-1)+p7];P[8]=I[10*(otra-1)+p8];P[9]=I[10*(otra-1)+p9];P[10]=I[10*(otra-1)+p10];'">
+   <param name="A_09" value="id='a1' algoritmo='sí' evaluar='una-sola-vez' inicio='jj=0' hacer='jj=jj+1;x1=4*ent(rnd*5);x1=(x1=0)?0.5:x1;x1=(x1=4)?5:x1;x1=(x1=8)?9.5:x1;x1=(x1=12)?14:x1;x1=(x1=16)?18.5:x1;y11=4*ent(rnd*2)+8;y11=(y11=8)?7.5:y11;y12=(y11=12)?7.5:y11+4.5;x2=(x1=18.5)?0.5:x1+4.5;y21=4*ent(rnd*2)+8;y21=(y21=8)?7.5:y21;y22=(y21=12)?7.5:y21+4.5;x3=(x2=18.5)?0.5:x2+4.5;y31=4*ent(rnd*2)+8;y31=(y31=8)?7.5:y31;y32=(y31=12)?7.5:y31+4.5;x4=(x3=18.5)?0.5:x3+4.5;y41=4*ent(rnd*2)+8;y41=(y41=8)?7.5:y41;y42=(y41=12)?7.5:y41+4.5;x5=(x4=18.5)?0.5:x4+4.5;y51=4*ent(rnd*2)+8;y51=(y51=8)?7.5:y51;y52=(y51=12)?7.5:y51+4.5' mientras='jj<1'">
+   <param name="A_10" value="id='a3' algoritmo='sí' evaluar='siempre' hacer='n1=(k9=5)?0:n1;n2=(k9=5)?0:n2;n3=(k9=5)?0:n3;n4=(k9=5)?0:n4;n5=(k9=5)?0:n5;n6=(k9=5)?0:n6;n7=(k9=5)?0:n7;n8=(k9=5)?0:n8;n9=(k9=5)?0:n9;n10=(k9=5)?0:n10;'">
+   <param name="G_01" value="espacio='E1' tipo='macro' expresión='macros/sombras.txt' nombre='SOM'">
+   <param name="G_02" value="espacio='E1' tipo='texto' dibujar-si='k1+k2+k3+k4+k5>24' expresión='[10,430]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;}{\colortbl\red0\green142\blue0;\red0\green0\blue255;}\f1\fs96\b\cf0\u161 FELICITACIONES!\cf1\fs24\b0\par }' fuente='Monospaced,BOLD,48' fijo='sí'">
+   <param name="G_03" value="espacio='E1' tipo='texto' expresión='[726,11]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Times New Roman;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs72\b M\par E\par M\par O\par R\par  I \par Z\par A\cf1\f2\fs24\b0\par \par \par}' fuente='Arial,BOLD,36' fijo='sí'">
+   <param name="G_04" value="espacio='E1' tipo='texto' expresión='[725,10]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Times New Roman;}{\colortbl\red0\green0\blue255;}\f1\fs72\b\cf0 M\par E\par M\par O\par R\par  I\par Z\par A\par \fs24\par \f3\fs24\b0\par \par \par }' fuente='SansSerif,BOLD,36' fijo='sí'">
+   <param name="G_05" value="espacio='E1' tipo='texto' dibujar-si='k1+k2+k3+k4+k5>24' expresión='[670,380]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green255\blue255;\red255\green98\blue0;\red0\green0\blue255;}\f1\fs36\b\cf0{\*\mjaformula\cf1{\expr intentos\decimals 0\fixed1} intentos}\cf2\f2\fs24\b0\par }' fuente='SansSerif,BOLD,18' fijo='sí'">
+   <param name="G_06" value="espacio='E1' tipo='texto' expresión='[80,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs46\b{\*\mjaformula{\expr T[otra]}}\fs36\cf1\par \f3\fs24\b0}' fuente='Arial Bold,BOLD,23' fijo='sí'">
+   <param name="G_07" value="espacio='E1' tipo='texto' expresión='[79,79]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green255\blue255;\red0\green159\blue255;\red0\green0\blue255;}\f1\fs46\b\cf0{\*\mjaformula\cf1{\expr T[otra]}}\cf2\f2\fs24\b0\par }' fuente='SansSerif,BOLD,23' fijo='sí'">
+   <param name="G_08" value="espacio='E1' tipo='imagen' expresión='(11.7,14.2,.9,1)' archivo='imagenes/titulo2.png'">
+   <param name="G_09" value="espacio='E1' tipo='texto' expresión='[91,26]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs52\b\cf0 Encuentra las parejas en las 10 tarjetas.\cf1\fs40}' fuente='Arial Bold,BOLD,26' fijo='sí'">
+   <param name="G_10" value="espacio='E1' tipo='texto' expresión='[90,25]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;}{\colortbl\red255\green255\blue255;\red0\green0\blue255;}\f1\fs52\b\cf0 Encuentra las parejas en las 10 tarjetas.\cf1\fs40}' fuente='Arial Bold,BOLD,26' fijo='sí'">
+   <param name="G_11" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x1,530-30*y11,120,25)' texto='[P[1]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_12" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x2,530-30*y22,120,25)' texto='[P[2]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_13" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x1,530-30*y12,120,25)' texto='[P[3]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='129' color_borde_texto='negro'">
+   <param name="G_14" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x3,530-30*y31,120,25)' texto='[P[4]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_15" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x5,530-30*y51,120,25)' texto='[P[5]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_16" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x4,530-30*y42,120,25)' texto='[P[6]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_17" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x5,530-30*y52,120,25)' texto='[P[7]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_18" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x2,530-30*y21,120,25)' texto='[P[8]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_19" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x3,530-30*y32,120,25)' texto='[P[9]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_20" value="espacio='E1' tipo='texto' color='ff4c00' expresión='(30*x4,530-30*y41,120,25)' texto='[P[10]]' fuente='Arial Bold,BOLD,22' fijo='sí' ancho='120' color_borde_texto='negro'">
+   <param name="G_21" value="espacio='E1' tipo='polígono' color='b4ffff00' dibujar-si='(s1!=0)' expresión='(x1,y11)(x1+4,y11)(x1+4,y11-4)(x1,y11-4)(x1,y11)' relleno='b4ffff00'">
+   <param name="G_22" value="espacio='E1' tipo='polígono' color='b4ffff00' dibujar-si='(s1!=0)' expresión='(x2,y22)(x2+4,y22)(x2+4,y22-4)(x2,y22-4)(x2,y22)' relleno='b4ffff00'">
+   <param name="G_23" value="espacio='E1' tipo='polígono' color='d2ff0000' dibujar-si='(s2!=0)' expresión='(x1,y12)(x1+4,y12)(x1+4,y12-4)(x1,y12-4)(x1,y12)' relleno='d2ff0000'">
+   <param name="G_24" value="espacio='E1' tipo='polígono' color='d2ff0000' dibujar-si='(s2!=0)' expresión='(x3,y31)(x3+4,y31)(x3+4,y31-4)(x3,y31-4)(x3,y31)' relleno='d2ff0000'">
+   <param name="G_25" value="espacio='E1' tipo='polígono' color='b40000ff' dibujar-si='(s3!=0)' expresión='(x5,y51)(x5+4,y51)(x5+4,y51-4)(x5,y51-4)(x5,y51)' relleno='b40000ff'">
+   <param name="G_26" value="espacio='E1' tipo='polígono' color='b40000ff' dibujar-si='(s3!=0)' expresión='(x4,y42)(x4+4,y42)(x4+4,y42-4)(x4,y42-4)(x4,y42)' relleno='b40000ff'">
+   <param name="G_27" value="espacio='E1' tipo='polígono' color='b400ff00' dibujar-si='(s4!=0)' expresión='(x5,y52)(x5+4,y52)(x5+4,y52-4)(x5,y52-4)(x5,y52)' relleno='b400ff00'">
+   <param name="G_28" value="espacio='E1' tipo='polígono' color='b400ff00' dibujar-si='(s4!=0)' expresión='(x2,y21)(x2+4,y21)(x2+4,y21-4)(x2,y21-4)(x2,y21)' relleno='b400ff00'">
+   <param name="G_29" value="espacio='E1' tipo='polígono' color='b4808080' dibujar-si='(s5!=0)' expresión='(x3,y32)(x3+4,y32)(x3+4,y32-4)(x3,y32-4)(x3,y32)' relleno='b4808080'">
+   <param name="G_30" value="espacio='E1' tipo='polígono' color='b4808080' dibujar-si='(s5!=0)' expresión='(x4,y41)(x4+4,y41)(x4+4,y41-4)(x4,y41-4)(x4,y41)' relleno='b4808080'">
+   <param name="Animación" value="controles='no' auto='sí' repetir='sí' inicio='kk=0' hacer='kk=(kk>15)?0:kk+1;destapa=(destapa>2)?1:destapa;intentos=(k9=5)?intentos+1:intentos;k1=(k1>5)?5:((k1=5)?k1:k1+(s1=1));k2=(k2>5)?5:((k2=5)?k2:k2+(s2=1));k3=(k3>5)?5:((k3=5)?k3:k3+(s3=1));k4=(k4>5)?5:((k4=5)?k4:k4+(s4=1));k5=(k5>5)?5:((k5=5)?k5:k5+(s5=1));k6=(k6>5)?5:((k6=5)?k6:k6+(s6=1));k7=(k7>5)?5:((k7=5)?k7:k7+(s7=1));k8=(k8>5)?5:((k8=5)?k8:k8+(s8=1));k9=(k9=5)?0:((k9=5)?0:k9+(destapa=2));k9=(destapa!=2)?0:k9;destapa=(k9=5)?0:destapa;;' mientras='kk<15'">
+</ajs>
+<script type="descartes/vectorFile" id="datos/temas.txt">
+5
+'Colores'
+'Utiles Escolares'
+'Días de la semana'
+'Utiles Escolares'
+'Días de la semana'
+'Colores'
+</script>
+<script type="descartes/vectorFile" id="datos/terminos.txt">
+0
+'Azul'
+'Blue'
+'Rojo'
+'Red'
+'Naranja'
+'Orange'
+'Blanco'
+'White'
+'Verde'
+'Green'
+'Desk'
+'Escritorio'
+'Board'
+'Pizarròn'
+'Windows'
+'Ventana'
+'Folder'
+'Carpeta'
+'Book'
+'Libro'
+'Notebook'
+'Cuaderno'
+'Monday'
+'Lunes'
+'Tuesday'
+'Martes'
+'Thursday'
+'Jueves'
+'Saturday'
+'Sàbado'
+'Wednesday'
+'Mièrcoles'
+'Sunday'
+'Domingo'
+'Ruler'
+'Regla'
+'Rubber'
+'Goma'
+'Chair'
+'Silla'
+'Glue'
+'Voligoma'
+'Door'
+'Puerta'
+'Marker'
+'Fibra'
+'Friday'
+'Viernes'
+'Wednesday'
+'Mièrcoles'
+'Sunday'
+'Domingo'
+'Tuesday'
+'Martes'
+'Thursday'
+'Jueves'
+'Saturday'
+'Sàbado'
+'Yelow'
+'Amarillo'
+'Green'
+'Verde'
+'Brown'
+'Marrón'
+'Grey'
+'Gris'
+'Black'
+'Negro'
+'Pink'
+'Rosa'
+</script>
