@@ -1,2 +1,0 @@
-'Escribe el número de preguntas'
-5

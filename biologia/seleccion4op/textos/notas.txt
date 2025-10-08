@@ -1,2 +1,0 @@
-'Máxima nota'
-5
