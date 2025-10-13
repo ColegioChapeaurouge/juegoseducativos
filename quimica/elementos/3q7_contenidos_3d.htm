@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>3q7 3</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  }
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<script type="text/javascript" src="embeddedcontent.js" defer="defer"></script>
+
+<link href="paracidead1.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+.Estilo12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.Estilo14 {color: #000099; font-weight: bold;}
+-->
+</style>
+<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+
+<body onLoad="MM_preloadImages('imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/atrasb.png','imagen3/paraantes2.png','imagen3/paracont2.png','imagen3/adelanteb.png','imagen3/atrasb.png','imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/paraejer3.png','imagen3/paraejer2.png','imagen3/paraeval3.png','imagen3/paraeval2.png','imagen3/paratut3.png','imagen3/paratut2.png','imagen3/paramas3.png','imagen3/paramas2.png','imagen3/paracont3.png','imagen3/lapiz2.png');popup();MM_CheckFlashVersion('7,0,0,0','El contenido de la p&aacute;gina requiere una nueva versi&oacute;n del reproductor Macromedia Flash.  Desea descargarlo ahora?')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 450px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="3q7_centro.htm" target="centro" onClick="MM_nbGroup('down','group1','antes','imagen3/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen3/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen3/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen3/paracont2.png','imagen3/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen3/paraconte.png',1)" border="0"></a></td>
+      <td><a href="3q7_ejercicios_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','ejercicios','imagen3/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen3/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="3q7_autoevaluacion_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','autoeval','imagen3/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen3/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="3q7_tutor_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paratutor','imagen3/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen3/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="3q7_sabermas_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paramas','imagen3/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen3/paramas2.png','imagen3/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen3/es1.gif" height="8" width="8"></td>
+      <td background="imagen3/bor1.gif" height="8"></td>
+      <td background="imagen3/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr height="100%">
+      <td background="imagen3/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="51%" valign="top"><span class="Estilo14"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">3</font></span><span class="titulo"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">. </font></span><span class="Estilo14"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">Estudio de los elementos</font></span></td>
+            <td width="49%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top"> <p class="subtitulo">Los alcalinot&eacute;rreos </p>
+              <p align="justify" class="Estilo12">A este grupo pertenecen los elementos berilio (Be), magnesio (Mg), calcio (Ca) y bario (Ba). Son todos metales (como los alcalinos) y forman iones con dos cargas positivas.</p>
+              <p align="justify" class="Estilo12">Son metales de baja densidad, coloreados y blandos.</p>
+              <p align="justify" class="Estilo12">La solubilidad de sus compuestos es bastante menor que la de los compuestos de los alcalinos.</p>
+              <p align="justify" class="Estilo12">Se oxidan f&aacute;cilmente en contacto con el aire y reaccionan con el agua para formar el correspondiente hidr&oacute;xido e hidr&oacute;geno gaseoso.
+              <table width="75%" height="50" align="center" cellpadding="5" cellspacing="0" background="imagen3/clipcon.png">
+              <tr>
+                <td height="48" align="center" valign="middle"><p class="textonormal"><strong><br>
+Los metales alcalinot&eacute;rreos adquieren configuraci&oacute;n de gas noble al perder dos electrones. </strong></p>                  </td>
+              </tr>
+            </table>            </td>
+            <td rowspan="0" valign="top">
+  <table width="328" height="290" border="3" align="center" cellspacing=0 bordercolor="#000099" bgcolor="#003399">
+	    <td height="263">
+          <ajs width=320 height=23
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+            <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+            <param name="Idioma" value="espa&ntilde;ol">
+            <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+            <param name="E_00" value="tipo='R2' id='E1' ancho='300' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no'">
+            <param name="C_00" value="id='n1' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Actividad' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Pon en marcha el v&iacute;deo y observa la reacci&oacute;n del magnesio con el oxígeno del aire. &iquest;Qu&eacute; sustancia nueva se produce?¿Entiendes ahora por qué se usó esta reacción para producir luz de flash en fotografía?' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+            </ajs>
+          		  
+		    <iframe src="videos/magnesio/index.html" name="SubHtml"
+      width="320" height="244" scrolling="auto" frameborder="0">
+                  <p>Este navegador no acepta iframes.</p>
+                  </iframe>
+  </table>
+  
+</td>
+          </tr>
+          <tr>
+            <td height="100%" valign="bottom"><table width="77%" height="56" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#999966" bgcolor="#eeeedd" valign="middle">
+                  <tr>
+                    <td width="83%" height="56" valign="middle" bordercolor="#F1F1F1" bgcolor="#F1F1F1"><div align="justify">
+                        <p align="center" class="titulo_sabermas">Ejercicios interactivos </p>
+                    </div></td>
+                    <td width="17%" height="56" valign="middle" bordercolor="#c6d8f4" bgcolor="#F1F1F1">&nbsp;<a href="#" onMouseOut="MM_swapImgRestore()"><img src="imagen3/lapiz1.png" alt="Haz un clic" name="Image3" width="40" height="40" border="0" id="Image3" onClick="MM_openBrWindow('3q7_ejercicio_resuelto_1b.htm','Ejercicio','scrollbars=yes,resizable=yes,width=600,height=700')" onMouseOver="MM_swapImage('Image3','','imagen3/lapiz2.png',1)" onMouseOut="MM_swapImgRestore()" /></a></td>
+                  </tr>
+              </table> </td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen3/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="2" width="800">
+    <tr>
+      <td background="imagen3/es4.gif" height="2" width="8"></td>
+      <td background="imagen3/bor3.gif" height="2"></td>
+      <td background="imagen3/es3.gif" height="2" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"><a href="3q7_centro.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+      <td width="30">
+        <div align="center"><a href="3q7_contenidos_4a.htm" target="centro" onMouseOver="MM_swapImage('adelante','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="3q7_contenidos_3a_1.htm" target="centro" onMouseOver="MM_swapImage('999','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vacía para el popup-->
+</div>
+</body>
+</html>

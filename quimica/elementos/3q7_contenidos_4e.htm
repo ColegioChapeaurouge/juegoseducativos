@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>3q7 3</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+<!-- Esta funci&oacute;n popup que aparece a continuaci&oacute;n sirve para que aparezca el cuadro de texto al pasar el rat&oacute;n por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta funci&oacute;n que viene a continuaci&oacute;n sirve para abrir el popup normal, en una ventana aparte -->
+//-->
+</script>
+<script type="text/javascript" src="embeddedcontent.js" defer="defer"></script>
+
+<link href="paracidead1.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+.Estilo12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.Estilo14 {color: #000099; font-weight: bold;}
+-->
+</style>
+
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onLoad="MM_preloadImages('imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/atrasb.png','imagen3/paraantes2.png','imagen3/paracont2.png','imagen3/adelanteb.png','imagen3/atrasb.png','imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/paraejer3.png','imagen3/paraejer2.png','imagen3/paraeval3.png','imagen3/paraeval2.png','imagen3/paratut3.png','imagen3/paratut2.png','imagen3/paramas3.png','imagen3/paramas2.png','imagen3/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 500px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="3q7_centro.htm" target="centro" onClick="MM_nbGroup('down','group1','antes','imagen3/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen3/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen3/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen3/paracont2.png','imagen3/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen3/paraconte.png',1)" border="0"></a></td>
+      <td><a href="3q7_ejercicios_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','ejercicios','imagen3/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen3/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="3q7_autoevaluacion_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','autoeval','imagen3/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen3/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="3q7_tutor_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paratutor','imagen3/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen3/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="3q7_sabermas_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paramas','imagen3/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen3/paramas2.png','imagen3/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen3/es1.gif" height="8" width="8"></td>
+      <td background="imagen3/bor1.gif" height="8"></td>
+      <td background="imagen3/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen3/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="473" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="41%" valign="top"><font size="4" face="Geneva, Arial, Helvetica, sans-serif"><span class="Estilo14">4. Compuestos  </span></font></td>
+            <td width="59%">
+<div align="right"><a href="3q7_contenidos_5c.htm" target="centro" onMouseOver="MM_swapImage('atras1','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a> <a href="3q7_contenidos_6b.htm" target="centro" onMouseOver="MM_swapImage('adelante1','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+          </tr>
+          <tr>
+            <td height="323" valign="top"> <p class="subtitulo">Masa molecular </p>
+              <p align="justify" class="Estilo12">Tanto los elementos como los compuestos pueden estar formados por mol&eacute;culas. De la misma forma que estudiaste en quincenas anteriores el concepto de masa at&oacute;mica (que represent&aacute;bamos por Ar), podemos decir que la masa molecular es la que corresponde a la masa de una mol&eacute;cula. </p>
+              <p align="justify" class="Estilo12">L&oacute;gicamente, la masa de una mol&eacute;cula es peque&ntilde;&iacute;sima, por eso se prefiere usar unidades de masa at&oacute;mica en lugar del gramo o del quilogramo. Cuando medimos la masa de una mol&eacute;cula en unidades de masa at&oacute;mica, la simbolizamos como Mr (masa molecular relativa) </p>
+            <p align="justify" class="Estilo12">Para determinar la masa molecular sumaremos las masas de todos los &aacute;tomos que constituyen la mol&eacute;cula.  </p></td>
+            <td rowspan="2" valign="top">
+
+
+			<table width="420" border="3" cellpadding=0 cellspacing=0 bordercolor="#000099">
+                <tr>
+                  <td width="420"><ajs name="masa_molecular" width=420 height=400
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="420x400">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="masa_molecular">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no alto=20">
+   <param name="E_01" value="tipo='R3' id='E1' ancho='420' alto='100' fijo='s&iacute;' despl_imagen='arr-izq' fondo='1efffff1' R3='s&iacute;'">
+   <param name="E_02" value="tipo='R3' id='E2' y='101' ancho='420' alto='300' O.y='30' despl_imagen='arr-izq' fondo='1efffff1' R3='s&iacute;'">
+   <param name="C_01" value="id='A1' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' espacio='E1' nombre='Actividad 1' fijo='s&iacute;' visible='no' acción='mensaje' par&aacute;metro='En la parte superior de la escena tienes los &aacute;tomos que constituyen una mol&eacute;cula de &aacute;cido sulf&uacute;rico con sus respectivas masas at&oacute;micas. Apretando el bot&oacute;n'">
+   <param name="C_02" value="id='n2' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='interior' espacio='E2' nombre='Agregar' expresi&oacute;n='(350,140,60,20)' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='calcular' par&aacute;metro='ss = ss +1' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="A_01" value="id='x' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='9' archivo='escenas/H2SO4_x.txt'">
+   <param name="A_02" value="id='y' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='9' archivo='escenas/H2SO4_y.txt'">
+   <param name="A_03" value="id='z' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='9' archivo='escenas/H2SO4_z.txt'">
+   <param name="A_04" value="id='a' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='40' archivo='escenas/H2SO4_a.txt'">
+   <param name="A_05" value="id='b' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='40' archivo='escenas/H2SO4_b.txt'">
+   <param name="A_06" value="id='escala' constante='s&iacute;' expresi&oacute;n='0.5' evaluar='una-sola-vez'">
+   <param name="A_07" value="id='e' constante='s&iacute;' expresi&oacute;n='escala' evaluar='una-sola-vez'">
+   <param name="A_08" value="id='rH' constante='s&iacute;' expresi&oacute;n='0.37' evaluar='una-sola-vez'">
+   <param name="A_09" value="id='rO' constante='s&iacute;' expresi&oacute;n='0.73' evaluar='una-sola-vez'">
+   <param name="A_10" value="id='rS' constante='s&iacute;' expresi&oacute;n='1.02' evaluar='una-sola-vez'">
+   <param name="A_11" value="id='factor' constante='s&iacute;' expresi&oacute;n='15' evaluar='una-sola-vez'">
+   <param name="A_12" value="id='f' constante='s&iacute;' expresi&oacute;n='factor' evaluar='una-sola-vez'">
+   <param name="S_01" value="espacio='E1' tipo='esfera' fondo='s&iacute;' color='naranja' color_reverso='amarillo' expresi&oacute;n='Esfera' posini='(0,-3,0.2)' modelo='metal' ancho='rS' Nu='40' Nv='40'">
+   <param name="S_02" value="espacio='E1' tipo='esfera' fondo='s&iacute;' color='rojo' color_reverso='rosa' expresi&oacute;n='Esfera' posini='(0,0,0.2)' modelo='metal' ancho='rO' Nu='40' Nv='40'">
+   <param name="S_03" value="espacio='E1' tipo='esfera' fondo='s&iacute;' color='blanco' color_reverso='grisClaro' expresi&oacute;n='Esfera' posini='(0,3,0.2)' modelo='metal' ancho='rH' Nu='40' Nv='40'">
+   <param name="S_04" value="espacio='E1' tipo='texto' fondo='s&iacute;' expresi&oacute;n='[45,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Azufre\par Ar = 32\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_05" value="espacio='E1' tipo='texto' fondo='s&iacute;' expresi&oacute;n='[190,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\cf0\f1\fs24\b Ox\u237 geno\par Ar = 16\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_06" value="espacio='E1' tipo='texto' fondo='s&iacute;' expresi&oacute;n='[330,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\cf0\f1\fs24\b Hidr\u243 geno\par    Ar = 1\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_07" value="espacio='E2' tipo='punto' color='naranja' color_reverso='amarillo' dibujar-si='ss&gt;0' expresi&oacute;n='(x[0]*e,y[0]*e,z[0]*e)' fuente='Arial,BOLD,12' fijo='s&iacute;' ancho='f*rS'">
+   <param name="S_08" value="espacio='E2' tipo='punto' color='rosa' color_reverso='rojo' dibujar-si='ss&gt;1' expresi&oacute;n='(x[1]*e,y[1]*e,z[1]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_09" value="espacio='E2' tipo='punto' color='rosa' color_reverso='rojo' dibujar-si='ss&gt;2' expresi&oacute;n='(x[2]*e,y[2]*e,z[2]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_10" value="espacio='E2' tipo='punto' color='rosa' color_reverso='rojo' dibujar-si='ss&gt;3' expresi&oacute;n='(x[3]*e,y[3]*e,z[3]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_11" value="espacio='E2' tipo='punto' color='rosa' color_reverso='rojo' dibujar-si='ss&gt;4' expresi&oacute;n='(x[4]*e,y[4]*e,z[4]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_12" value="espacio='E2' tipo='punto' color='gris' color_reverso='blanco' dibujar-si='ss&gt;5' expresi&oacute;n='(x[5]*e,y[5]*e,z[5]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rH'">
+   <param name="S_13" value="espacio='E2' tipo='punto' color='gris' color_reverso='blanco' dibujar-si='ss&gt;6' expresi&oacute;n='(x[6]*e,y[6]*e,z[6]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rH'">
+   <param name="S_14" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;1' expresi&oacute;n='(x[a[0]]*e,y[a[0]]*e,z[a[0]]*e)(x[b[0]]*e,y[b[0]]*e,z[b[0]]*e)' ancho='8'">
+   <param name="S_15" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;2' expresi&oacute;n='(x[a[1]]*e,y[a[1]]*e,z[a[1]]*e)(x[b[1]]*e,y[b[1]]*e,z[b[1]]*e)' ancho='8'">
+   <param name="S_16" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;3' expresi&oacute;n='(x[a[2]]*e,y[a[2]]*e,z[a[2]]*e)(x[b[2]]*e,y[b[2]]*e,z[b[2]]*e)' ancho='4'">
+   <param name="S_17" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;4' expresi&oacute;n='(x[a[3]]*e,y[a[3]]*e,z[a[3]]*e)(x[b[3]]*e,y[b[3]]*e,z[b[3]]*e)' ancho='4'">
+   <param name="S_18" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;5' expresi&oacute;n='(x[a[4]]*e,y[a[4]]*e,z[a[4]]*e)(x[b[4]]*e,y[b[4]]*e,z[b[4]]*e)' ancho='4'">
+   <param name="S_19" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;6' expresi&oacute;n='(x[a[5]]*e,y[a[5]]*e,z[a[5]]*e)(x[b[5]]*e,y[b[5]]*e,z[b[5]]*e)' ancho='4'">
+   <param name="S_20" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;6' expresi&oacute;n='(x[a[6]]*e,y[a[6]]*e,z[a[6]]*e)(x[b[6]]*e,y[b[6]]*e,z[b[6]]*e)' ancho='4'">
+   <param name="S_21" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;6' expresi&oacute;n='(x[a[7]]*e,y[a[7]]*e,z[a[7]]*e)(x[b[7]]*e,y[b[7]]*e,z[b[7]]*e)' ancho='4'">
+   <param name="S_22" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;6' expresi&oacute;n='(x[a[9]]*e,y[a[9]]*e,z[a[9]]*e)(x[b[9]]*e,y[b[9]]*e,z[b[9]]*e)' ancho='4'">
+   <param name="S_23" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;6' expresi&oacute;n='(x[a[10]]*e,y[a[10]]*e,z[a[10]]*e)(x[b[10]]*e,y[b[10]]*e,z[b[10]]*e)' ancho='4'">
+   <param name="S_24" value="espacio='E2' tipo='segmento' color='a55a00' dibujar-si='ss&gt;6' expresi&oacute;n='(x[a[11]]*e,y[a[11]]*e,z[a[11]]*e)(x[b[11]]*e,y[b[11]]*e,z[b[11]]*e)' ancho='4'">
+   <param name="S_25" value="espacio='E2' tipo='texto' expresi&oacute;n='[20,160]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs48\b\ul\cf0\u193 cido sulf\u250 rico\f2\fs24\b0\ulnone\cf1\par}' fuente='Arial,BOLD,24' fijo='s&iacute;'">
+   <param name="S_26" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;0' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + \cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_27" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;1' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + 16 + \cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_28" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;2' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + 16 + 16 + \cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_29" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;3' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + 16 + 16 + 16 + \cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_30" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;4' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + 16 + 16 + 16 + 16 + \cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_31" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;5' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + 16 + 16 + 16 + 16 + 1 + \cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="S_32" value="espacio='E2' tipo='texto' dibujar-si='ss&gt;6' expresi&oacute;n='[20,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\b\cf0 Mr = 32 + 16 + 16 + 16 + 16 + 1 + 1 = 98\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='100' controles='no' auto='s&iacute;' inicio='p=0;t=0' hacer='p=p+1;p=(p&gt;90)?1:p;t=t+0.15;E2.rot.z=E2.rot.z+5' mientras='p&lt;100'">
+</ajs></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td height="72" valign="bottom"><table width="95%" height="70" align="center" cellpadding="10" cellspacing="0" background="imagen3/clipcon.png">
+              <tr>
+                <td height="68" align="center" valign="middle"><p align="justify" class="textonormal"><strong>La masa molecular es la masa que tiene una mol&eacute;cula. </strong></p></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen3/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="2" width="800">
+    <tr>
+      <td background="imagen3/es4.gif" height="2" width="8"></td>
+      <td background="imagen3/bor3.gif" height="2"></td>
+      <td background="imagen3/es3.gif" height="2" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"><a href="3q7_contenidos_5c.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+      <td width="30">
+        <div align="center"><a href="3q7_contenidos_6a_1.htm" target="centro" onMouseOver="MM_swapImage('adelante','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vac&iacute;a para el popup-->
+</div>
+</body>
+</html>

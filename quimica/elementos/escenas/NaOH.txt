@@ -1,0 +1,16 @@
+<applet name="NaOH" width=400 height=420
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="NaOH">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' id='E1' ancho='400' alto='420' despl_imagen='arr-izq' fondo='fffff1' red='no' red10='no' ejes='no' texto='no'">
+   <param name="G_00" value="espacio='E1' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\cf0 El hidr\u243 xido de sodio (NaOH) o hidr\u243 xido s\u243 dico, tambi\u233 n conocido \par como sosa c\u225 ustica, es un hidr\u243 xido usado en la   industria en la \par fabricaci\u243 n de papel, tejidos, y  detergentes.\par A temperatura ambiente, el hidr\u243 xido de sodio es un s\u243 lido blanco\par cristalino sin olor que absorbe humedad del aire (higrosc\u243 pico). \par Cuando se disuelve en agua o se neutraliza   con un  \u225 cido libera \par una gran cantidad de calor que puede ser suficiente como para en-\par cender materiales   combustibles. El   hidr\u243 xido  de sodio es muy \par corrosivo. \cf1\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_01" value="espacio='E1' tipo='imagen' expresi&oacute;n='(-2,0)' archivo='imagenes7/naoh.png'">
+   <param name="G_02" value="espacio='E1' tipo='texto' expresi&oacute;n='[90,360]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\cf0 Estructura cristalina del hidr\u243 xido de sodio\cf1\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='p=0' hacer='p=p+1;t=t+1;t=t+0.01;E4.rot.z=E4.rot.z+5' mientras='p&lt;100'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

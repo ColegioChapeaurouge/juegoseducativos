@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>quincena 9</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function validar(){
+    var sw_error = 0;
+		var err;
+    if(!tutor9.r1a.value  || tutor9.r1a.value == " "  ||
+	   !tutor9.r1b.value  || tutor9.r1b.value == " "  ||
+	   !tutor9.r2a.value  || tutor9.r2a.value == " "  ||
+	   !tutor9.r2b.value  || tutor9.r2b.value == " "  ||
+	   !tutor9.r2c.value  || tutor9.r2c.value == " "  ||
+	   !tutor9.r2d.value  || tutor9.r2d.value == " "  ||
+	   !tutor9.r3a.value  || tutor9.r3a.value == " "  || 
+	   !tutor9.r4a.value  || tutor9.r4a.value == " "  ||
+	   !tutor9.r4b.value  || tutor9.r4b.value == " "  ||
+	   !tutor9.r4c.value  || tutor9.r4c.value == " "  )
+	   {
+       sw_error = 1;
+		}
+		if (sw_error == 1){
+		   err = " - Debes responder a todos los apartados";
+		}
+		if (tutor9.alumno.value == "Escribe tu nombre y apellidos" || !tutor9.alumno.value || tutor9.alumno.value == " "){
+		   if(err){
+			    err = err + "\n\n - Debes introducir tu nombre y apellidos";
+			 }else{
+			    err = " - Debes introducir tu nombre y apellidos";
+			 }
+       tutor9.alumno.focus();
+		}
+		
+		var email = tutor9.email.value;
+		
+		if(!isEmailAddress(email)){
+			if(err){
+				err = err + "\n\n - Debes introducir una direcci\u00f3n de correo electr\u00f3nico v\u00e1lida";
+			}else{
+				err = " - Debes introducir una direcci\u00f3n de correo electr\u00f3nico válida";
+			}
+		} 
+		
+		if(err){
+		  alert(err+"\n\n");
+		}else{
+      tutor9.submit();
+		}
+}
+
+function isEmailAddress(email){
+	var s = email;
+	var filter=/^[A-Za-z][A-Za-z0-9_.]*@[A-Za-z0-9_.]+\.[A-Za-z0-9_.]+[A-za-z]$/;
+	if (s.length == 0 ) return false;
+	if (filter.test(s))
+		return true;
+	else
+		//alert("Ingrese una dirección de correo válida");
+		return false;
+}
+
+
+
+
+
+
+
+
+//-->
+</script>
+<script type="text/javascript" src="../../embeddedcontent.js" defer="defer"></script>
+<style type="text/css">
+<!--
+.parakaos {font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+background-color: #F1F1F1;
+text-align: left;
+display: block;
+border: thin dashed #FF6600;
+padding: 4px;
+height: auto;
+width: 300px;}
+-->
+  </style>
+<link href="./paracidead1.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body onload="MM_preloadImages('imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraantes2.png','imagen4/paracont2.png','imagen4/atrasb.png','imagen4/paraantes3.png','imagen4/paracont3.png','imagen4/paraejer2.png','imagen4/paraeval2.png','imagen4/paratut2.png','imagen4/paramas3.png','imagen4/paramas2.png','imagen4/paraejer3.png','imagen4/paraimprimir2.png','imagen4/paraeval3.png','imagen4/paratut.png','imagen4/paratut3.png')" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;"> 
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="4q8_centro.htm" target="centro" onclick="MM_nbGroup('down','group1','antes','imagen4/paraantes3.png',1)" onmouseover="MM_nbGroup('over','antes','imagen4/paraantes2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="4q8_contenidos_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen4/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen4/paracont2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen4/paraconte.png" alt="" name="contenidos" onload="" border="0"></a></td>
+      <td><a href="4q8_ejercicios_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','ejercicios','imagen4/paraejer3.png',1)" onmouseover="MM_nbGroup('over','ejercicios','imagen4/paraejer2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q8_autoevaluacion_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','autoeval','imagen4/paraeval3.png',1)" onmouseover="MM_nbGroup('over','autoeval','imagen4/paraeval2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="javascript:;" target="centro" onclick="MM_nbGroup('down','group1','paratutor','imagen4/paratut3.png',1)" onmouseover="MM_nbGroup('over','paratutor','imagen4/paratut2.png','imagen4/paratut3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paratut3.png" alt="" name="paratutor" onload="MM_nbGroup('init','group1','paratutor','imagen4/paratut.png',1)" border="0"></a></td>
+      <td><a href="4q8_sabermas_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paramas','imagen4/paramas3.png',1)" onmouseover="MM_nbGroup('over','paramas','imagen4/paramas2.png','imagen4/paramas3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen4/es1.gif" height="8" width="8"></td>
+      <td background="imagen4/bor1.gif" height="8"></td>
+      <td background="imagen4/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen4/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr> 
+            <td width="47%" valign="top"> <font color="#ff6600" face="Geneva, Arial, Helvetica, sans-serif" size="4"><strong><img src="imagen4/enviar.png" width="50" height="38" align="middle"></strong></font><font face="Geneva, Arial, Helvetica, sans-serif" size="4"><strong><span class="titulo">Actividades 
+              para enviar al tutor</span></strong></font></td>
+            <td width="48%" valign="middle">
+<div align="right"><font color="#000066" size="1" face="Verdana, Arial, Helvetica, sans-serif">Puedes 
+                enviar las respuestas por correo electr&oacute;nico<br>
+                o imprimir aqu&iacute; el cuestionario y contestar en papel</font></div></td>
+            <td width="5%"><div align="right"><a href="./impresos/quincena8_actividades.pdf" target="_blank" onMouseOver="MM_swapImage('imprimir','','imagen4/imprimir2.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen4/imprimir.png" alt="Imprimir" name="imprimir" width="40" height="40" border="0"></a></div></td>
+          </tr>
+          <tr> 
+            <td colspan="3" valign="top"> <p align="left"> 
+              <form action="http://proyectodescartes.org/EDAD/materiales_didacticos/4esofisicaquimica/mail.php" method="post" target="_self" name="tutor9"  id="tutor9">
+                <table width="100%" cellpadding="6" cellspacing="2" bgcolor="#F1F1F1" >
+                  <tr> 
+                    <td colspan="2" valign="top" class="textopeque"> <div align="justify"> 
+                        <p><strong>1</strong>. 
+                          <input name="act" id="act" type="hidden" value="Estructura del átomo y enlaces químicos">
+						  <input name="quincena" id="quincena" type="hidden" value="Quincena 8&ordf;: Estructura del átomo y enlaces químicos">
+                          Responde a las siguientes preguntas bas&aacute;ndote 
+                          en la colocaci&oacute;n de estos elementos en la tabla 
+                          peri&oacute;dica: </p>
+                        <p align="justify">a) &iquest;Qu&eacute; elemento es m&aacute;s 
+                          met&aacute;lico, el bario o el calcio?</p>
+                        <p align="center"> 
+                          <input name="r1a" type="text" id="r1a" size="12">
+                        </p>
+                      </div></td>
+                    <td colspan="2" valign="top" class="textopeque"> <div align="justify" class="textopeque"> 
+                        <p><strong>3.</strong> &iquest;Por qu&eacute; crees que 
+                          los gases nobles se presentan como &aacute;tomos libres 
+                          y no se enlazan unos con otros?<br>
+                          <br>
+                        </p>
+                        <p align="center"> 
+                          <input name="r3a" type="text" id="r3a" size="40">
+                        </p>
+                      </div></td>
+                  </tr>
+                  <tr> 
+                    <td colspan="2" valign="top" class="textopeque"> <div align="justify"> 
+                        <p>b) &iquest;Y cu&aacute;l es m&aacute;s no met&aacute;lico, 
+                          el ox&iacute;geno o el yodo?</p>
+                        <p align="center"> 
+                          <input name="r1b" type="text" id="r1b" size="12">
+                        </p>
+                      </div></td>
+                    <td colspan="2" valign="top" class="textopeque"> <div align="center"></div></td>
+                  </tr>
+                  <tr> 
+                    <td colspan="2" valign="top" class="textopeque"><strong>2.</strong> 
+                      Dado el &aacute;tomo X (Z = 9, A = 19) indica: </td>
+                    <td colspan="2" valign="middle" class="textopeque"><strong>4.</strong> 
+                      Indica el tipo de enlace que se puede esperar cuando se 
+                      unan los &aacute;tomos o iones de los siguientes elementos: 
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td width="28%" valign="top" class="textopeque">a) Protones 
+                      que posee&nbsp;</td>
+                    <td width="14%" valign="top" class="textopeque"><input name="r2a" type="text" id="r2a" size="15" maxlength="12"></td>
+                    <td colspan="2" valign="top" class="textopeque">a) Sodio (Z 
+                      =11) con Nitr&oacute;geno (Z = 7)&nbsp;&nbsp;&nbsp; <input name="r4a" type="text" id="r4a" size="10" maxlength="12"></td>
+                  </tr>
+                  <tr> 
+                    <td valign="top" class="textopeque">b) Neutrones que posee 
+                    </td>
+                    <td valign="top" class="textopeque"><input name="r2b" type="text" id="r2b" size="15" maxlength="12"></td>
+                    <td colspan="2" valign="top" class="textopeque">b) Calcio 
+                      (Z = 20) con Fl&uacute;or (Z = 9)&nbsp; <input name="r4b" type="text" id="r4b" size="10" maxlength="12"></td>
+                  </tr>
+                  <tr> 
+                    <td valign="top" class="textopeque">c) Per&iacute;odo en que 
+                      se encuentra</td>
+                    <td valign="top" class="textopeque"><input name="r2c" type="text" id="r2c" size="15"></td>
+                    <td colspan="2" valign="top" class="textopeque">c) Hidr&oacute;geno 
+                      (Z = 1) con Cloro (Z = 17)&nbsp;&nbsp; <input name="r4c" type="text" id="r4c" size="10"></td>
+                  </tr>
+                  <tr> 
+                    <td valign="top" class="textopeque">d) Grupo en que se encuentra 
+                      &nbsp;&nbsp;&nbsp;</td>
+                    <td valign="top" class="textopeque"><input name="r2d" type="text" id="r2d" size="15"></td>
+                    <td width="37%" valign="top" class="textopeque">&nbsp;</td>
+                    <td width="21%" valign="top" class="textopeque">&nbsp;</td>
+                  </tr>
+                  <tr bgcolor="#999999"> 
+                    <td colspan="2" bgcolor="#999999"> <input name="alumno" type="text" id="alumno" value="Escribe tu nombre y apellidos" size="32"> 
+                      &nbsp;&nbsp; <p align="left"> 
+                        <input name="email" type="text" id="email" value="Introduce el correo electr&oacute;nico de tu tutor o tutora" size="54">
+                      </p>
+                      </td>
+                    <td bgcolor="#999999"> 
+                      <div align="center"> 
+                        <input name="Quincena 9" type="button" id="Quincena 9" value="Enviar" onClick="javascript:validar();" >
+                      </div></td>
+                    <td bgcolor="#999999"> 
+                      <div align="center"> 
+                        <input name="borrar" type="reset" id="borrar" value="Borrar">
+                      </div></td>
+                  </tr>
+                </table>
+              </form>
+				
+				
+				
+				
+				
+				
+				
+				<div align="justify"></div></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen4/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="imagen4/es4.gif" height="8" width="8"></td>
+      <td background="imagen4/bor3.gif" height="8"></td>
+      <td background="imagen4/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"></div></td>
+      <td width="30"> 
+        <div align="center"></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+</body>
+</html>

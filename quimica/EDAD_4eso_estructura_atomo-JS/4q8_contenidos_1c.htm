@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>4q8 8</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="./paracidead1.css" rel="stylesheet" type="text/css">
+
+
+
+<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onload="MM_preloadImages('imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraantes2.png','imagen4/paracont2.png','imagen4/atrasb.png','imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraejer3.png','imagen4/paraejer2.png','imagen4/paraeval3.png','imagen4/paraeval2.png','imagen4/paratut3.png','imagen4/paratut2.png','imagen4/paramas3.png','imagen4/paramas2.png','imagen4/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="4q8_centro.htm" target="centro" onclick="MM_nbGroup('down','group1','antes','imagen4/paraantes3.png',1)" onmouseover="MM_nbGroup('over','antes','imagen4/paraantes2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen4/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen4/paracont2.png','imagen4/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen4/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen4/paraconte.png',1)" border="0"></a></td>
+      <td><a href="4q8_ejercicios_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','ejercicios','imagen4/paraejer3.png',1)" onmouseover="MM_nbGroup('over','ejercicios','imagen4/paraejer2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q8_autoevaluacion_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','autoeval','imagen4/paraeval3.png',1)" onmouseover="MM_nbGroup('over','autoeval','imagen4/paraeval2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="4q8_tutor_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paratutor','imagen4/paratut3.png',1)" onmouseover="MM_nbGroup('over','paratutor','imagen4/paratut2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="4q8_sabermas_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paramas','imagen4/paramas3.png',1)" onmouseover="MM_nbGroup('over','paramas','imagen4/paramas2.png','imagen4/paramas3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen4/es1.gif" height="8" width="8"></td>
+      <td background="imagen4/bor1.gif" height="8"></td>
+      <td background="imagen4/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen4/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="43%" valign="top"> <span class="titulo"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">1. Estructura at&oacute;mica </font></span></td>
+            <td width="57%">
+<div align="right"></div></td>
+          </tr>
+          <tr>
+            <td valign="top"> <p class="subtitulo"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">El prot&oacute;n </font></p>
+              <p align="justify"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">El f&iacute;sico alem&aacute;n
+
+			  <a href="#" onClick="MM_openBrWindow('../biografias4/goldstein.htm','Estilos','width=850,height=600')"> E. Goldstein</a>
+
+			   realiz&oacute; algunos experimentos con un tubo de rayos cat&oacute;dicos con el c&aacute;todo perforado. Observ&oacute; unos rayos que atravesaban al c&aacute;todo en sentido contrario a los rayos cat&oacute;dicos. Recibieron el nombre de <strong>rayos canales</strong>.</font>
+              <div align="justify">
+                <p class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">El estudio de estos rayos determin&oacute; que estaban formados por part&iacute;culas de carga positiva y que ten&iacute;an una masa distinta seg&uacute;n cual fuera el gas que estaba encerrado en el tubo. Esto aclar&oacute; que las part&iacute;culas sal&iacute;an del seno del gas y no del electrodo positivo.</font></p>
+                <p class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Al experimentar con hidr&oacute;geno se consigui&oacute; aislar la part&iacute;cula elemental positiva o <strong>prot&oacute;n</strong>, cuya carga es la misma que la del electr&oacute;n pero positiva y su masa es 1837 veces mayor.</font></p>
+              </div>
+              <table width="100%" height="61" border="0" cellpadding="6" cellspacing="0" bordercolor="#999966" bgcolor="#eeeedd">
+                <tr>
+
+				<td width="75%" height="50" valign="middle" bordercolor="#F1F1F1" bgcolor="#F1F1F1">
+                    <div align="justify">
+                      <p align="center" class="titulo_sabermas">Ampliaci&oacute;n: Protones y acidez </p>
+                  </div></td>
+                  <td width="25%" height="50" valign="middle" bordercolor="#c6d8f4" bgcolor="#F1F1F1">&nbsp;	<a href="#" onMouseOver="MM_swapImage('calcula','','imagen4/lapiz2.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen4/lapiz1.png" alt="Ejercicio" name="calcula" width="38" height="38" border="0" onClick="MM_openBrWindow('4q8_contenidos_1c_ampliacion.htm','calcula','width=650,height=450')"></a> </td>
+
+
+
+
+
+
+                </tr>
+            </table></td>
+            <td valign="top">
+<div align="right">
+                <p>
+
+
+
+<ajs name=""Rayos canales"" width=420 height=350
+        code="Descartes.class" codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="nombre" value="Rayos canales">
+   <param name="Versi&oacute;n" value="3.92, 2008-05-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=si limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='si' despl_imagen='arr-izq' fondo='5fffffff' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_00" value="tipo='num&eacute;rico' id='n1' interfaz='bot&oacute;n' valor='1' nombre='Conectar' visible='si' acci&oacute;n='Reiniciar Animaci&oacute;n' pos_mensajes='centro'">
+   <param name="C_01" value="tipo='num&eacute;rico' id='n2' interfaz='men&uacute;' regi&oacute;n='interior' expresi&oacute;n='(20,20,150,20)' visible='no' opciones='Ver Rayos cat&oacute;dicos,Ver Rayos Canales,Ver ambos' pos_mensajes='centro'">
+   <param name="C_02" value="tipo='num&eacute;rico' id='Ayuda' interfaz='bot&oacute;n' nombre='Ayuda' visible='si' acci&oacute;n='mensaje' par&aacute;metro='Pulsa el bot&oacute;n Comenzar para iniciar la animaci&oacute;n. Puedes reiniciar la animaci&oacute;n pulsando Conectar.\nPuedes elegir entre ver rayos cat&oacute;dicos, rayos canales o ambos.' pos_mensajes='centro'">
+   <param name="G_00" value="tipo='pol&iacute;gono' color='grisObscuro' expresi&oacute;n='(-3.2,1)(-3.2,0.5)(-3.2,0)(3,-1)(3,2)(-3.2,1)' relleno='e7eff1' ancho='3'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='854040' expresi&oacute;n='(-2.5,0.5)(-3.6,0.5)(-3.6,-2)(2.6,-2)(2.6,0.5)(2.3,0.5)'">
+   <param name="G_02" value="tipo='pol&iacute;gono' dibujar-si='t=0' color='negro' expresi&oacute;n='(-0.5,-2.2)(0.5,-2.2)(0.5,-1.8)(-0.5,-1.8)(-0.5,-2.2)' relleno='grisObscuro'">
+   <param name="G_03" value="tipo='texto' color='azul' expresi&oacute;n='[-2,120]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 C\u225 todo \par     (\fs28 -\fs24 )\cf1\f3\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_04" value="tipo='texto' color='azul' expresi&oacute;n='[335,220]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0\u193 nodo (+)\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_05" value="tipo='texto' color='azul' expresi&oacute;n='[165,228]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 ALTO VOLTAJE\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_06" value="tipo='punto' dibujar-si='(x&lt;=3)&amp;(t#0)&amp;((n2=0)|(n2=2))' color='azul' expresi&oacute;n='(x-2.5,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_07" value="tipo='punto' dibujar-si='(x&gt;=3)&amp;(x&lt;4)&amp;((n2=0)|(n2=2))' color='verde' expresi&oacute;n='(3,s)' familia='s' s.intervalo='[0.2,0.8]' s.pasos='3' decimales='0' fijo='no' tama&ntilde;o='4'">
+   <param name="G_08" value="tipo='segmento' color='854040' expresi&oacute;n='(-2.5,0.2)(-2.5,0.8)' tama&ntilde;o='0'">
+   <param name="G_09" value="tipo='punto' dibujar-si='(x&lt;=3)&amp;(t&gt;0.02)&amp;((n2=0)|(n2=2))' color='azul' expresi&oacute;n='(x-2.5-0.02,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_10" value="tipo='punto' dibujar-si='(x&lt;=3)&amp;(t&gt;0.03)&amp;((n2=0)|(n2=2))' color='azul' expresi&oacute;n='(x-2.5-0.08,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_11" value="tipo='punto' dibujar-si='(x&lt;=3)&amp;(t&gt;0.04)&amp;((n2=0)|(n2=2))' color='azul' expresi&oacute;n='(x-2.5-0.15,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_12" value="tipo='punto' dibujar-si='(x&lt;=3)&amp;(t&gt;0.06)&amp;((n2=0)|(n2=2))' color='azul' expresi&oacute;n='(x-2.5-0.23,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_13" value="tipo='segmento' color='854040' expresi&oacute;n='(2.3,0.2)(2.3,0.8)' tama&ntilde;o='0'">
+   <param name="G_14" value="tipo='punto' dibujar-si='(x1&gt;=-3.2)&amp;(t#0)&amp;((n2=1)|(n2=2))' color='rojo' expresi&oacute;n='(x1+2.3,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_15" value="tipo='punto' dibujar-si='(x1&gt;=-4)&amp;(x1&lt;-3)&amp;((n2=1)|(n2=2))' color='amarillo' expresi&oacute;n='(-3.2,s)' familia='s' s.intervalo='[0.2,0.8]' s.pasos='3' decimales='0' fijo='no' tama&ntilde;o='4'">
+   <param name="G_16" value="tipo='punto' dibujar-si='(x1&gt;=-3.2)&amp;(t&gt;0.02)&amp;((n2=1)|(n2=2))' color='rojo' expresi&oacute;n='(x1+2.32,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_17" value="tipo='punto' dibujar-si='(x1&gt;=-3.2)&amp;(t&gt;0.03)&amp;((n2=1)|(n2=2))' color='rojo' expresi&oacute;n='(x1+2.38,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_18" value="tipo='punto' dibujar-si='(x1&gt;=-3.2)&amp;(t&gt;0.04)&amp;((n2=1)|(n2=2))' color='rojo' expresi&oacute;n='(x1+2.45,s)' rastro='gris' familia='s' s.intervalo='[0.2,0.8]' s.pasos='5' tama&ntilde;o='1'">
+   <param name="G_19" value="tipo='pol&iacute;gono' dibujar-si='t#0' color='negro' expresi&oacute;n='(-0.5,-2.2)(0.5,-2.2)(0.5,-1.8)(-0.5,-1.8)(-0.5,-2.2)' relleno='blanco'">
+   <param name="G_20" value="tipo='texto' dibujar-si='t#0' color='azul' expresi&oacute;n='[220,252]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs28\b\cf0 +\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,14'">
+   <param name="G_21" value="tipo='texto' dibujar-si='t#0' color='azul' expresi&oacute;n='[182,252]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs28\b\cf0 -\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,14'">
+   <param name="G_22" value="tipo='texto' color='azul' expresi&oacute;n='[200,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs24\b EXPERIMENTO DE RAYOS CANALES\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_23" value="tipo='texto' color='azul' expresi&oacute;n='[120,60]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\cf0 Pantallas fluorescentes\f2\fs24\cf1\par}' fuente='Arial,PLAIN,12'">
+   <param name="G_24" value="tipo='segmento' color='verde' expresi&oacute;n='(200,75)(352,78)' tama&ntilde;o='1' coord_abs='si'">
+   <param name="G_25" value="tipo='segmento' color='verde' expresi&oacute;n='(190,75)(58,120)' tama&ntilde;o='1' coord_abs='si'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='no' repetir='si' inicio='t=0;x=0;x1=0' hacer='t=t+0.01;x=x+t;x1=x1-t' mientras='(x&lt;=3.2)|(x1&gt;=-3.5)'">
+</ajs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </p>
+              </div></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen4/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="imagen4/es4.gif" height="8" width="8"></td>
+      <td background="imagen4/bor3.gif" height="8"></td>
+      <td background="imagen4/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"></div></td>
+      <td width="30">
+        <div align="center"></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vacía para el popup-->
+</div>
+</body>
+</html>

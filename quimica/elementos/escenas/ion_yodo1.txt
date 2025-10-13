@@ -1,0 +1,97 @@
+<applet name="atomo_yodo1" width=840 height=720
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="atomo_yodo1">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' id='E1' x='0' y='0' ancho='840' alto='700' fijo='s&iacute;' despl_imagen='arr-izq' fondo='f1f1f1' red='no' red10='no' ejes='no' texto='no'">
+   <param name="A_00" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1416' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='r5' constante='s&iacute;' expresi&oacute;n='4*1.5' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='r4' constante='s&iacute;' expresi&oacute;n='r5/4' evaluar='una-sola-vez'">
+   <param name="A_03" value="id='r3' constante='s&iacute;' expresi&oacute;n='r5/9' evaluar='una-sola-vez'">
+   <param name="A_04" value="id='r2' constante='s&iacute;' expresi&oacute;n='r5/16' evaluar='una-sola-vez'">
+   <param name="A_05" value="id='r1' constante='s&iacute;' expresi&oacute;n='r5/25' evaluar='una-sola-vez'">
+   <param name="G_00" value="espacio='E1' tipo='pol&iacute;gono' color='000099' expresi&oacute;n='(-8.2,7)(-8.2,-7)(8.2,-7)(8.2,7)(-8.2,7)' relleno='1efffff1' ancho='3'">
+   <param name="G_01" value="espacio='E1' tipo='curva' expresi&oacute;n='(r1*cos(t),r1*sen(t))' t.intervalo='[0,6.3]' t.pasos='20' visible='no'">
+   <param name="G_02" value="espacio='E1' tipo='curva' expresi&oacute;n='(r2*cos(t),r2*sen(t))' t.intervalo='[0,6.3]' t.pasos='20' visible='no'">
+   <param name="G_03" value="espacio='E1' tipo='punto' expresi&oacute;n='(-0.05,0.05)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_04" value="espacio='E1' tipo='punto' expresi&oacute;n='(-0.05,-0.05)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_05" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(0.05,-0.05)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_06" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(0.05,0.05)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_07" value="espacio='E1' tipo='curva' expresi&oacute;n='(r1*cos(t),r1*sen(t))' t.intervalo='[0,6.3]' t.pasos='20' visible='no'">
+   <param name="G_08" value="espacio='E1' tipo='curva' expresi&oacute;n='(r2*cos(t),r2*sen(t))' t.intervalo='[0,6.3]' t.pasos='20' visible='no'">
+   <param name="G_09" value="espacio='E1' tipo='curva' expresi&oacute;n='(r3*cos(t),r3*sen(t))' t.intervalo='[0,6.3]' t.pasos='20' visible='no'">
+   <param name="G_10" value="espacio='E1' tipo='curva' expresi&oacute;n='(r4*cos(t),r4*sen(t))' t.intervalo='[0,6.3]' t.pasos='20' visible='no'">
+   <param name="G_11" value="espacio='E1' tipo='curva' expresi&oacute;n='(r5*cos(t),r5*sen(t))' t.intervalo='[0,6.3]' t.pasos='40' visible='no'">
+   <param name="G_12" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r1*cos(t),r1*sen(t))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_13" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r1*cos(t+pi),r1*sen(t+pi))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_14" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+pi/4),r2*sen(t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_15" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+2*pi/4),r2*sen(t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_16" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+3*pi/4),r2*sen(t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_17" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+4*pi/4),r2*sen(t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_18" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+5*pi/4),r2*sen(t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_19" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+6*pi/4),r2*sen(t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_20" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+7*pi/4),r2*sen(t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_21" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r2*cos(t+8*pi/4),r2*sen(t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_22" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+pi/9),r3*sen(t+pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_23" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+2*pi/9),r3*sen(t+2*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_24" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+3*pi/9),r3*sen(t+3*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_25" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+4*pi/9),r3*sen(t+4*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_26" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+5*pi/9),r3*sen(t+5*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_27" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+6*pi/9),r3*sen(t+6*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_28" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+7*pi/9),r3*sen(t+7*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_29" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+8*pi/9),r3*sen(t+8*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_30" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+9*pi/9),r3*sen(t+9*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_31" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+10*pi/9),r3*sen(t+10*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_32" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+11*pi/9),r3*sen(t+11*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_33" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+12*pi/9),r3*sen(t+12*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_34" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+13*pi/9),r3*sen(t+13*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_35" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+14*pi/9),r3*sen(t+14*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_36" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+15*pi/9),r3*sen(t+15*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_37" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+16*pi/9),r3*sen(t+16*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_38" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+17*pi/9),r3*sen(t+17*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_39" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r3*cos(t+18*pi/9),r3*sen(t+18*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_40" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+pi/9),r4*sen(t+pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_41" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+2*pi/9),r4*sen(t+2*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_42" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+3*pi/9),r4*sen(t+3*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_43" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+4*pi/9),r4*sen(t+4*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_44" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+5*pi/9),r4*sen(t+5*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_45" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+6*pi/9),r4*sen(t+6*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_46" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+7*pi/9),r4*sen(t+7*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_47" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+8*pi/9),r4*sen(t+8*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_48" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+9*pi/9),r4*sen(t+9*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_49" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+10*pi/9),r4*sen(t+10*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_50" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+11*pi/9),r4*sen(t+11*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_51" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+12*pi/9),r4*sen(t+12*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_52" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+13*pi/9),r4*sen(t+13*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_53" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+14*pi/9),r4*sen(t+14*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_54" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+15*pi/9),r4*sen(t+15*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_55" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+16*pi/9),r4*sen(t+16*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_56" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+17*pi/9),r4*sen(t+17*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_57" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r4*cos(t+18*pi/9),r4*sen(t+18*pi/9))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_58" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+pi/4),r5*sen(t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_59" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+2*pi/4),r5*sen(t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_60" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+3*pi/4),r5*sen(t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_61" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+4*pi/4),r5*sen(t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_62" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+5*pi/4),r5*sen(t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_63" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+6*pi/4),r5*sen(t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_64" value="espacio='E1' tipo='punto' color='naranja' expresi&oacute;n='(r5*cos(t+7*pi/4),r5*sen(t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+   <param name="G_65" value="espacio='E1' tipo='punto' color='00ff6200' expresi&oacute;n='(r5*cos(t+8*pi/4),r5*sen(t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='6'">
+
+
+<param name="G_66" value="espacio='E1' tipo='punto' expresi&oacute;n='(0,-0.05)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_67" value="espacio='E1' tipo='punto' expresi&oacute;n='(0,0.05)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   
+
+<param name="G_68" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(0.05,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   <param name="G_69" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-0.05,0)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;'">
+   
+
+
+
+<param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='p=0' hacer='p=p+1;t=t+1' mientras='p&lt;100'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

@@ -1,0 +1,38 @@
+<applet name="azufre_amp" width=300 height=320
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="azufre_amp">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R3' id='E2' O.y='20' despl_imagen='arr-izq' fondo='1efffff1' R3='s&iacute;'">
+   <param name="A_00" value="id='escala' constante='s&iacute;' expresi&oacute;n='1' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='e' constante='s&iacute;' expresi&oacute;n='escala' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='x' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='8' archivo='escenas/azufre/azufre_x.txt'">
+   <param name="A_03" value="id='y' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='8' archivo='escenas/azufre/azufre_y.txt'">
+   <param name="A_04" value="id='z' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='8' archivo='escenas/azufre/azufre_z.txt'">
+   <param name="A_05" value="id='a' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='8' archivo='escenas/azufre/azufre_a.txt'">
+   <param name="A_06" value="id='b' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='8' archivo='escenas/azufre/azufre_b.txt'">
+   <param name="A_07" value="id='E2.rot.x' constante='s&iacute;' expresi&oacute;n='30' evaluar='una-sola-vez'">
+   <param name="S_00" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[0]]*e,y[a[0]]*e,z[a[0]]*e)(x[b[0]]*e,y[b[0]]*e,z[b[0]]*e)' ancho='6'">
+   <param name="S_01" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[1]]*e,y[a[1]]*e,z[a[1]]*e)(x[b[1]]*e,y[b[1]]*e,z[b[1]]*e)' ancho='6'">
+   <param name="S_02" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[2]]*e,y[a[2]]*e,z[a[2]]*e)(x[b[2]]*e,y[b[2]]*e,z[b[2]]*e)' ancho='6'">
+   <param name="S_03" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[3]]*e,y[a[3]]*e,z[a[3]]*e)(x[b[3]]*e,y[b[3]]*e,z[b[3]]*e)' ancho='6'">
+   <param name="S_04" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[4]]*e,y[a[4]]*e,z[a[4]]*e)(x[b[4]]*e,y[b[4]]*e,z[b[4]]*e)' ancho='6'">
+   <param name="S_05" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[5]]*e,y[a[5]]*e,z[a[5]]*e)(x[b[5]]*e,y[b[5]]*e,z[b[5]]*e)' ancho='6'">
+   <param name="S_06" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[6]]*e,y[a[6]]*e,z[a[6]]*e)(x[b[6]]*e,y[b[6]]*e,z[b[6]]*e)' ancho='6'">
+   <param name="S_07" value="espacio='E2' tipo='segmento' color='naranja' expresi&oacute;n='(x[a[7]]*e,y[a[7]]*e,z[a[7]]*e)(x[b[7]]*e,y[b[7]]*e,z[b[7]]*e)' ancho='6'">
+   <param name="S_08" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[0]*e,y[0]*e,z[0]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_09" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[1]*e,y[1]*e,z[1]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_10" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[2]*e,y[2]*e,z[2]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_11" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[3]*e,y[3]*e,z[3]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_12" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[4]*e,y[4]*e,z[4]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_13" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[5]*e,y[5]*e,z[5]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_14" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[6]*e,y[6]*e,z[6]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_15" value="espacio='E2' tipo='punto' color_reverso='amarillo' expresi&oacute;n='(x[7]*e,y[7]*e,z[7]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='24'">
+   <param name="S_16" value="espacio='E2' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\cf0 Las mol\u233 culas de azufre\par tienen 8 \u225 tomos unidos.\cf1\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='60' controles='no' auto='s&iacute;' inicio='t=0' hacer='t=t+0.01;E2.rot.z=E2.rot.z+1' mientras='1'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

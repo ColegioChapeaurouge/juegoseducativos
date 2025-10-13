@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Agua</title>
+	<script type='text/javascript' src='descartes-min.js'></script>
+
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+<body><ajs name="NaCl" width=400 height=420
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="400x420">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="NaCl">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R3' id='E1' O.y='150' despl_imagen='arr-izq' fondo='1efffff1' R3='s&iacute;'">
+   <param name="C_01" value="id='n1' tipo='num&eacute;rico' interfaz='bot&oacute;n' espacio='E1' nombre='Animar/parar' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='animar' par&aacute;metro.fuente='Monospaced,PLAIN,12'">
+   <param name="A_01" value="id='x_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='27' archivo='nacl_x.txt'">
+   <param name="A_02" value="id='y_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='27' archivo='nacl_y.txt'">
+   <param name="A_03" value="id='z_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='27' archivo='nacl_z.txt'">
+   <param name="A_04" value="id='escala_g' constante='s&iacute;' expresi&oacute;n='0.3' evaluar='una-sola-vez'">
+   <param name="A_05" value="id='e_g' constante='s&iacute;' expresi&oacute;n='escala_g' evaluar='una-sola-vez'">
+   <param name="S_01" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)' rotini='(0,0,E1.rot.z)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_02" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_03" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_04" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_05" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_06" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_07" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_08" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_09" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_10" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_11" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_12" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_13" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_14" value="espacio='E1' tipo='punto' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='12'">
+   <param name="S_15" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_16" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_17" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_18" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_19" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_20" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_21" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_22" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_23" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_24" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_25" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_26" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_27" value="espacio='E1' tipo='punto' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_28" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_29" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_30" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_31" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_32" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_33" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_34" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_35" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_36" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_37" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_38" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_39" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_40" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_41" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_42" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_43" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_44" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_45" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_46" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_47" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_48" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_49" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_50" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_51" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_52" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_53" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_54" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_55" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_56" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_57" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_58" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_59" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_60" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_61" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_62" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_63" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_64" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_65" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_66" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_67" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_68" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_69" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_70" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_71" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_72" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_73" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_74" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_75" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_76" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_77" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_78" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_79" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_80" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_81" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_82" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_83" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_84" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_85" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_86" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_87" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_88" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_89" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_90" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_91" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_92" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_93" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_94" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_95" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_96" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_97" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_98" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_99" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_100" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_101" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_102" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_103" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_104" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_105" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_106" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_107" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_108" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_109" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_110" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_111" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_112" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_113" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_114" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_115" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_116" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_117" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_118" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_119" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_120" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_121" value="espacio='E1' tipo='segmento' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_122" value="espacio='E1' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\cf0 El cloruro de sodio o cloruro s\u243 dico, popularmente denominado \par sal com\u250 n, sal de mesa, o en su forma  mineral halita, es un com- \par puesto qu\u237 mico con la f\u243 rmula NaCl.\par El cloruro de sodio es una de  las sales responsable de la sali-\par nidad del oc\u233 ano y del fluido extracelular de muchos organismos. \par Tambi\u233 n es el mayor  componente de la sal com\u250 nmente usada\par como condimento y   conservante de la comida.  El cloruro de so-\par dio es producido en masa por la evaporaci\u243 n de agua de mar o \par salmuera de otros recursos,    como  lagos salados y minando la \par roca de sal, llamada halita.\par En la figura, las esferas azules representan los iones cloruro (anio-\par nes) y las rojas iones sodio (cationes).\cf1\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='p=0;t=0' hacer='p=p+1;p=(p&gt;90)?1:p;t=t+0.15;E1.rot.z=E1.rot.z+3' mientras='p&lt;100'">
+</ajs></body>
+</html>

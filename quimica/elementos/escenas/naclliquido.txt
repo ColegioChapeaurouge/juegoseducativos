@@ -1,0 +1,3 @@
+<applet code="SimplePlayerApplet.class" archive="s_my_SimplePlayerApplet.jar" width=105 height=95 align="middle">
+            <param name="file" value="grafito2.mpg">
+          </applet>

@@ -1,0 +1,10 @@
+0
+'../imagenes/I1.png'
+'../imagenes/I2.png'
+'../imagenes/I3.png'
+'../imagenes/I4.png'
+'../imagenes/I5.png'
+'../imagenes/I6.png'
+'../imagenes/I7.png'
+'../imagenes/I8.png'
+'../imagenes/I9.png'

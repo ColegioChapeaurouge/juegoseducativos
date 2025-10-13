@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Vamos a Sumar</title>
+  <script type="text/javascript" src="lib/descartes-min.js" charset="utf-8"></script>
+</head>
+
+<body style="padding:0; margin:0; background:#eff0f1;">
+
+  <div align="center">
+    <ajs name="Descartes" code="Descartes" width="850" height="550">
+      <param name="tamaño" value="850x550">
+      <param name="decimal_symbol" value=".">
+      <param name="expand" value="fit">
+      <param name="nombre" value="">
+      <param name="Versión" value="5.5">
+      <param name="editable" value="no">
+      <param name="Idioma" value="español">
+      <param name="Botones" value="créditos=no config=no inicio=no limpiar=no filas_norte=0 filas_sur=0 ancho_este=150 ancho_oeste=150 alto=40 ">
+      <param name="E_01" value="tipo='R2' id='E1' ancho='100%' alto='100%' fijo='sí' imagen='IMAGENES/fondo.png' despl_imagen='expand.' fondo='f0f8fa' red='no' red10='no' ejes='no' border_width='6' border_color='ffc800' border_radius='10' ">
+      <param name="C_01" value="id='INICIO' interfaz='botón' tipo='numérico' región='interior' espacio='E1' nombre='Comenzar' expresión='(220,430,180,50)' color='ffffff' borderColor='000000' color-int='ffc800' negrita='sí' fuente puntos='19' acción='calcular' parámetro='N1=ent(rnd*9)+1;N2=ent(rnd*9)+1;S=N1+N2;muestra=1;INICIO=1' dibujar-si='INICIO=0' extra_style='borderRadius=80' ">
+      <param name="C_02" value="id='b1' interfaz='botón' tipo='numérico' región='interior' espacio='E1' nombre='Nuevo Ejercicio' expresión='(220+380,430-40,180,50)' color='ffffff' borderColor='000000' color-int='ffc800' negrita='sí' fuente puntos='19' acción='calcular' parámetro='N1=ent(rnd*9)+1;N2=ent(rnd*9)+1;S=N1+N2;muestra=1;comprueba=0;R=&squot;&squot;' dibujar-si='(muestra=0)&(J<10)&(INICIO)' extra_style='borderRadius=80' ">
+      <param name="C_03" value="id='R' tipo='numérico' interfaz='campo de texto' región='interior' espacio='E1' expresión='(620,320,150,60)' valor='&squot;&squot;' decimales='0' visible='sí' dibujar-si='INICIO' activo-si='comprueba=0' fuente puntos='50' negrita='sí' ">
+      <param name="C_04" value="id='b2' interfaz='botón' tipo='numérico' región='interior' espacio='E1' nombre='Comprobar' expresión='(220+380,430-40,180,50)' color='ffffff' borderColor='000000' color-int='22be95' negrita='sí' fuente puntos='19' acción='calcular' parámetro='C=(S==R)?C+1:C;I=(S!=R)?I+1:I;J=J+1;muestra=0;;comprueba=1;muda=(S==R)?a1.play():a2.play()' dibujar-si='(muestra=1)&(R#&squot;&squot;)' extra_style='borderRadius=80' ">
+      <param name="C_05" value="id='a1' tipo='audio' espacio='E1' expresión='(0,0)' dibujar-si='0' archivo='audio/genial.mp3' ">
+      <param name="C_06" value="id='a2' tipo='audio' espacio='E1' expresión='(0,0)' dibujar-si='0' archivo='audio/mal.mp3' ">
+      <param name="C_07" value="id='b7' interfaz='botón' tipo='numérico' región='interior' espacio='E1' nombre='Reiniciar' expresión='(220,430,180,50)' color='ffffff' borderColor='000000' color-int='e64141' negrita='sí' fuente puntos='19' acción='calcular' parámetro='N1=ent(rnd*9)+1;N2=ent(rnd*9)+1;R=&squot;&squot;;J=0;C=0;I=0;' dibujar-si='J==10' extra_style='borderRadius=80' ">
+      <param name="C_08" value="id='b8' interfaz='botón' tipo='numérico' región='interior' espacio='E1' expresión='(10,485,140,48)' color='222222' color-int='f0f8ff' fuente puntos='19' imagen='vacio.gif' acción='abrir URL' parámetro='https://proyectodescartes.org/descartescms/ ' ">
+      <param name="C_09" value="id='b9' interfaz='botón' tipo='numérico' región='interior' espacio='E1' expresión='(750,500,110,40)' color='222222' color-int='f0f8ff' fuente puntos='19' imagen='vacio.gif' acción='abrir URL' parámetro='https://creativecommons.org/licenses/by-nc-sa/4.0/' ">
+      <param name="A_01" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' ">
+      <param name="A_02" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' ">
+      <param name="G_01" value="espacio='E1' tipo='texto' color='000000' dibujar-si='INICIO' coord_abs='sí' expresión='(150,330)' texto='[N1]' decimales='0' ancho='1' color_borde_texto='ffffff' negrita='sí' fuente puntos='50' align='a_center' anchor='a_top_left' ">
+      <param name="G_02" value="espacio='E1' tipo='texto' color='000000' dibujar-si='INICIO' coord_abs='sí' expresión='(440,330)' texto='[N2]' decimales='0' ancho='1' color_borde_texto='ffffff' negrita='sí' fuente puntos='50' align='a_center' anchor='a_top_left' ">
+      <param name="G_03" value="espacio='E1' tipo='texto' color='c0c0c0' dibujar-si='INICIO' coord_abs='sí' expresión='(290,300)' texto='+' decimales='0' ancho='1' color_borde_texto='404040' negrita='sí' fuente puntos='80' align='a_center' anchor='a_top_left' ">
+      <param name="G_04" value="espacio='E1' tipo='texto' color='c0c0c0' dibujar-si='INICIO' coord_abs='sí' expresión='(540,300)' texto='=' decimales='0' ancho='1' color_borde_texto='404040' negrita='sí' fuente puntos='80' align='a_center' anchor='a_top_left' ">
+      <param name="G_05" value="espacio='E1' tipo='texto' color='ffc800' dibujar-si='INICIO' coord_abs='sí' expresión='(85,40)' texto='= [C]' decimales='0' ancho='1' color_borde_texto='000000' negrita='sí' fuente puntos='40' align='a_left' anchor='a_top_left' border_size='0.1' ">
+      <param name="G_06" value="espacio='E1' tipo='texto' color='ffc800' dibujar-si='INICIO' coord_abs='sí' expresión='(760,40)' texto='= [I]' decimales='0' ancho='1' color_borde_texto='000000' negrita='sí' fuente puntos='40' align='a_left' anchor='a_top_left' border_size='0.1' ">
+      <param name="G_07" value="espacio='E1' tipo='texto' color='000000' dibujar-si='INICIO' coord_abs='sí' expresión='(610,490)' texto='Ejercicio =[J]/10' decimales='0' ancho='1' negrita='sí' fuente puntos='25' align='a_left' anchor='a_top_left' ">
+      <param name="G_08" value="espacio='E1' tipo='imagen' dibujar-si='(S!=R)&(R>0)&comprueba' coord_abs='no' expresión='(5.6,1.5,0.24,0.24)' archivo='IMAGENES/mal.png' ">
+      <param name="G_09" value="espacio='E1' tipo='imagen' dibujar-si='(S==R)&comprueba' coord_abs='no' expresión='(5.6,1.5,0.24,0.24)' archivo='IMAGENES/bien.png' ">
+      <param name="G_10" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='(J==10)' coord_abs='sí' expresión='(340,90)' texto='LOGRO = [(C/10)*100] %' decimales='0' ancho='1' negrita='sí' fuente puntos='24' align='a_left' anchor='a_top_left' ">
+      <param name="G_11" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='(J==10)&(C<=5)' coord_abs='sí' expresión='(280,130)' texto='Debes seguir practicando' decimales='0' ancho='1' negrita='sí' fuente puntos='24' align='a_left' anchor='a_top_left' ">
+      <param name="G_12" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='(J==10)&(C==10)' coord_abs='sí' expresión='(340,130)' texto='¡Felicitaciones!' decimales='0' ancho='1' negrita='sí' fuente puntos='24' align='a_left' anchor='a_top_left' ">
+      <param name="G_13" value="espacio='E1' tipo='texto' color='20303a' dibujar-si='(J==10)&(C>=6)&(C<=9)' coord_abs='sí' expresión='(260,130)' texto='Aun te falta para ser experto' decimales='0' ancho='1' negrita='sí' fuente puntos='24' align='a_left' anchor='a_top_left' ">
+      <param name="G_14" value="espacio='E1' tipo='imagen' dibujar-si='INICIO=0' coord_abs='sí' expresión='(60,525,0.50,0.50)' archivo='img/red_descartes.png' ">
+      <param name="G_15" value="espacio='E1' tipo='imagen' dibujar-si='INICIO=0' coord_abs='sí' expresión='(810,535,0.7,0.7)' archivo='img/cc.png' ">
+      <param name="G_16" value="espacio='E1' tipo='texto' color='ffff00' dibujar-si='INICIO=0' coord_abs='sí' expresión='(720,530)' texto='Marisol' ancho='1' color_borde_texto='000000' fuente puntos='14' align='a_left' anchor='a_top_left' ">
+    </ajs>
+  </div>
+
+
+
+</body>
+</html>

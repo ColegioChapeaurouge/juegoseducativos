@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>3q7 3</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+<!-- Esta funci&oacute;n popup que aparece a continuaci&oacute;n sirve para que aparezca el cuadro de texto al pasar el rat&oacute;n por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta funci&oacute;n que viene a continuaci&oacute;n sirve para abrir el popup normal, en una ventana aparte -->
+//-->
+</script>
+<script type="text/javascript" src="embeddedcontent.js" defer="defer"></script>
+
+<link href="paracidead1.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+.Estilo12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.Estilo14 {color: #000099; font-weight: bold;}
+-->
+</style>
+
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onLoad="MM_preloadImages('imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/atrasb.png','imagen3/paraantes2.png','imagen3/paracont2.png','imagen3/adelanteb.png','imagen3/atrasb.png','imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/paraejer3.png','imagen3/paraejer2.png','imagen3/paraeval3.png','imagen3/paraeval2.png','imagen3/paratut3.png','imagen3/paratut2.png','imagen3/paramas3.png','imagen3/paramas2.png','imagen3/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 450px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','antes','imagen3/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen3/paraantes2.png','imagen3/paraantes3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraantes3.png" alt="" name="antes" onload="MM_nbGroup('init','group1','antes','imagen3/paraantes.png',1)" border="0"></a></td>
+      <td><a href="3q7_contenidos_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen3/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen3/paracont2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraconte.png" alt="" name="contenidos" onload="" border="0"></a></td>
+      <td><a href="3q7_ejercicios_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','ejercicios','imagen3/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen3/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraejer.png" alt="" name="ejercicios" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="3q7_autoevaluacion_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','autoeval','imagen3/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen3/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraeval.png" alt="" name="autoeval" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="3q7_tutor_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paratutor','imagen3/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen3/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paratut.png" alt="" name="paratutor" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="3q7_sabermas_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paramas','imagen3/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen3/paramas2.png','imagen3/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen3/es1.gif" height="8" width="8"></td>
+      <td background="imagen3/bor1.gif" height="8"></td>
+      <td background="imagen3/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen3/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="419" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="48%" valign="top" class="titulo"><STRONG>Objetivos</STRONG><STRONG></STRONG></td>
+            <td width="52%">
+<div align="right">
+
+<a href="impresos/quincena7.pdf" target="_blank" onMouseOver="MM_swapImage('imprimir','','imagen3/imprimir2.png',1)" onMouseOut="MM_swapImgRestore()">
+<img src="imagen3/imprimir.png" alt="Imprimir" name="imprimir" width="40" height="40" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td height="172" valign=top><p class=textonormal>En e<span class=textonormal1>sta quincena aprender&aacute;s:</span></p>
+              <ul type=disc>
+                <li class=MsoNormal style='color:black;text-align:justify;'><span
+         style='font-size:9.0pt;font-family:"Verdana","sans-serif";"Times New Roman"'>Las propiedades caracter&iacute;sticas de los elementos
+                  qu&iacute;micos. </span></li>
+                <li class=MsoNormal style='color:black;text-align:justify;'><span
+         style='font-size:9.0pt;font-family:"Verdana","sans-serif";"Times New Roman"'>A clasificar los elementos. </span></li>
+                <li class=MsoNormal style='color:black;text-align:justify;'><span
+         style='font-size:9.0pt;font-family:"Verdana","sans-serif";"Times New Roman"'>C&oacute;mo se unen los &aacute;tomos para formar estructuras m&aacute;s
+                  complejas (mol&eacute;culas, cristales...) </span></li>
+                <li class=MsoNormal style='color:black;text-align:justify;'><span
+         style='font-size:9.0pt;font-family:"Verdana","sans-serif";"Times New Roman"'>El nombre y las propiedades de algunos compuestos. </span></li>
+            </ul></td>
+            <td valign=top><span class="MsoNormal"><span style='font-size:10.0pt;"Times New Roman"'>
+              <ajs name="portada" width=400 height=170
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="400x170">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="portada">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R2' ancho='400' alto='170' fijo='s&iacute;' O.y='5' despl_imagen='arr-izq' fondo='e1f1ffff' red='no' red10='no' ejes='no' texto='no'">
+   <param name="A_01" value="id='e1' evento='s&iacute;' condici&oacute;n='d&gt;89' acci&oacute;n='animar' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='000099' expresi&oacute;n='(-4,1.7)(-4,-1.5)(4,-1.5)(4,1.7)(-4,1.7)' relleno='1efffff1' ancho='3'">
+   <param name="G_02" value="tipo='imagen' expresi&oacute;n='(-3.95,1.65)' archivo='imagenes7/animacion/7.png' rotini='4*3.6*i'">
+   <param name="G_03" value="tipo='imagen' expresi&oacute;n='(-1.85,1.65)' archivo='imagenes7/animacion/8.png' rotini='-4*3.6*i'">
+   <param name="G_04" value="tipo='imagen' expresi&oacute;n='(0,1.65)' archivo='imagenes7/animacion/9.png' rotini='-4*3.6*i'">
+   <param name="G_05" value="tipo='imagen' expresi&oacute;n='(1.87,1.65)' archivo='imagenes7/animacion/10.png' rotini='-4*3.6*i'">
+   <param name="G_06" value="tipo='imagen' expresi&oacute;n='(-3.95,0.1)' archivo='imagenes7/animacion/11.png' rotini='4*3.6*i'">
+   <param name="G_07" value="tipo='imagen' expresi&oacute;n='(-1.85,0.1)' archivo='imagenes7/animacion/12.png' rotini='-4*3.6*i'">
+   <param name="G_08" value="tipo='imagen' expresi&oacute;n='(0.0,0.1)' archivo='imagenes7/animacion/13.png' rotini='-4*3.6*i'">
+   <param name="G_09" value="tipo='imagen' expresi&oacute;n='(1.87,0.1)' archivo='imagenes7/animacion/14.png' rotini='-4*3.6*i'">
+   <param name="Animaci&oacute;n" value="pausa='30' controles='no' auto='s&iacute;' repetir='s&iacute;' inicio='i=0' hacer='d=d+3.6;i=i+1;' mientras='i&lt;=300'">
+</ajs>
+            </span></span></td>
+          </tr>
+          <tr>
+            <td height="213" valign=top bgcolor="#F1F1F1"><p style='text-align:justify'> <span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span><span class="textopeque" style="text-align:
+    justify"><a
+    href="http://proyectodescartes.org/uudd/" target=""_blank""><img
+    border=0 width=38 height=38 src="imagen3/newton.png" align=right
+    alt="pulsa para ir" title="" v:shapes="Imagen_x0020_2"></a></span></p>
+                <p style='text-align:justify'><strong><span
+    style='font-family:"Arial","sans-serif";color:#666666'>Repasa</span></strong><span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span></p>
+              <p class="titulo_sabermas" style='text-align:justify'><span
+    class=titulosabermas1><span style='font-size:10.0pt'>La quincena anterior</span></span><span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span></p>
+              <p style='text-align:justify'><strong><span
+    style='font-family:"Arial","sans-serif";color:#666666'>Recuerda</span></strong><span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span></p>
+              <p style='text-align:justify'><span class="titulo_sabermas" style='font-size:10.0pt'>N&uacute;mero at&oacute;mico (Z).</span><span class="titulo_sabermas"
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span><span class="textopeque">El n&uacute;mero de protones que tiene el n&uacute;cleo de un &aacute;tomo se denomina
+                n&uacute;mero at&oacute;mico. Este n&uacute;mero coincide con el n&uacute;mero de electrones de la corteza
+                at&oacute;mica (si el &aacute;tomo es neutro, ya que las cargas del prot&oacute;n y del electr&oacute;n
+                son iguales y de signo contrario). Cada elemento tiene un n&uacute;mero at&oacute;mico
+                diferente.</span></p></td>
+            <td valign=top bgcolor="#F1F1F1"><p style='text-align:justify'><span
+    class=titulo_sabermas><span style='font-size:10.0pt'>N&uacute;mero m&aacute;sico (A)</span></span><span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span></p>
+                <p class=textopeque style='text-align:
+    justify'>El n&uacute;mero de protones y de neutrones del n&uacute;cleo contienen la mayor
+                  parte de la masa del &aacute;tomo, por eso a la suma de neutrones y de protones en
+                  un &aacute;tomo se la llama n&uacute;mero m&aacute;sico y se simboliza con la letra A. </p>
+              <p style='text-align:justify'><strong><span
+    style='font-family:"Arial","sans-serif";color:#666666'>Investiga</span></strong><span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span></p>
+              <p style='text-align:justify'><span
+    class=titulo_sabermas><span style='font-size:10.0pt'>Dos compuestos.</span></span><span
+    style='font-size:8.5pt;font-family:"Verdana","sans-serif"'> </span><span class="textopeque">Consigue sal com&uacute;n (cloruro s&oacute;dico) y az&uacute;car (sacarosa) y
+                disu&eacute;lvelos en agua. Con una pila de 4.5 V. intenta establecer cu&aacute;l de las
+                dos disoluciones conduce mejor la corriente el&eacute;ctrica.</span></p></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen3/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+<table align="center" border="0" cellspacing="0" height="2" width="800">
+    <tr>
+      <td background="imagen3/es4.gif" height="2" width="8"></td>
+      <td background="imagen3/bor3.gif" height="2"></td>
+      <td background="imagen3/es3.gif" height="2" width="8"></td>
+    </tr>
+  </table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+        <div align="left"><font color="#333333" size="2" face="Times New Roman, Times, serif"><em>&nbsp;&nbsp;Autor: 
+          Enric Ripoll Mira. Adaptaci&oacute;n a DescartesJS: Enric Ripoll Mira</em></font></div></td>	  
+      <td width="30"><div align="center"><a href="3q7_centro.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+      <td width="30">
+        <div align="center"><a href="3q7_contenidos_2b.htm" target="centro" onMouseOver="MM_swapImage('adelante','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vac&iacute;a para el popup-->
+</div>
+</body>
+</html>

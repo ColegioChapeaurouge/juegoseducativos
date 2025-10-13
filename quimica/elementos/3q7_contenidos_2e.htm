@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>3q7 3</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  }
+}
+//-->
+</script>
+<script type="text/javascript" src="embeddedcontent.js" defer="defer"></script>
+
+<link href="paracidead1.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+.Estilo12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.Estilo14 {color: #000099; font-weight: bold;}
+-->
+</style>
+</head>
+
+
+
+
+<body onLoad="MM_preloadImages('imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/atrasb.png','imagen3/paraantes2.png','imagen3/paracont2.png','imagen3/adelanteb.png','imagen3/atrasb.png','imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/paraejer3.png','imagen3/paraejer2.png','imagen3/paraeval3.png','imagen3/paraeval2.png','imagen3/paratut3.png','imagen3/paratut2.png','imagen3/paramas3.png','imagen3/paramas2.png','imagen3/paracont3.png');popup();MM_CheckFlashVersion('7,0,19,0','El contenido de la p&aacute;gina requiere una nueva versi&oacute;n del reproductor Macromedia Flash.  Desea descargarlo ahora?');" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="3q7_centro.htm" target="centro" onClick="MM_nbGroup('down','group1','antes','imagen3/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen3/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen3/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen3/paracont2.png','imagen3/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen3/paraconte.png',1)" border="0"></a></td>
+      <td><a href="3q7_ejercicios_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','ejercicios','imagen3/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen3/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="3q7_autoevaluacion_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','autoeval','imagen3/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen3/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="3q7_tutor_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paratutor','imagen3/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen3/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="3q7_sabermas_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paramas','imagen3/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen3/paramas2.png','imagen3/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen3/es1.gif" height="8" width="8"></td>
+      <td background="imagen3/bor1.gif" height="8"></td>
+      <td background="imagen3/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen3/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="50%" valign="top"> <span class="Estilo14"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">2</font></span><span class="titulo"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">.
+              </font></span><span class="Estilo14"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">Teor&iacute;a cin&eacute;tico-molecular </font></span></td>
+            <td width="50%">
+<div align="right"><a href="3q7_contenidos_2d.htm" target="centro" onMouseOver="MM_swapImage('atras1','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a> <a href="3q7_contenidos_3a.htm" target="centro" onMouseOver="MM_swapImage('adelante1','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+          </tr>
+          <tr>
+            <td height="330" valign="top"> <p class="subtitulo"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">La difusi&oacute;n </font>(1)</p>
+              <p align="justify" class="Estilo12">Uno de los fen&oacute;menos f&iacute;sicos que con mayor claridad da su apoyo a la llamada teor&iacute;a cin&eacute;tico-molecular es la difusi&oacute;n. Cuando ponemos en contacto dos fluidos o un s&oacute;lido soluble en un l&iacute;quido, &eacute;stos acaban mezclados al cabo de cierto tiempo de forma espont&aacute;nea.</p>
+              <p align="justify" class="Estilo12">La experiencia nos demuestra que cuando abrimos un frasco de perfume o de   cualquier otro l&iacute;quido vol&aacute;til, podemos olerlo r&aacute;pidamente en un recinto   cerrado. Decimos que las part&iacute;culas del l&iacute;quido, despu&eacute;s de evaporarse, se difunden   por el aire, distribuy&eacute;ndose en todo el espacio circundante. Lo mismo ocurre si   colocamos un terr&oacute;n de az&uacute;car en un vaso de agua, las part&iacute;culas de az&uacute;car se   difunden por todo el agua (a este proceso se le llama disoluci&oacute;n). Para que   tenga lugar el fen&oacute;meno de la difusi&oacute;n, la distribuci&oacute;n espacial de part&iacute;culas no   debe ser homog&eacute;nea, debe existir una diferencia de concentraci&oacute;n de las part&iacute;culas entre dos zonas.</p>
+              <p align="justify" class="Estilo12">&nbsp;</p>            </td>
+            <td rowspan="2" valign="top">
+<div align="right" class="Estilo12">
+  <p>&nbsp;    </p>
+  <table width="300" border="3" bordercolor="#000099">
+    <tr>
+      <td border="0">
+	  <applet name="difusion" width=320 height=200
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http:/recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+
+   <param name="deshacer" value="no">
+   <param name="nombre" value="difusion">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' id='E1' ancho='420' fijo='s&iacute;' despl_imagen='arr-izq' fondo='1efffff1' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='NOTA' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Actividad 1' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Rompe el frasco e intenta explicar el fen&oacute;meno de la difusi&oacute;n considerando que las part&iacute;culas est&aacute;n en reposo.' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='arr_izq' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='n2' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Respuesta 1' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Habr&aacute;s notado cierta dificultad para responder la actividad planteada anteriormente, por eso la teor&iacute;a cin&eacute;tico molecular indica que las part&iacute;culas est&aacute;n en movimiento.' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='arr_izq' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='n3' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Actividad 2' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='Debajo de este bot&oacute;n ten&eacute;is una experiencia de difusi&oacute;n hecha en el laboratorio, para ponerla en marcha ten&eacute;is que colocar el cursor del rat&oacute;n encima de la escena (aparecen los controles de la animaci&oacute;n). Pon la pel&iacute;cula en marcha, la velocidad de difusi&oacute;n, &iquest;aumentar&aacute; o disminuir&aacute; al aumentar la temperatura?' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='ab_izq' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_03" value="id='n4' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='interior' expresi&oacute;n='(0,0,80,20)' fijo='s&iacute;' nombre='Rompe aqu&iacute;' visible='s&iacute;' acci&oacute;n='animar' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='NT' constante='s&iacute;' expresi&oacute;n='1' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='temp' constante='s&iacute;' expresi&oacute;n='500' evaluar='siempre'">
+   <param name="A_02" value="id='N' constante='s&iacute;' expresi&oacute;n='2000' evaluar='una-sola-vez'">
+   <param name="A_03" value="id='sx' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N'">
+   <param name="A_04" value="id='sy' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N'">
+   <param name="A_05" value="id='vx0' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N'">
+   <param name="A_06" value="id='vy0' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N'">
+   <param name="A_07" value="id='INICIO' algoritmo='s&iacute;' evaluar='una-sola-vez' inicio='i=0' hacer='vx0[i]=(-0.5+rnd)*0.1;vy0[i]=(-0.5+rnd)*0.1;vx[i]=vx0[i];vy[i]=vy0[i];sx[i]=1;sy[i]=1;i=i+1' mientras='i&lt;N'">
+   <param name="A_08" value="id='vx' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N'">
+   <param name="A_09" value="id='vy' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N'">
+   <param name="A_10" value="id='x' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='N'">
+   <param name="A_11" value="id='calcul_x' algoritmo='s&iacute;' evaluar='una-sola-vez' inicio='i=0' hacer='x[i]=-i*44/(10*N)+4.4*rnd;i=i+1' mientras='i&lt;N'">
+   <param name="A_12" value="id='y' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='N'">
+   <param name="A_13" value="id='calcul_y' algoritmo='s&iacute;' evaluar='una-sola-vez' inicio='i=0' hacer='y[i]=(rnd*(-i*20)/(10*N)+2*rnd)*(-1)^i;i=i+1' mientras='i&lt;N'">
+   <param name="A_14" value="id='CALCULOS' algoritmo='s&iacute;' evaluar='siempre' inicio='i=0' hacer='vx[i]=vx0[i]*temp/273;vy[i]=vy0[i]*temp/273;x[i]=x[i]+sx[i]*vx[i];y[i]=y[i]+sy[i]*vy[i];sx[i]=((x[i]&lt;-4.4)|(x[i]&gt;4.4))?-sx[i]:sx[i];sy[i]=((y[i]&lt;-2)|(y[i]&gt;2))?-sy[i]:sy[i];x[i]=max(x[i],-4.4);x[i]=min(x[i],4.4);y[i]=max(y[i],-2);y[i]=min(y[i],2);i=i+1' mientras='i&lt;N'">
+   <param name="A_15" value="id='N2' constante='s&iacute;' expresi&oacute;n='150' evaluar='una-sola-vez'">
+   <param name="A_16" value="id='sx2' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N2'">
+   <param name="A_17" value="id='sy2' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N2'">
+   <param name="A_18" value="id='vx20' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N2'">
+   <param name="A_19" value="id='vy20' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N2'">
+   <param name="A_20" value="id='INICIO_2' algoritmo='s&iacute;' evaluar='una-sola-vez' inicio='i=0' hacer='vx20[i]=(-0.5+rnd)*0.1;vy20[i]=(-0.5+rnd)*0.1;vx2[i]=vx20[i];vy2[i]=vy20[i];sx2[i]=1;sy2[i]=1;i=i+1;' mientras='i&lt;N2'">
+   <param name="A_21" value="id='vx2' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N2'">
+   <param name="A_22" value="id='vy2' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='N2'">
+   <param name="A_23" value="id='x2' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='N2'">
+   <param name="A_24" value="id='calcul_x2' algoritmo='s&iacute;' evaluar='una-sola-vez' inicio='i=0' hacer='x2[i]=2.15+i*11/(100*N)+0.5*rnd;i=i+1' mientras='i&lt;N2'">
+   <param name="A_25" value="id='y2' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='N2'">
+   <param name="A_26" value="id='calcul_y2' algoritmo='s&iacute;' evaluar='una-sola-vez' inicio='i=0' hacer='y2[i]=-1.3-i*5/(80*N);i=i+1;' mientras='i&lt;N2'">
+   <param name="A_27" value="id='CALCULOS_2' algoritmo='s&iacute;' evaluar='siempre' inicio='i=0' hacer='vx2[i]=vx20[i]*temp/273;vy2[i]=vy20[i]*temp/273;x2[i]=x2[i]+sx2[i]*vx2[i];y2[i]=y2[i]+sy2[i]*vy2[i];sx2[i]=((x2[i]&lt;-4.4)|(x2[i]&gt;4.4))?-sx2[i]:sx2[i];sy2[i]=((y2[i]&lt;-2)|(y2[i]&gt;2))?-sy2[i]:sy2[i];x2[i]=max(x2[i],-4.4);x2[i]=min(x2[i],4.4);y2[i]=max(y2[i],-2);y2[i]=min(y2[i],2);i=i+1;;' mientras='i&lt;N2'">
+   <param name="G_00" value="espacio='E1' tipo='imagen' dibujar-si='p=0' expresi&oacute;n='(1.5,0.7)' archivo='imagenes3/perfum2.gif'">
+   <param name="G_01" value="espacio='E1' tipo='sucesi&oacute;n' color='35ff0000' expresi&oacute;n='(x2[n],y2[n])' visible='no' dominio='[0,NT*N-1]'">
+   <param name="G_02" value="espacio='E1' tipo='sucesi&oacute;n' color='870000ff' expresi&oacute;n='(x[n],y[n])' visible='no' dominio='[0,NT*N-1]'">
+   <param name="G_03" value="espacio='E1' tipo='imagen' dibujar-si='p&gt;0' expresi&oacute;n='(1.8,-1.2)' archivo='imagenes3/roto.gif'">
+   <param name="G_04" value="espacio='E1' tipo='imagen' dibujar-si='p&gt;0' expresi&oacute;n='(2,-1)' archivo='imagenes3/tapon.gif'">
+   <param name="Animaci&oacute;n" value="pausa='50' controles='no' auto='no' inicio='p=0' hacer='p=(p&gt;95)?0:p;p=p+1' mientras='p&lt;100'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p><a href="3q7_contenidos_2e_1.htm" target="centro" onMouseOver="MM_swapImage('999','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></p>
+</div></td>
+          </tr>
+          <tr>
+            <td height="21" valign="bottom">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen3/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="imagen3/es4.gif" height="8" width="8"></td>
+      <td background="imagen3/bor3.gif" height="8"></td>
+      <td background="imagen3/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"><a href="3q7_contenidos_2d.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+      <td width="30">
+        <div align="center"><a href="3q7_contenidos_3a.htm" target="centro" onMouseOver="MM_swapImage('adelante','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="3q7_contenidos_2e_1.htm" target="centro" onMouseOver="MM_swapImage('999','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen3/adelante.png" alt="siguiente" name="adelante" width="25" height="25" border="0"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vacía para el popup-->
+</div>
+r
+</body>
+</html>

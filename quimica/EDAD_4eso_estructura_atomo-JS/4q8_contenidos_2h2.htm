@@ -1,0 +1,452 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>4q8 8</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="./paracidead1.css" rel="stylesheet" type="text/css">
+
+
+
+<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onload="MM_preloadImages('imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraantes2.png','imagen4/paracont2.png','imagen4/atrasb.png','imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraejer3.png','imagen4/paraejer2.png','imagen4/paraeval3.png','imagen4/paraeval2.png','imagen4/paratut3.png','imagen4/paratut2.png','imagen4/paramas3.png','imagen4/paramas2.png','imagen4/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="4q8_centro.htm" target="centro" onclick="MM_nbGroup('down','group1','antes','imagen4/paraantes3.png',1)" onmouseover="MM_nbGroup('over','antes','imagen4/paraantes2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen4/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen4/paracont2.png','imagen4/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen4/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen4/paraconte.png',1)" border="0"></a></td>
+      <td><a href="4q8_ejercicios_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','ejercicios','imagen4/paraejer3.png',1)" onmouseover="MM_nbGroup('over','ejercicios','imagen4/paraejer2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q8_autoevaluacion_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','autoeval','imagen4/paraeval3.png',1)" onmouseover="MM_nbGroup('over','autoeval','imagen4/paraeval2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="4q8_tutor_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paratutor','imagen4/paratut3.png',1)" onmouseover="MM_nbGroup('over','paratutor','imagen4/paratut2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="4q8_sabermas_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paramas','imagen4/paramas3.png',1)" onmouseover="MM_nbGroup('over','paramas','imagen4/paramas2.png','imagen4/paramas3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen4/es1.gif" height="8" width="8"></td>
+      <td background="imagen4/bor1.gif" height="8"></td>
+      <td background="imagen4/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen4/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="43%" valign="top"> <span class="titulo"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">2. Modelos at&oacute;micos </font></span></td>
+            <td width="57%">
+<div align="right"></div></td>
+          </tr>
+          <tr>
+            <td valign="top"> <p class="subtitulo"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">Configuraci&oacute;n electr&oacute;nica (II) </font></p>
+              <p align="justify"><span class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Para representar la configuraci&oacute;n electr&oacute;nica de un &aacute;tomo se escriben los nombres de los orbitales (1s, 2p, etc.) y se coloca como super&iacute;ndice el n&uacute;mero de electrones que ocupan ese orbital o ese grupo de orbitales.  </font></span></p>
+              <div align="justify">
+                <p class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">El litio tiene n&uacute;mero at&oacute;mico Z = 3, esto quiere decir que tiene 3 electrones en su corteza. Siguiendo el diagrama de M&ouml;eller nos encontramos el orbital 1s, en &eacute;l caben 2 electrones: 1s<span class="superpeque&ntilde;o"><font size="2">2</font></span>. Nos queda por situar 1 electr&oacute;n que ir&aacute; al siguiente orbital: 2s<span class="superpeque&ntilde;o"><font size="2">1</font></span>. Por tanto, la configuraci&oacute;n electr&oacute;nica del litio es: 1s<span class="superpeque&ntilde;o"><font size="2">2</font></span>2s<span class="superpeque&ntilde;o"><font size="2">1.</font></span></font></p>
+                <p class="textopeque"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">El ox&iacute;geno tiene n&uacute;mero at&oacute;mico Z = 8, esto quiere decir que tiene 8 electrones en su corteza. Siguiendo el diagrama de M&ouml;eller nos encontramos el orbital 1s, en &eacute;l caben 2 electrones: 1s<span class="superpeque&ntilde;o"><font size="2">2</font></span>. Nos quedan 6 electrones por situar: 2 entrar&aacute;n en el orbital 2s: 2<font size="2" face="Verdana, Arial, Helvetica, sans-serif" class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">s</font></font><span class="superpeque&ntilde;o">2</span><font size="2" face="Verdana, Arial, Helvetica, sans-serif" class="textonormal"> y los 4 restantes se situar&aacute;n en los 3 orbitales 2p, donde pueden entrar hasta 6 electrones como m&aacute;ximo, si hay menos pues se colocan los que haya: 2p</font><span class="superpeque&ntilde;o">4</span><font size="2" face="Verdana, Arial, Helvetica, sans-serif" class="textonormal">. Su configuraci&oacute;n es: 1s</font><span class="superpeque&ntilde;o">2</span><font size="2" face="Verdana, Arial, Helvetica, sans-serif" class="textonormal">2s</font><span class="superpeque&ntilde;o">2</span><font size="2" face="Verdana, Arial, Helvetica, sans-serif" class="textonormal">2p</font><span class="superpeque&ntilde;o">4</span><font size="2" face="Verdana, Arial, Helvetica, sans-serif" class="textonormal">. </font></font></p>
+              </div>
+            </td>
+            <td valign="top">
+<div align="right">
+                <p>
+
+
+
+<ajs name=""Configuraci&oacute;n electr&oacute;nica"" width=425 height=400
+        code="Descartes.class" codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="nombre" value="Configuraci&oacute;n electr&oacute;nica">
+   <param name="Versi&oacute;n" value="3.92, 2008-06-25">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=si limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='si' despl_imagen='arr-izq' fondo='f1f1f1' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="id='Z' tipo='num&eacute;rico' interfaz='men&uacute;' decimales='0' visible='si' opciones='Elige un elemento,Hidr&oacute;geno (H),Helio (He),Litio (Li),Berilio (Be),Boro (B),Carbono (C),Nitr&oacute;geno (N),Ox&iacute;geno (O),Fl&uacute;or (F),Ne&oacute;n (Ne),Sodio (Na),Magnesio (Mg),Aluminio (Al),Silicio (Si),F&oacute;sforo (P),Azufre (S),Cloro (Cl),Arg&oacute;n (Ar),Potasio (K),Calcio (Ca),Escandio (Sc),Titanio (Ti),Vanadio (V),Cromo (Cr),Manganeso (Mn),Hierro (Fe),Cobalto (Co),N&iacute;quel (Ni),Cobre (Cu),Cinc (Zn),Galio (Ga),Germanio (Ge),Ars&eacute;nico (As),Selenio (Se),Bromo (Br),Cript&oacute;n (Kr),Rubidio (Rb),Estroncio (Sr),Itrio (Y),Circonio (Zr),Niobio (Nb),Molibdeno (Mo),Tecnecio (Tc),Rutenio (Ru),Rodio (Rh),Paladio (Pd),Plata (Ag),Cadmio (Cd),Indio (In),Esta&ntilde;o (Sn),Antimonio (Sb),Teluro (Te),Yodo (I),Xen&oacute;n (Xe),Cesio (Cs),Bario (Ba),Lantano (La),Cerio (Ce),Praseodimio (Pr),Neodimio (Nd),Prometio (Pm),Samario (Sm),Europio (Eu),Gadolinio (Gd),Terbio (Tb),Disprosio (Dy),Holmio (Ho),Erbio (Er),Tulio (Tm),Iterbio (Yb),Lutecio (Lu),Hafnio (Hf),T&aacute;ntalo (Ta),Wolframio (W),Renio (Re),Osmio (Os),Iridio (Ir),Platino (Pt),Oro (Au),Mercurio (Hg),Talio (Tl),Plomo (Pb),Bismuto (Bi),Polonio (Po),Astato (At),Rad&oacute;n (Rn),Francio (Fr),Radio (Ra),Actinio (Ac),Torio (Th),Protactinio (Pa),Uranio (U),Neptunio (Np),Plutonio (Pu),Americio (Am),Curio (Cm),Berkelio (Bk),Californio (Cf),Einstenio (Es),Fermio (Fm),Mendelevio (Md),Nobelio (No),Lawrencio (Lr),Rutherfordio (Rf),Dubnio (Db),Seaborgio (Sg),Bohrio (Bh),Hassio (Hs),Meitnerio (Mt),Ununnilio (Uun),Unununio (Uuu),Ununbio (Uub),Ununtrio (Uut),Ununquadio (Uuq),Ununpentio (Uup),Ununhexio (Uuh),Ununseptio (Uus),Ununoctio (Uuo)' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="C_01" value="id='Ayuda' tipo='num&eacute;rico' interfaz='bot&oacute;n' nombre='Ayuda' visible='si' acci&oacute;n='mensaje' par&aacute;metro='Pulsa sobre el men&uacute; inferior y elige uno de los elementos existentes.\nLos elementos est&aacute;n ordenados en funci&oacute;n de sus n&uacute;meros at&oacute;micos, desde 1 hasta 118.\nAl elegir un elemento ver&aacute;s su configuraci&oacute;n electr&oacute;nica escrita y representada mediante recuadros o cajas donde veremos la colocaci&oacute;n de los electrones.' pos_mensajes='centro'">
+   <param name="C_02" value="id='n3' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='interior' expresi&oacute;n='(270,0,150,20)' nombre='Excepciones' visible='si' acci&oacute;n='abrir URL' par&aacute;metro='http://es.wikipedia.org/wiki/Configuraci%C3%B3n_electr%C3%B3nica_de_los_elementos_qu%C3%ADmicos' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n='Excepciones a la Regla de M&ouml;eller' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="G_00" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,10)(25,10)(25,25)(10,25)(10,10)'">
+   <param name="G_01" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(45,10)(60,10)(60,25)(45,25)(45,10)'">
+   <param name="G_02" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(60,10)(75,10)(75,25)(60,25)(60,10)'">
+   <param name="G_03" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(75,10)(90,10)(90,25)(75,25)(75,10)'">
+   <param name="G_04" value="tipo='texto' color='azul' expresi&oacute;n='[7,28]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 7s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_05" value="tipo='texto' color='azul' expresi&oacute;n='[57,28]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 7p\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_06" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,50)(25,50)(25,65)(10,65)(10,50)'">
+   <param name="G_07" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(45,50)(60,50)(60,65)(45,65)(45,50)'">
+   <param name="G_08" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(60,50)(75,50)(75,65)(60,65)(60,50)'">
+   <param name="G_09" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(75,50)(90,50)(90,65)(75,65)(75,50)'">
+   <param name="G_10" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(110,50)(125,50)(125,65)(110,65)(110,50)'">
+   <param name="G_11" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(125,50)(140,50)(140,65)(125,65)(125,50)'">
+   <param name="G_12" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(140,50)(155,50)(155,65)(140,65)(140,50)'">
+   <param name="G_13" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(155,50)(170,50)(170,65)(155,65)(155,50)'">
+   <param name="G_14" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(170,50)(185,50)(185,65)(170,65)(170,50)'">
+   <param name="G_15" value="tipo='texto' color='azul' expresi&oacute;n='[7,68]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 6s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_16" value="tipo='texto' color='azul' expresi&oacute;n='[57,68]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 6p\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_17" value="tipo='texto' color='azul' expresi&oacute;n='[137,68]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 6d\f2\fs24\b0\cf1\par}' fuente='Arial,BOLD,12'">
+   <param name="G_18" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,90)(25,90)(25,105)(10,105)(10,90)'">
+   <param name="G_19" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(45,90)(60,90)(60,105)(45,105)(45,90)'">
+   <param name="G_20" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(60,90)(75,90)(75,105)(60,105)(60,90)'">
+   <param name="G_21" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(75,90)(90,90)(90,105)(75,105)(75,90)'">
+   <param name="G_22" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(110,90)(125,90)(125,105)(110,105)(110,90)'">
+   <param name="G_23" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(125,90)(140,90)(140,105)(125,105)(125,90)'">
+   <param name="G_24" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(140,90)(155,90)(155,105)(140,105)(140,90)'">
+   <param name="G_25" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(155,90)(170,90)(170,105)(155,105)(155,90)'">
+   <param name="G_26" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(170,90)(185,90)(185,105)(170,105)(170,90)'">
+   <param name="G_27" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(205,90)(220,90)(220,105)(205,105)(205,90)'">
+   <param name="G_28" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(220,90)(235,90)(235,105)(220,105)(220,90)'">
+   <param name="G_29" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(235,90)(250,90)(250,105)(235,105)(235,90)'">
+   <param name="G_30" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(250,90)(265,90)(265,105)(250,105)(250,90)'">
+   <param name="G_31" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(265,90)(280,90)(280,105)(265,105)(265,90)'">
+   <param name="G_32" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(280,90)(295,90)(295,105)(280,105)(280,90)'">
+   <param name="G_33" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(295,90)(310,90)(310,105)(295,105)(295,90)'">
+   <param name="G_34" value="tipo='texto' color='azul' expresi&oacute;n='[7,108]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 5s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_35" value="tipo='texto' color='azul' expresi&oacute;n='[57,108]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 5p\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_36" value="tipo='texto' color='azul' expresi&oacute;n='[137,108]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 5d\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_37" value="tipo='texto' color='azul' expresi&oacute;n='[247,108]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 5f\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_38" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,130)(25,130)(25,145)(10,145)(10,130)'">
+   <param name="G_39" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(45,130)(60,130)(60,145)(45,145)(45,130)'">
+   <param name="G_40" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(60,130)(75,130)(75,145)(60,145)(60,130)'">
+   <param name="G_41" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(75,130)(90,130)(90,145)(75,145)(75,130)'">
+   <param name="G_42" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(110,130)(125,130)(125,145)(110,145)(110,130)'">
+   <param name="G_43" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(125,130)(140,130)(140,145)(125,145)(125,130)'">
+   <param name="G_44" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(140,130)(155,130)(155,145)(140,145)(140,130)'">
+   <param name="G_45" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(155,130)(170,130)(170,145)(155,145)(155,130)'">
+   <param name="G_46" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(170,130)(185,130)(185,145)(170,145)(170,130)'">
+   <param name="G_47" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(205,130)(220,130)(220,145)(205,145)(205,130)'">
+   <param name="G_48" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(220,130)(235,130)(235,145)(220,145)(220,130)'">
+   <param name="G_49" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(235,130)(250,130)(250,145)(235,145)(235,130)'">
+   <param name="G_50" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(250,130)(265,130)(265,145)(250,145)(250,130)'">
+   <param name="G_51" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(265,130)(280,130)(280,145)(265,145)(265,130)'">
+   <param name="G_52" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(280,130)(295,130)(295,145)(280,145)(280,130)'">
+   <param name="G_53" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(295,130)(310,130)(310,145)(295,145)(295,130)'">
+   <param name="G_54" value="tipo='texto' color='azul' expresi&oacute;n='[7,148]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 4s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_55" value="tipo='texto' color='azul' expresi&oacute;n='[57,148]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 4p\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_56" value="tipo='texto' color='azul' expresi&oacute;n='[137,148]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 4d\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_57" value="tipo='texto' color='azul' expresi&oacute;n='[247,148]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 4f\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_58" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,170)(25,170)(25,185)(10,185)(10,170)'">
+   <param name="G_59" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(45,170)(60,170)(60,185)(45,185)(45,170)'">
+   <param name="G_60" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(60,170)(75,170)(75,185)(60,185)(60,170)'">
+   <param name="G_61" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(75,170)(90,170)(90,185)(75,185)(75,170)'">
+   <param name="G_62" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(110,170)(125,170)(125,185)(110,185)(110,170)'">
+   <param name="G_63" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(125,170)(140,170)(140,185)(125,185)(125,170)'">
+   <param name="G_64" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(140,170)(155,170)(155,185)(140,185)(140,170)'">
+   <param name="G_65" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(155,170)(170,170)(170,185)(155,185)(155,170)'">
+   <param name="G_66" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(170,170)(185,170)(185,185)(170,185)(170,170)'">
+   <param name="G_67" value="tipo='texto' color='azul' expresi&oacute;n='[7,188]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 3s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_68" value="tipo='texto' color='azul' expresi&oacute;n='[57,188]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 3p\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_69" value="tipo='texto' color='azul' expresi&oacute;n='[137,188]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 3d\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_70" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,210)(25,210)(25,225)(10,225)(10,210)'">
+   <param name="G_71" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(45,210)(60,210)(60,225)(45,225)(45,210)'">
+   <param name="G_72" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(60,210)(75,210)(75,225)(60,225)(60,210)'">
+   <param name="G_73" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(75,210)(90,210)(90,225)(75,225)(75,210)'">
+   <param name="G_74" value="tipo='texto' color='azul' expresi&oacute;n='[7,228]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 2s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_75" value="tipo='texto' color='azul' expresi&oacute;n='[57,228]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 2p\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_76" value="tipo='pol&iacute;gono' color='000099' coord_abs='si' expresi&oacute;n='(10,250)(25,250)(25,265)(10,265)(10,250)'">
+   <param name="G_77" value="tipo='texto' color='azul' expresi&oacute;n='[7,268]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 1s\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_78" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;0' coord_abs='si' expresi&oacute;n='(15,253)(15,262)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_79" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;1' coord_abs='si' expresi&oacute;n='(20,253)(20,262)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_80" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;2' coord_abs='si' expresi&oacute;n='(15,213)(15,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_81" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;3' coord_abs='si' expresi&oacute;n='(20,213)(20,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_82" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;4' coord_abs='si' expresi&oacute;n='(50,213)(50,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_83" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;5' coord_abs='si' expresi&oacute;n='(65,213)(65,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_84" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;6' coord_abs='si' expresi&oacute;n='(80,213)(80,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_85" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;7' coord_abs='si' expresi&oacute;n='(55,213)(55,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_86" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;8' coord_abs='si' expresi&oacute;n='(70,213)(70,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_87" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;9' coord_abs='si' expresi&oacute;n='(85,213)(85,222)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_88" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;10' coord_abs='si' expresi&oacute;n='(15,173)(15,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_89" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;11' coord_abs='si' expresi&oacute;n='(20,173)(20,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_90" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;12' coord_abs='si' expresi&oacute;n='(50,173)(50,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_91" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;13' coord_abs='si' expresi&oacute;n='(65,173)(65,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_92" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;14' coord_abs='si' expresi&oacute;n='(80,173)(80,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_93" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;15' coord_abs='si' expresi&oacute;n='(55,173)(55,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_94" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;16' coord_abs='si' expresi&oacute;n='(70,173)(70,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_95" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;17' coord_abs='si' expresi&oacute;n='(85,173)(85,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_96" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;18' coord_abs='si' expresi&oacute;n='(15,133)(15,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_97" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;19' coord_abs='si' expresi&oacute;n='(20,133)(20,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_98" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;20' coord_abs='si' expresi&oacute;n='(115,173)(115,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_99" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;21' coord_abs='si' expresi&oacute;n='(130,173)(130,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_100" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;22' coord_abs='si' expresi&oacute;n='(145,173)(145,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_101" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;23' coord_abs='si' expresi&oacute;n='(160,173)(160,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_102" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;24' coord_abs='si' expresi&oacute;n='(175,173)(175,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_103" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;25' coord_abs='si' expresi&oacute;n='(120,173)(120,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_104" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;26' coord_abs='si' expresi&oacute;n='(135,173)(135,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_105" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;27' coord_abs='si' expresi&oacute;n='(150,173)(150,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_106" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;28' coord_abs='si' expresi&oacute;n='(165,173)(165,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_107" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;29' coord_abs='si' expresi&oacute;n='(180,173)(180,182)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_108" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;30' coord_abs='si' expresi&oacute;n='(50,133)(50,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_109" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;31' coord_abs='si' expresi&oacute;n='(65,133)(65,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_110" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;32' coord_abs='si' expresi&oacute;n='(80,133)(80,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_111" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;33' coord_abs='si' expresi&oacute;n='(55,133)(55,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_112" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;34' coord_abs='si' expresi&oacute;n='(70,133)(70,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_113" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;35' coord_abs='si' expresi&oacute;n='(85,133)(85,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_114" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;36' coord_abs='si' expresi&oacute;n='(15,93)(15,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_115" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;37' coord_abs='si' expresi&oacute;n='(20,93)(20,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_116" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;38' coord_abs='si' expresi&oacute;n='(115,133)(115,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_117" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;39' coord_abs='si' expresi&oacute;n='(130,133)(130,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_118" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;40' coord_abs='si' expresi&oacute;n='(145,133)(145,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_119" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;41' coord_abs='si' expresi&oacute;n='(160,133)(160,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_120" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;42' coord_abs='si' expresi&oacute;n='(175,133)(175,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_121" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;43' coord_abs='si' expresi&oacute;n='(120,133)(120,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_122" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;44' coord_abs='si' expresi&oacute;n='(135,133)(135,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_123" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;45' coord_abs='si' expresi&oacute;n='(150,133)(150,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_124" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;46' coord_abs='si' expresi&oacute;n='(165,133)(165,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_125" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;47' coord_abs='si' expresi&oacute;n='(180,133)(180,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_126" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;48' coord_abs='si' expresi&oacute;n='(50,93)(50,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_127" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;49' coord_abs='si' expresi&oacute;n='(65,93)(65,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_128" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;50' coord_abs='si' expresi&oacute;n='(80,93)(80,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_129" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;51' coord_abs='si' expresi&oacute;n='(55,93)(55,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_130" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;52' coord_abs='si' expresi&oacute;n='(70,93)(70,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_131" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;53' coord_abs='si' expresi&oacute;n='(85,93)(85,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_132" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;54' coord_abs='si' expresi&oacute;n='(15,53)(15,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_133" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;55' coord_abs='si' expresi&oacute;n='(20,53)(20,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_134" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;56' coord_abs='si' expresi&oacute;n='(210,133)(210,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_135" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;57' coord_abs='si' expresi&oacute;n='(225,133)(225,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_136" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;58' coord_abs='si' expresi&oacute;n='(240,133)(240,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_137" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;59' coord_abs='si' expresi&oacute;n='(255,133)(255,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_138" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;60' coord_abs='si' expresi&oacute;n='(270,133)(270,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_139" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;61' coord_abs='si' expresi&oacute;n='(285,133)(285,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_140" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;62' coord_abs='si' expresi&oacute;n='(300,133)(300,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_141" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;63' coord_abs='si' expresi&oacute;n='(215,133)(215,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_142" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;64' coord_abs='si' expresi&oacute;n='(230,133)(230,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_143" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;65' coord_abs='si' expresi&oacute;n='(245,133)(245,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_144" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;66' coord_abs='si' expresi&oacute;n='(260,133)(260,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_145" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;67' coord_abs='si' expresi&oacute;n='(275,133)(275,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_146" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;68' coord_abs='si' expresi&oacute;n='(290,133)(290,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_147" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;69' coord_abs='si' expresi&oacute;n='(305,133)(305,142)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_148" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;70' coord_abs='si' expresi&oacute;n='(115,93)(115,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_149" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;71' coord_abs='si' expresi&oacute;n='(130,93)(130,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_150" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;72' coord_abs='si' expresi&oacute;n='(145,93)(145,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_151" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;73' coord_abs='si' expresi&oacute;n='(160,93)(160,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_152" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;74' coord_abs='si' expresi&oacute;n='(175,93)(175,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_153" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;75' coord_abs='si' expresi&oacute;n='(120,93)(120,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_154" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;76' coord_abs='si' expresi&oacute;n='(135,93)(135,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_155" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;77' coord_abs='si' expresi&oacute;n='(150,93)(150,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_156" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;78' coord_abs='si' expresi&oacute;n='(165,93)(165,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_157" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;79' coord_abs='si' expresi&oacute;n='(180,93)(180,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_158" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;80' coord_abs='si' expresi&oacute;n='(50,53)(50,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_159" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;81' coord_abs='si' expresi&oacute;n='(65,53)(65,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_160" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;82' coord_abs='si' expresi&oacute;n='(80,53)(80,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_161" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;83' coord_abs='si' expresi&oacute;n='(55,53)(55,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_162" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;84' coord_abs='si' expresi&oacute;n='(70,53)(70,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_163" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;85' coord_abs='si' expresi&oacute;n='(85,53)(85,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_164" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;86' coord_abs='si' expresi&oacute;n='(15,13)(15,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_165" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;87' coord_abs='si' expresi&oacute;n='(20,13)(20,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_166" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;88' coord_abs='si' expresi&oacute;n='(210,93)(210,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_167" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;89' coord_abs='si' expresi&oacute;n='(225,93)(225,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_168" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;90' coord_abs='si' expresi&oacute;n='(240,93)(240,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_169" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;91' coord_abs='si' expresi&oacute;n='(255,93)(255,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_170" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;92' coord_abs='si' expresi&oacute;n='(270,93)(270,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_171" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;93' coord_abs='si' expresi&oacute;n='(285,93)(285,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_172" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;94' coord_abs='si' expresi&oacute;n='(300,93)(300,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_173" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;95' coord_abs='si' expresi&oacute;n='(215,93)(215,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_174" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;96' coord_abs='si' expresi&oacute;n='(230,93)(230,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_175" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;97' coord_abs='si' expresi&oacute;n='(245,93)(245,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_176" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;98' coord_abs='si' expresi&oacute;n='(260,93)(260,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_177" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;99' coord_abs='si' expresi&oacute;n='(275,93)(275,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_178" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;100' coord_abs='si' expresi&oacute;n='(290,93)(290,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_179" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;101' coord_abs='si' expresi&oacute;n='(305,93)(305,102)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_180" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;102' coord_abs='si' expresi&oacute;n='(115,53)(115,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_181" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;103' coord_abs='si' expresi&oacute;n='(130,53)(130,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_182" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;104' coord_abs='si' expresi&oacute;n='(145,53)(145,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_183" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;105' coord_abs='si' expresi&oacute;n='(160,53)(160,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_184" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;106' coord_abs='si' expresi&oacute;n='(175,53)(175,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_185" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;107' coord_abs='si' expresi&oacute;n='(120,53)(120,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_186" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;108' coord_abs='si' expresi&oacute;n='(135,53)(135,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_187" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;109' coord_abs='si' expresi&oacute;n='(150,53)(150,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_188" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;110' coord_abs='si' expresi&oacute;n='(165,53)(165,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_189" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;111' coord_abs='si' expresi&oacute;n='(180,53)(180,62)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_190" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;112' coord_abs='si' expresi&oacute;n='(50,13)(50,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_191" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;113' coord_abs='si' expresi&oacute;n='(65,13)(65,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_192" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;114' coord_abs='si' expresi&oacute;n='(80,13)(80,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_193" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;115' coord_abs='si' expresi&oacute;n='(55,13)(55,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_194" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;116' coord_abs='si' expresi&oacute;n='(70,13)(70,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_195" value="tipo='segmento' color='rojo' dibujar-si='Z&gt;117' coord_abs='si' expresi&oacute;n='(85,13)(85,22)' tama&ntilde;o='1' ancho='2'">
+   <param name="G_196" value="tipo='texto' color='azul' expresi&oacute;n='[5,290]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs24\b\ul Configuraci\u243 n electr\u243 nica\ulnone  (Z = {\*\mjaformula{\expr Z\decimals 0\fixed1}}):\f3\fs24\b0\cf1\par}' fuente='Arial,BOLD,12'">
+   <param name="G_197" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=113)&amp;(Z&lt;119)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix 14}}5d{\*\mjaformula{\supix 10}}6p{\*\mjaformula{\supix 6}}7s{\*\mjaformula{\supix 2}}\par 5f{\*\mjaformula{\supix 14}}6d{\*\mjaformula{\supix 10}}7p{\*\mjaformula{\supix{\expr Z-112\decimals 0\fixed1}}}\cf1\f2\fs32\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_198" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=103)&amp;(Z&lt;113)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix 14}}5d{\*\mjaformula{\supix 10}}6p{\*\mjaformula{\supix 6}}7s{\*\mjaformula{\supix 2}}\par 5f{\*\mjaformula{\supix 14}}6d{\*\mjaformula{\supix{\expr Z-102\decimals 0\fixed1}}}\cf1\f2\fs32\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_199" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=89)&amp;(Z&lt;103)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix 14}}5d{\*\mjaformula{\supix 10}}6p{\*\mjaformula{\supix 6}}7s{\*\mjaformula{\supix 2}}5f{\*\mjaformula{\supix{\expr Z-88\decimals 0\fixed1}}}\cf1\f2\fs32\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_200" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=87)&amp;(Z&lt;89)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix 14}}5d{\*\mjaformula{\supix 10}}6p{\*\mjaformula{\supix 6}}7s{\*\mjaformula{\supix{\expr Z-86\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_201" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=81)&amp;(Z&lt;87)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix 14}}5d{\*\mjaformula{\supix 10}}6p{\*\mjaformula{\supix{\expr Z-80\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_202" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=71)&amp;(Z&lt;81)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix 14}}5d{\*\mjaformula{\supix{\expr Z-70\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_203" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=57)&amp;(Z&lt;71)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix 2}}4f{\*\mjaformula{\supix{\expr Z-56\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_204" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=55)&amp;(Z&lt;57)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix 6}}6s{\*\mjaformula{\supix{\expr Z-54\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_205" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=49)&amp;(Z&lt;55)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix 10}}5p{\*\mjaformula{\supix{\expr Z-48\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_206" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=39)&amp;(Z&lt;49)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula\f2\fs32{\supix 2}}4d{\*\mjaformula{\supix{\expr Z-38\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_207" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=37)&amp;(Z&lt;39)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix 6}}5s{\*\mjaformula{\supix{\expr Z-36\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_208" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=31)&amp;(Z&lt;37)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix 10}}4p{\*\mjaformula{\supix{\expr Z-30\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_209" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=21)&amp;(Z&lt;31)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix 2}}3d{\*\mjaformula{\supix{\expr Z-20\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_210" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=19)&amp;(Z&lt;21)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix 6}}4s{\*\mjaformula{\supix{\expr Z-18\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_211" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=13)&amp;(Z&lt;19)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix 2}}3p{\*\mjaformula{\supix{\expr Z-12\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_212" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=11)&amp;(Z&lt;13)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix{\expr Z-10\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_213" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=5)&amp;(Z&lt;11)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix{\expr Z-4\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_214" value="tipo='texto' color='azul' dibujar-si='(Z&gt;=3)&amp;(Z&lt;5)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix{\expr Z-2\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_215" value="tipo='texto' color='azul' dibujar-si='(Z&gt;0)&amp;(Z&lt;3)' expresi&oacute;n='[5,312]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix{\expr Z\decimals 0\fixed1}}}\f2\fs32\cf1\par}' fuente='Arial,PLAIN,14'">
+</ajs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </p>
+              </div></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen4/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+	    <td background="imagen4/es4.gif" height="8" width="8"></td>
+      <td background="imagen4/bor3.gif" height="8"></td>
+      <td background="imagen4/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"><a href="4q8_contenidos_2h.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen4/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen4/atras.png" alt="anterior" name="atras" width="25" height="25" border="0"></a></div></td>
+      <td width="30">
+        <div align="center"></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vacía para el popup-->
+</div>
+</body>
+</html>

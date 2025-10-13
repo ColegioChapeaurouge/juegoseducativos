@@ -1,0 +1,189 @@
+<html>
+<head>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+<ajs name="grafito_amp" width=630 height=570
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="630x570">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="grafito_amp">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R3' id='E3' x='0' y='0' O.x='-110' O.y='120' despl_imagen='arr-izq' fondo='f1f1f1' R3='s&iacute;'">
+   <param name="A_01" value="id='x_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='165' archivo='grafito_x.txt'">
+   <param name="A_02" value="id='y_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='165' archivo='grafito_y.txt'">
+   <param name="A_03" value="id='z_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='165' archivo='grafito_z.txt'">
+   <param name="A_04" value="id='escala_g' constante='s&iacute;' expresi&oacute;n='.60' evaluar='una-sola-vez'">
+   <param name="A_05" value="id='e_g' constante='s&iacute;' expresi&oacute;n='escala_g' evaluar='una-sola-vez'">
+   <param name="S_01" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_02" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_03" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_04" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_05" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_06" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_07" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_08" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_09" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_10" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_11" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_12" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_13" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_14" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_15" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_16" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_17" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_18" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_19" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_20" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_21" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_22" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_23" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_24" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[27]*e_g,y_g[27]*e_g,z_g[27]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_25" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[28]*e_g,y_g[28]*e_g,z_g[28]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_26" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[29]*e_g,y_g[29]*e_g,z_g[29]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_27" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[30]*e_g,y_g[30]*e_g,z_g[30]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_28" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[31]*e_g,y_g[31]*e_g,z_g[31]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_29" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[32]*e_g,y_g[32]*e_g,z_g[32]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_30" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[33]*e_g,y_g[33]*e_g,z_g[33]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_31" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[34]*e_g,y_g[34]*e_g,z_g[34]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_32" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[35]*e_g,y_g[35]*e_g,z_g[35]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_33" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[36]*e_g,y_g[36]*e_g,z_g[36]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_34" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[37]*e_g,y_g[37]*e_g,z_g[37]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_35" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[38]*e_g,y_g[38]*e_g,z_g[38]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_36" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[39]*e_g,y_g[39]*e_g,z_g[39]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_37" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[40]*e_g,y_g[40]*e_g,z_g[40]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_38" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[41]*e_g,y_g[41]*e_g,z_g[41]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_39" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[42]*e_g,y_g[42]*e_g,z_g[42]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_40" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[43]*e_g,y_g[43]*e_g,z_g[43]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_41" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[44]*e_g,y_g[44]*e_g,z_g[44]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_42" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[45]*e_g,y_g[45]*e_g,z_g[45]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_43" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[46]*e_g,y_g[46]*e_g,z_g[46]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_44" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[47]*e_g,y_g[47]*e_g,z_g[47]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_45" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[48]*e_g,y_g[48]*e_g,z_g[48]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_46" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[49]*e_g,y_g[49]*e_g,z_g[49]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_47" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[50]*e_g,y_g[50]*e_g,z_g[50]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_48" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[51]*e_g,y_g[51]*e_g,z_g[51]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_49" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[52]*e_g,y_g[52]*e_g,z_g[52]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_50" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[53]*e_g,y_g[53]*e_g,z_g[53]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_51" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[54]*e_g,y_g[54]*e_g,z_g[54]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_52" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[55]*e_g,y_g[55]*e_g,z_g[55]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_53" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[56]*e_g,y_g[56]*e_g,z_g[56]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_54" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[57]*e_g,y_g[57]*e_g,z_g[57]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_55" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[58]*e_g,y_g[58]*e_g,z_g[58]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_56" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[59]*e_g,y_g[59]*e_g,z_g[59]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_57" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[60]*e_g,y_g[60]*e_g,z_g[60]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_58" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[61]*e_g,y_g[61]*e_g,z_g[61]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_59" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[62]*e_g,y_g[62]*e_g,z_g[62]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_60" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[63]*e_g,y_g[63]*e_g,z_g[63]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_61" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[64]*e_g,y_g[64]*e_g,z_g[64]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_62" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[65]*e_g,y_g[65]*e_g,z_g[65]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_63" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[66]*e_g,y_g[66]*e_g,z_g[66]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_64" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[67]*e_g,y_g[67]*e_g,z_g[67]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_65" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[68]*e_g,y_g[68]*e_g,z_g[68]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_66" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[69]*e_g,y_g[69]*e_g,z_g[69]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_67" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[70]*e_g,y_g[70]*e_g,z_g[70]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_68" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[71]*e_g,y_g[71]*e_g,z_g[71]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_69" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[72]*e_g,y_g[72]*e_g,z_g[72]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_70" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[73]*e_g,y_g[73]*e_g,z_g[73]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_71" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[74]*e_g,y_g[74]*e_g,z_g[74]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_72" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[75]*e_g,y_g[75]*e_g,z_g[75]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_73" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[76]*e_g,y_g[76]*e_g,z_g[76]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_74" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[77]*e_g,y_g[77]*e_g,z_g[77]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_75" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[78]*e_g,y_g[78]*e_g,z_g[78]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_76" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[79]*e_g,y_g[79]*e_g,z_g[79]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_77" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[80]*e_g,y_g[80]*e_g,z_g[80]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_78" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[81]*e_g,y_g[81]*e_g,z_g[81]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_79" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[82]*e_g,y_g[82]*e_g,z_g[82]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_80" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[83]*e_g,y_g[83]*e_g,z_g[83]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_81" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[84]*e_g,y_g[84]*e_g,z_g[84]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_82" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[85]*e_g,y_g[85]*e_g,z_g[85]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_83" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[86]*e_g,y_g[86]*e_g,z_g[86]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_84" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[87]*e_g,y_g[87]*e_g,z_g[87]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_85" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[88]*e_g,y_g[88]*e_g,z_g[88]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_86" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[89]*e_g,y_g[89]*e_g,z_g[89]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_87" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[90]*e_g,y_g[90]*e_g,z_g[90]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_88" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[91]*e_g,y_g[91]*e_g,z_g[91]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_89" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[92]*e_g,y_g[92]*e_g,z_g[92]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_90" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[93]*e_g,y_g[93]*e_g,z_g[93]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_91" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[94]*e_g,y_g[94]*e_g,z_g[94]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_92" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[95]*e_g,y_g[95]*e_g,z_g[95]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_93" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[96]*e_g,y_g[96]*e_g,z_g[96]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_94" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[97]*e_g,y_g[97]*e_g,z_g[97]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_95" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[98]*e_g,y_g[98]*e_g,z_g[98]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_96" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[99]*e_g,y_g[99]*e_g,z_g[99]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_97" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[100]*e_g,y_g[100]*e_g,z_g[100]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_98" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[101]*e_g,y_g[101]*e_g,z_g[101]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_99" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[102]*e_g,y_g[102]*e_g,z_g[102]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_100" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[103]*e_g,y_g[103]*e_g,z_g[103]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_101" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[104]*e_g,y_g[104]*e_g,z_g[104]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_102" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[105]*e_g,y_g[105]*e_g,z_g[105]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_103" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[106]*e_g,y_g[106]*e_g,z_g[106]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_104" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[107]*e_g,y_g[107]*e_g,z_g[107]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_105" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[108]*e_g,y_g[108]*e_g,z_g[108]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_106" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[109]*e_g,y_g[109]*e_g,z_g[109]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_107" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[110]*e_g,y_g[110]*e_g,z_g[110]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_108" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[111]*e_g,y_g[111]*e_g,z_g[111]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_109" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[112]*e_g,y_g[112]*e_g,z_g[112]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_110" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[113]*e_g,y_g[113]*e_g,z_g[113]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_111" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[114]*e_g,y_g[114]*e_g,z_g[114]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_112" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[115]*e_g,y_g[115]*e_g,z_g[115]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_113" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[116]*e_g,y_g[116]*e_g,z_g[116]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_114" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[117]*e_g,y_g[117]*e_g,z_g[117]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_115" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[118]*e_g,y_g[118]*e_g,z_g[118]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_116" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[119]*e_g,y_g[119]*e_g,z_g[119]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_117" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[120]*e_g,y_g[120]*e_g,z_g[120]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_118" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[121]*e_g,y_g[121]*e_g,z_g[121]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_119" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[122]*e_g,y_g[122]*e_g,z_g[122]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_120" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[123]*e_g,y_g[123]*e_g,z_g[123]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_121" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[124]*e_g,y_g[124]*e_g,z_g[124]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_122" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[125]*e_g,y_g[125]*e_g,z_g[125]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_123" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[126]*e_g,y_g[126]*e_g,z_g[126]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_124" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[127]*e_g,y_g[127]*e_g,z_g[127]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_125" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[128]*e_g,y_g[128]*e_g,z_g[128]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_126" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[129]*e_g,y_g[129]*e_g,z_g[129]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_127" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[130]*e_g,y_g[130]*e_g,z_g[130]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_128" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[131]*e_g,y_g[131]*e_g,z_g[131]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_129" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[132]*e_g,y_g[132]*e_g,z_g[132]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_130" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[133]*e_g,y_g[133]*e_g,z_g[133]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_131" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[134]*e_g,y_g[134]*e_g,z_g[134]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_132" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[135]*e_g,y_g[135]*e_g,z_g[135]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_133" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[136]*e_g,y_g[136]*e_g,z_g[136]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_134" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[137]*e_g,y_g[137]*e_g,z_g[137]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_135" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[138]*e_g,y_g[138]*e_g,z_g[138]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_136" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[139]*e_g,y_g[139]*e_g,z_g[139]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_137" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[140]*e_g,y_g[140]*e_g,z_g[140]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_138" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[141]*e_g,y_g[141]*e_g,z_g[141]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_139" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[142]*e_g,y_g[142]*e_g,z_g[142]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_140" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[143]*e_g,y_g[143]*e_g,z_g[143]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_141" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[144]*e_g,y_g[144]*e_g,z_g[144]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_142" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[145]*e_g,y_g[145]*e_g,z_g[145]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_143" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[146]*e_g,y_g[146]*e_g,z_g[146]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_144" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[147]*e_g,y_g[147]*e_g,z_g[147]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_145" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[148]*e_g,y_g[148]*e_g,z_g[148]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_146" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[149]*e_g,y_g[149]*e_g,z_g[149]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_147" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[150]*e_g,y_g[150]*e_g,z_g[150]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_148" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[151]*e_g,y_g[151]*e_g,z_g[151]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_149" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[152]*e_g,y_g[152]*e_g,z_g[152]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_150" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[153]*e_g,y_g[153]*e_g,z_g[153]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_151" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[154]*e_g,y_g[154]*e_g,z_g[154]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_152" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[155]*e_g,y_g[155]*e_g,z_g[155]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_153" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[156]*e_g,y_g[156]*e_g,z_g[156]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_154" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[157]*e_g,y_g[157]*e_g,z_g[157]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_155" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[158]*e_g,y_g[158]*e_g,z_g[158]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_156" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[159]*e_g,y_g[159]*e_g,z_g[159]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_157" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[160]*e_g,y_g[160]*e_g,z_g[160]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_158" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[161]*e_g,y_g[161]*e_g,z_g[161]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_159" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[162]*e_g,y_g[162]*e_g,z_g[162]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_160" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[163]*e_g,y_g[163]*e_g,z_g[163]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="S_161" value="espacio='E3' tipo='punto' color_reverso='negro' expresi&oacute;n='(x_g[164]*e_g,y_g[164]*e_g,z_g[164]*e_g)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='16'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='t=0' hacer='t=t+0.04;E3.rot.z=E3.rot.z+1' mientras='t&lt;10'">
+</ajs>
+</html>

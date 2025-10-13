@@ -1,0 +1,46 @@
+<applet name="H2SO4" width=400 height=420
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="H2SO4">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no alto=20">
+   <param name="E_00" value="tipo='R3' id='E1' ancho='400' alto='420' O.y='140' despl_imagen='arr-izq' fondo='fffff1' R3='s&iacute;'">
+   <param name="C_00" value="id='n1' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Animar/parar' visible='s&iacute;' acci&oacute;n='animar' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='escala' constante='s&iacute;' expresi&oacute;n='0.5' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='e' constante='s&iacute;' expresi&oacute;n='escala' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='x' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='7' archivo='escenas/sulfurico/H2SO4_x.txt'">
+   <param name="A_03" value="id='y' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='7' archivo='escenas/sulfurico/H2SO4_y.txt'">
+   <param name="A_04" value="id='z' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='7' archivo='escenas/sulfurico/H2SO4_z.txt'">
+   <param name="A_05" value="id='a' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='12' archivo='escenas/sulfurico/H2SO4_a.txt'">
+   <param name="A_06" value="id='b' vector='s&iacute;' evaluar='siempre' tama&ntilde;o='12' archivo='escenas/sulfurico/H2SO4_b.txt'">
+   <param name="A_07" value="id='rH' constante='s&iacute;' expresi&oacute;n='0.37' evaluar='una-sola-vez'">
+   <param name="A_08" value="id='rO' constante='s&iacute;' expresi&oacute;n='0.73' evaluar='una-sola-vez'">
+   <param name="A_09" value="id='rS' constante='s&iacute;' expresi&oacute;n='1.02' evaluar='una-sola-vez'">
+   <param name="A_10" value="id='factor' constante='s&iacute;' expresi&oacute;n='15' evaluar='una-sola-vez'">
+   <param name="A_11" value="id='f' constante='s&iacute;' expresi&oacute;n='factor' evaluar='una-sola-vez'">
+   <param name="S_00" value="espacio='E1' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\cf0 El \u225 cido sulf\u250 rico o Tetraoxosulfato (VI) de hidr\u243 geno es un com-\par puesto qu\u237 mico muy   corrosivo   cuya f\u243 rmula   es H2SO4. Es el \par compuesto qu\u237 mico que m\u225 s se produce en el  mundo, por eso \par se utiliza como uno de los tantos medidores de la capacidad in-\par dustrial de los pa\u237 ses. Una gran parte se emplea en la obtenci\u243 n\par de fertilizantes. Tambi\u233 n se usa para la s\u237 ntesis de otros \u225 cidos \par y sulfatos y en la industria petroqu\u237 mica. Generalmente se obtie-\par ne a partir de \u243 xido de azufre.\par Antiguamente se le llamaba aceite de vitriolo, porque se produc\u237 a \par a partir de este mineral. \cf1\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="S_01" value="espacio='E1' tipo='texto' expresi&oacute;n='[90,330]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\f1\fs24\cf0 Mol\u233 cula de \u225 cido sulf\u250 rico\cf1\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="S_02" value="espacio='E1' tipo='punto' color='naranja' color_reverso='amarillo' expresi&oacute;n='(x[0]*e,y[0]*e,z[0]*e)' fuente='Arial,BOLD,12' fijo='s&iacute;' ancho='f*rS'">
+   <param name="S_03" value="espacio='E1' tipo='punto' color='rosa' color_reverso='rojo' expresi&oacute;n='(x[1]*e,y[1]*e,z[1]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_04" value="espacio='E1' tipo='punto' color='rosa' color_reverso='rojo' expresi&oacute;n='(x[2]*e,y[2]*e,z[2]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_05" value="espacio='E1' tipo='punto' color='rosa' color_reverso='rojo' expresi&oacute;n='(x[3]*e,y[3]*e,z[3]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_06" value="espacio='E1' tipo='punto' color='rosa' color_reverso='rojo' expresi&oacute;n='(x[4]*e,y[4]*e,z[4]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rO'">
+   <param name="S_07" value="espacio='E1' tipo='punto' color='gris' color_reverso='blanco' expresi&oacute;n='(x[5]*e,y[5]*e,z[5]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rH'">
+   <param name="S_08" value="espacio='E1' tipo='punto' color='gris' color_reverso='blanco' expresi&oacute;n='(x[6]*e,y[6]*e,z[6]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='f*rH'">
+   <param name="S_09" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[0]]*e,y[a[0]]*e,z[a[0]]*e)(x[b[0]]*e,y[b[0]]*e,z[b[0]]*e)' ancho='8'">
+   <param name="S_10" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[1]]*e,y[a[1]]*e,z[a[1]]*e)(x[b[1]]*e,y[b[1]]*e,z[b[1]]*e)' ancho='8'">
+   <param name="S_11" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[2]]*e,y[a[2]]*e,z[a[2]]*e)(x[b[2]]*e,y[b[2]]*e,z[b[2]]*e)' ancho='4'">
+   <param name="S_12" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[3]]*e,y[a[3]]*e,z[a[3]]*e)(x[b[3]]*e,y[b[3]]*e,z[b[3]]*e)' ancho='4'">
+   <param name="S_13" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[4]]*e,y[a[4]]*e,z[a[4]]*e)(x[b[4]]*e,y[b[4]]*e,z[b[4]]*e)' ancho='4'">
+   <param name="S_14" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[5]]*e,y[a[5]]*e,z[a[5]]*e)(x[b[5]]*e,y[b[5]]*e,z[b[5]]*e)' ancho='4'">
+   <param name="S_15" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[6]]*e,y[a[6]]*e,z[a[6]]*e)(x[b[6]]*e,y[b[6]]*e,z[b[6]]*e)' ancho='4'">
+   <param name="S_16" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[7]]*e,y[a[7]]*e,z[a[7]]*e)(x[b[7]]*e,y[b[7]]*e,z[b[7]]*e)' ancho='4'">
+   <param name="S_17" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[9]]*e,y[a[9]]*e,z[a[9]]*e)(x[b[9]]*e,y[b[9]]*e,z[b[9]]*e)' ancho='4'">
+   <param name="S_18" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[10]]*e,y[a[10]]*e,z[a[10]]*e)(x[b[10]]*e,y[b[10]]*e,z[b[10]]*e)' ancho='4'">
+   <param name="S_19" value="espacio='E1' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[11]]*e,y[a[11]]*e,z[a[11]]*e)(x[b[11]]*e,y[b[11]]*e,z[b[11]]*e)' ancho='4'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='no' inicio='p=0' hacer='p=p+1;t=t+1;t=t+0.01;E1.rot.z=E1.rot.z+5' mientras='p&lt;100'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

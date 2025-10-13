@@ -1,0 +1,451 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>3q7 3</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+<!-- Esta funci&oacute;n popup que aparece a continuaci&oacute;n sirve para que aparezca el cuadro de texto al pasar el rat&oacute;n por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta funci&oacute;n que viene a continuaci&oacute;n sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<script type="text/javascript" src="embeddedcontent.js" defer="defer"></script>
+
+<link href="paracidead1.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+.Estilo12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.Estilo14 {color: #000099; font-weight: bold;}
+-->
+</style>
+
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onLoad="MM_preloadImages('imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/atrasb.png','imagen3/paraantes2.png','imagen3/paracont2.png','imagen3/adelanteb.png','imagen3/atrasb.png','imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/paraejer3.png','imagen3/paraejer2.png','imagen3/paraeval3.png','imagen3/paraeval2.png','imagen3/paratut3.png','imagen3/paratut2.png','imagen3/paramas3.png','imagen3/paramas2.png','imagen3/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="3q7_centro.htm" target="centro" onClick="MM_nbGroup('down','group1','antes','imagen3/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen3/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen3/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen3/paracont2.png','imagen3/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen3/paraconte.png',1)" border="0"></a></td>
+      <td><a href="3q7_ejercicios_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','ejercicios','imagen3/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen3/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="3q7_autoevaluacion_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','autoeval','imagen3/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen3/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="3q7_tutor_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paratutor','imagen3/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen3/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="3q7_sabermas_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paramas','imagen3/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen3/paramas2.png','imagen3/paramas3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen3/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen3/es1.gif" height="8" width="8"></td>
+      <td background="imagen3/bor1.gif" height="8"></td>
+      <td background="imagen3/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen3/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table width="100%" cellspacing="12">
+          <tr>
+            <td width="47%" valign="top"><font size="4" face="Geneva, Arial, Helvetica, sans-serif"><span class="Estilo14">5. El enlace qu&iacute;mico </span></font></td>
+            <td width="53%">
+<div align="right"><a href="3q7_contenidos_5a.htm" target="centro" onMouseOver="MM_swapImage('atras1','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a> <a href="3q7_contenidos_5c.htm" target="centro" onMouseOver="MM_swapImage('adelante1','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+          </tr>
+          <tr>
+            <td valign="top"> <p class="subtitulo">Enlace i&oacute;nico </p>
+              <p align="justify" class="Estilo12">Este enlace se produce cuando los &aacute;tomos de los elementos met&aacute;licos (los situados m&aacute;s a la izquierda en la tabla peri&oacute;dica, per&iacute;odos 1, 2 y 3), se encuentran con &aacute;tomos no met&aacute;licos (los situados a la derecha en la tabla peri&oacute;dica, per&iacute;odos 16 y 17).<br>
+  En este caso los &aacute;tomos del metal ceden electrones a los &aacute;tomos         del no metal, transform&aacute;ndose en iones positivos (cationes) y negativos (aniones),         respectivamente. Al formarse iones de carga opuesta &eacute;stos se atraen         por fuerzas el&eacute;ctricas intensas, quedando fuertemente unidos y dando         lugar a un <a href="#" onClick="MM_openBrWindow('prop_ionicos.htm','Estilos','width=600,height=500')">compuesto i&oacute;nico.</a> A estas fuerzas el&eacute;ctricas las         llamamos enlaces i&oacute;nicos.</p>
+              <div align="justify" class="Estilo12">
+                <table width="95%" height="74" align="center" cellpadding="10" cellspacing="0" background="imagen3/clipcon.png">
+                  <tr>
+                    <td height="72" align="center" valign="middle"><p class="textonormal"><strong>En el enlace i&oacute;nico, los cationes y aniones de atraen debido a su carga el&eacute;ctrica. </strong></p>                    </td>
+                  </tr>
+                </table>
+              </div></td>
+            <td rowspan="0" valign="top">
+<div align="right" class="Estilo12">
+  <table width="420" border="3" cellpadding=0 cellspacing=0 bordercolor="#000099">
+
+    <tr>
+      <td height="400"><ajs name="enlace_ionico" width=420 height=400
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="420x400">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="enlace_ionico">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=s&iacute; limpiar=no">
+   <param name="E_01" value="tipo='R2' id='E3' fijo='s&iacute;' despl_imagen='arr-izq' fondo='1efffff1' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_02" value="tipo='R2' id='E1' ancho='250' dibujar-si='paso&lt;2' fijo='s&iacute;' O.x='100' despl_imagen='arr-izq' fondo='1efffff1' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_03" value="tipo='R2' id='E2' ancho='250' dibujar-si='paso&gt;1' fijo='s&iacute;' O.x='100' despl_imagen='arr-izq' fondo='1efffff1' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_04" value="tipo='R3' id='E4' x='251' ancho='170' dibujar-si='paso&gt;1' O.y='100' despl_imagen='arr-izq' fondo='1efffff1' R3='s&iacute;'">
+   <param name="C_01" value="id='A1' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' espacio='E1' nombre='Actividad 1' fijo='s&iacute;' visible='no' acci&oacute;n='mensaje' par&aacute;metro='Acerca el &aacute;tomo de cloro con el pulsador al &aacute;tomo de sodio. &iquest;Qu&eacute; observas?' par&aacute;metro.fuente='Monospaced,PLAIN,12'">
+   <param name="C_02" value="id='n4' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='norte' espacio='E1' nombre='Actividad 2' fijo='s&iacute;' visible='s&iacute;' acci&oacute;n='mensaje' par&aacute;metro='&iquest;C&oacute;mo son las estructuras que se forman cuando hay enlaces i&oacute;nicos?' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="C_03" value="id='n6' tipo='num&eacute;rico' regi&oacute;n='interior' espacio='E1' nombre='n6' expresi&oacute;n='(140,150,25,50)' valor='2.5' min='0.5' max='2.5' fijo='s&iacute;' visible='no' imagen='imagenes7/nucleo1.gif' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro'">
+   <param name="A_01" value="id='y' expresi&oacute;n='r*cos(2*t)'">
+   <param name="A_02" value="id='z' expresi&oacute;n='r*sen(2*t)'">
+   <param name="A_03" value="id='y2' expresi&oacute;n='r*cos(2*t+pi)'">
+   <param name="A_04" value="id='z2' expresi&oacute;n='r*sen(2*t+pi)'">
+   <param name="A_05" value="id='y3' expresi&oacute;n='r2*cos(t+0.75)'">
+   <param name="A_06" value="id='z3' expresi&oacute;n='r2*sen(t+0.75)'">
+   <param name="A_07" value="id='y4' expresi&oacute;n='r2*cos(t+2.32)'">
+   <param name="A_08" value="id='z4' expresi&oacute;n='r2*sen(t+2.32)'">
+   <param name="A_09" value="id='y5' expresi&oacute;n='r2*cos(t+3.89)'">
+   <param name="A_10" value="id='z5' expresi&oacute;n='r2*sen(t+3.89)'">
+   <param name="A_11" value="id='y6' expresi&oacute;n='r2*cos(t+5.46)'">
+   <param name="A_12" value="id='z6' expresi&oacute;n='r2*sen(t+5.46)'">
+   <param name="A_13" value="id='y7' expresi&oacute;n='r2*cos(t+4.46)'">
+   <param name="A_14" value="id='z7' expresi&oacute;n='r2*sen(t+4.46)'">
+   <param name="A_15" value="id='y8' expresi&oacute;n='r2*cos(t+2.89)'">
+   <param name="A_16" value="id='z8' expresi&oacute;n='r2*sen(t+2.89)'">
+   <param name="A_17" value="id='y9' expresi&oacute;n='r2*cos(t+1.32)'">
+   <param name="A_18" value="id='z9' expresi&oacute;n='r2*sen(t+1.32)'">
+   <param name="A_19" value="id='d1' expresi&oacute;n='n6'">
+   <param name="A_20" value="id='x1' expresi&oacute;n='(-r2*cos(t))/2'">
+   <param name="A_21" value="id='y1' expresi&oacute;n='t*t/15'">
+   <param name="A_22" value="id='x_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='27' archivo='escenas/nacl_x.txt'">
+   <param name="A_23" value="id='y_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='27' archivo='escenas/nacl_y.txt'">
+   <param name="A_24" value="id='z_g' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='27' archivo='escenas/nacl_z.txt'">
+   <param name="A_25" value="id='pi' constante='s&iacute;' expresi&oacute;n='3.1416' evaluar='una-sola-vez'">
+   <param name="A_26" value="id='r1' constante='s&iacute;' expresi&oacute;n='0.7' evaluar='una-sola-vez'">
+   <param name="A_27" value="id='r2' constante='s&iacute;' expresi&oacute;n='1' evaluar='una-sola-vez'">
+   <param name="A_28" value="id='d2' constante='s&iacute;' expresi&oacute;n='-2.50' evaluar='una-sola-vez'">
+   <param name="A_29" value="id='escala_g' constante='s&iacute;' expresi&oacute;n='0.2' evaluar='una-sola-vez'">
+   <param name="A_30" value="id='e_g' constante='s&iacute;' expresi&oacute;n='escala_g' evaluar='una-sola-vez'">
+   <param name="A_31" value="id='e24' evento='s&iacute;' condici&oacute;n='n6&lt;=0.5' acci&oacute;n='calcular' par&aacute;metro='paso=1; t=0; n6=0.6' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='una-sola-vez' pos_mensajes='centro'">
+   <param name="A_32" value="id='e27' evento='s&iacute;' condici&oacute;n='(paso=1) &amp; (t&gt;6)' acci&oacute;n='calcular' par&aacute;metro='paso=2' par&aacute;metro.fuente='Monospaced,PLAIN,12' ejecuci&oacute;n='alternar' pos_mensajes='centro'">
+   <param name="G_01" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r1*cos(t),d1+r1*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_02" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r2*cos(t),d1+r2*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_03" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r3*cos(t),d1+r3*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_04" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r4*cos(t),d1+r4*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_05" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r5*cos(t),d1+r5*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_06" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+pi/4),d1+r1*sen(-t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_07" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+2*pi/4),d1+r1*sen(-t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_08" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+3*pi/4),d1+r1*sen(-t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_09" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+4*pi/4),d1+r1*sen(-t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_10" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+5*pi/4),d1+r1*sen(-t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_11" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+6*pi/4),d1+r1*sen(-t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_12" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+7*pi/4),d1+r1*sen(-t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_13" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r1*cos(-t+8*pi/4),d1+r1*sen(-t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_14" value="espacio='E1' tipo='punto' color='b60000ff' expresi&oacute;n='(-3,n6)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='48'">
+   <param name="G_15" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r1*cos(t),d2+r1*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_16" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r2*cos(t),d2+r2*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_17" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r3*cos(t),d2+r3*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_18" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r4*cos(t),d2+r4*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_19" value="espacio='E1' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r5*cos(t),d2+r5*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_20" value="espacio='E1' tipo='punto' color='rojo' dibujar-si='paso==0' expresi&oacute;n='(-3+r2*cos(t+pi/4),d2+r2*sen(t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_21" value="espacio='E1' tipo='punto' color='b6ff0000' expresi&oacute;n='(-3,d2)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='48'">
+   <param name="G_22" value="espacio='E1' tipo='imagen' expresi&oacute;n='(-2.30-1,d2+0.3)' archivo='imagenes7/nucleo1.gif'">
+   <param name="G_23" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+pi/4),d1+r2*sen(t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_24" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+2*pi/4),d1+r2*sen(t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_25" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+3*pi/4),d1+r2*sen(t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_26" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+4*pi/4),d1+r2*sen(t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_27" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+5*pi/4),d1+r2*sen(t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_28" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+6*pi/4),d1+r2*sen(t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_29" value="espacio='E1' tipo='punto' expresi&oacute;n='(-3+r2*cos(t+7*pi/4),d1+r2*sen(t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_30" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+pi/4),d2+r1*sen(-t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_31" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+2*pi/4),d2+r1*sen(-t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_32" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+3*pi/4),d2+r1*sen(-t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_33" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+4*pi/4),d2+r1*sen(-t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_34" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+5*pi/4),d2+r1*sen(-t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_35" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+6*pi/4),d2+r1*sen(-t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_36" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+7*pi/4),d2+r1*sen(-t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_37" value="espacio='E1' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+8*pi/4),d2+r1*sen(-t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_38" value="espacio='E1' tipo='punto' color='rojo' dibujar-si='(paso==1) &amp; (y1&lt;2.7)' expresi&oacute;n='(-1.5+x1,-2.5+y1)' rastro='rosa' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_39" value="espacio='E2' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r1*cos(t),d1+r1*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_40" value="espacio='E2' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r2*cos(t),d1+r2*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_41" value="espacio='E2' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r3*cos(t),d1+r3*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_42" value="espacio='E2' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r4*cos(t),d1+r4*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_43" value="espacio='E2' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r5*cos(t),d1+r5*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_44" value="espacio='E2' tipo='punto' color='b60000ff' expresi&oacute;n='(-3,n6)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='48'">
+   <param name="G_45" value="espacio='E2' tipo='imagen' expresi&oacute;n='(-2.30-1,n6+0.35)' archivo='imagenes7/nucleo1.gif'">
+   <param name="G_46" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+1*pi/4),d1+r2*sen(-t+1*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_47" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+2*pi/4),d1+r2*sen(-t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_48" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+3*pi/4),d1+r2*sen(-t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_49" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+4*pi/4),d1+r2*sen(-t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_50" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+5*pi/4),d1+r2*sen(-t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_51" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+6*pi/4),d1+r2*sen(-t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_52" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r2*cos(-t+7*pi/4),d1+r2*sen(-t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_53" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r2*cos(-t+8*pi/4),d1+r2*sen(-t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_54" value="espacio='E2' tipo='curva' color='d60000ff' expresi&oacute;n='(-3+r1*cos(t),d2+r1*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_55" value="espacio='E2' tipo='curva' color='d60000ff' dibujar-si='paso&lt;2' expresi&oacute;n='(-3+r2*cos(t),d2+r2*sen(t))' t.intervalo='[0,6.3]' t.pasos='20'">
+   <param name="G_56" value="espacio='E2' tipo='punto' color='rojo' dibujar-si='paso==0' expresi&oacute;n='(-3+r2*cos(t+pi/4),d2+r2*sen(t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_57" value="espacio='E2' tipo='punto' color='b6ff0000' expresi&oacute;n='(-3,d2)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='33'">
+   <param name="G_58" value="espacio='E2' tipo='imagen' expresi&oacute;n='(-2.30-1,d2+0.3)' archivo='imagenes7/nucleo1.gif'">
+   <param name="G_59" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+pi/4),d1+r1*sen(t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_60" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+2*pi/4),d1+r1*sen(t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_61" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+3*pi/4),d1+r1*sen(t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_62" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+4*pi/4),d1+r1*sen(t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_63" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+5*pi/4),d1+r1*sen(t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_64" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+6*pi/4),d1+r1*sen(t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_65" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+7*pi/4),d1+r1*sen(t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_66" value="espacio='E2' tipo='punto' expresi&oacute;n='(-3+r1*cos(t+8*pi/4),d1+r1*sen(t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_67" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+pi/4),d2+r1*sen(-t+pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_68" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+2*pi/4),d2+r1*sen(-t+2*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_69" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+3*pi/4),d2+r1*sen(-t+3*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_70" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+4*pi/4),d2+r1*sen(-t+4*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_71" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+5*pi/4),d2+r1*sen(-t+5*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_72" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+6*pi/4),d2+r1*sen(-t+6*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_73" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+7*pi/4),d2+r1*sen(-t+7*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_74" value="espacio='E2' tipo='punto' color='rojo' expresi&oacute;n='(-3+r1*cos(-t+8*pi/4),d2+r1*sen(-t+8*pi/4))' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' tama&ntilde;o='5'">
+   <param name="G_75" value="espacio='E1' tipo='texto' expresi&oacute;n='[150,110-35*n6]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs60\b Cl\f2\fs24\b0\par}' fuente='Arial,BOLD,30' fijo='s&iacute;'">
+   <param name="G_76" value="espacio='E1' tipo='texto' expresi&oacute;n='[150,270]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs60\b Na\f2\fs24\par}' fuente='Arial,BOLD,30' fijo='s&iacute;'">
+   <param name="G_77" value="espacio='E2' tipo='texto' expresi&oacute;n='[150,110-35*n6]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs60\b Cl{\*\mjaformula{\supix -}}\f2\fs60\par}' fuente='Arial,BOLD,30' fijo='s&iacute;'">
+   <param name="G_78" value="espacio='E2' tipo='texto' expresi&oacute;n='[150,270]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs60\b Na{\*\mjaformula{\supix +}}\f2\fs24\par}' fuente='Arial,BOLD,30' fijo='s&iacute;'">
+   <param name="G_79" value="espacio='E1' tipo='imagen' expresi&oacute;n='(-3.3,n6+0.3)' archivo='imagenes7/nucleo1.gif'">
+   <param name="S_01" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)' rotini='(0,0,E4.rot.z)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_02" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_03" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_04" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_05" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_06" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_07" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_08" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_09" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_10" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_11" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_12" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_13" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_14" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_15" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_16" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_17" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_18" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_19" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_20" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_21" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_22" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_23" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_24" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_25" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_26" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_27" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_28" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_29" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_30" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_31" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_32" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_33" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_34" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_35" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_36" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_37" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_38" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_39" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_40" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_41" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_42" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_43" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_44" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_45" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_46" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_47" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_48" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_49" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_50" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_51" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_52" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_53" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_54" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_55" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_56" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_57" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_58" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_59" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_60" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_61" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_62" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_63" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_64" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_65" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_66" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_67" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_68" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[0]*e_g,y_g[0]*e_g,z_g[0]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_69" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[1]*e_g,y_g[1]*e_g,z_g[1]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_70" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[2]*e_g,y_g[2]*e_g,z_g[2]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_71" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[3]*e_g,y_g[3]*e_g,z_g[3]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_72" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[4]*e_g,y_g[4]*e_g,z_g[4]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_73" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[5]*e_g,y_g[5]*e_g,z_g[5]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_74" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[6]*e_g,y_g[6]*e_g,z_g[6]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_75" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[7]*e_g,y_g[7]*e_g,z_g[7]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_76" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_77" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_78" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_79" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_80" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_81" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_82" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_83" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_84" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_85" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_86" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_87" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_88" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_89" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_90" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_91" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_92" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_93" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_94" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_95" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_96" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_97" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_98" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_99" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_100" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_101" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_102" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[15]*e_g,y_g[15]*e_g,z_g[15]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_103" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[16]*e_g,y_g[16]*e_g,z_g[16]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_104" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[17]*e_g,y_g[17]*e_g,z_g[17]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_105" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[18]*e_g,y_g[18]*e_g,z_g[18]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_106" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[19]*e_g,y_g[19]*e_g,z_g[19]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_107" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[20]*e_g,y_g[20]*e_g,z_g[20]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_108" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_109" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_110" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[23]*e_g,y_g[23]*e_g,z_g[23]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_111" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_112" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_113" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_114" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[8]*e_g,y_g[8]*e_g,z_g[8]*e_g)(x_g[24]*e_g,y_g[24]*e_g,z_g[24]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_115" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[9]*e_g,y_g[9]*e_g,z_g[9]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_116" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[10]*e_g,y_g[10]*e_g,z_g[10]*e_g)(x_g[25]*e_g,y_g[25]*e_g,z_g[25]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_117" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[11]*e_g,y_g[11]*e_g,z_g[11]*e_g)(x_g[26]*e_g,y_g[26]*e_g,z_g[26]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_118" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)(x_g[21]*e_g,y_g[21]*e_g,z_g[21]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_119" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)(x_g[22]*e_g,y_g[22]*e_g,z_g[22]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_120" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[12]*e_g,y_g[12]*e_g,z_g[12]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_121" value="espacio='E4' tipo='segmento' fondo='s&iacute;' color='gris' expresi&oacute;n='(x_g[14]*e_g,y_g[14]*e_g,z_g[14]*e_g)(x_g[13]*e_g,y_g[13]*e_g,z_g[13]*e_g)' rotini='(0,0,-25)'">
+   <param name="S_122" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='rojo' expresi&oacute;n='(0,0,0)' posini='(0,-0.5,0.4)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue0;}\f1\fs24\b\cf0      I\u243 n sodio\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;' ancho='4'">
+   <param name="S_123" value="espacio='E4' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='azul' expresi&oacute;n='(0,0,0)' posini='(0,-0.5,1)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue0;}\f1\fs24\b\cf0      I\u243 n cloruro\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12' fijo='s&iacute;' ancho='6'">
+   <param name="S_124" value="espacio='E4' tipo='texto' expresi&oacute;n='[20,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\cf0\f1\fs30\b\ul El enlace i\u243 nico\fs24\b0\ulnone\par \par La estructura a que da\par lugar el   enlace i\u243 nico\par es el   cristal. En \u233 l los\par iones se   ordenan  en \par el espacio.\f3\fs24\cf1\par}' fuente='Arial,BOLD,15' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='p=0;t=0' hacer='p=p+1;p=(p&gt;90)?1:p;t=t+0.15;E4.rot.z=E4.rot.z+3' mientras='p&lt;100'">
+</ajs></td>
+    </tr>
+  </table>
+  </a></a></div></td>
+          </tr>
+          </table>
+      </td>
+      <td rowspan="2" background="imagen3/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="2" width="800">
+    <tr>
+      <td background="imagen3/es4.gif" height="2" width="8"></td>
+      <td background="imagen3/bor3.gif" height="2"></td>
+      <td background="imagen3/es3.gif" height="2" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"><a href="3q7_contenidos_5a.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div></td>
+      <td width="30">
+        <div align="center"><a href="3q7_contenidos_5c.htm" target="centro" onMouseOver="MM_swapImage('adelante','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vac&iacute;a para el popup-->
+</div>
+</body>
+</html>

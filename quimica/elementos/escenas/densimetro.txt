@@ -1,0 +1,14 @@
+<applet name="densimetro" width=288 height=568
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="densimetro">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' id='E1' ancho='288' alto='568' fijo='s&iacute;' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no'">
+   <param name="G_00" value="espacio='E1' tipo='imagen' expresi&oacute;n='(-3,5.92)' archivo='imagenes3/densimetro2.jpg'">
+   <param name="Animaci&oacute;n" value="pausa='100' controles='no' auto='s&iacute;' inicio='INITANIM()' hacer='Va=V;Pa=P;DT=0.1*rpm/60;ITERA(2*pi*DT,ent(10/DT));' mientras='1'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

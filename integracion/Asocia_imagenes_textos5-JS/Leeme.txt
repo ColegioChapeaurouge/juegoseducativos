@@ -1,0 +1,5 @@
+Recomendaciones de edición
+
+Para plantillas en local, edita el archivo indexb.html y, para ver la plantilla, abre el archivo index.html en tu navegador.
+
+Para plantillas en línea, modifica el archivo asocia4.html o el de disney.html. Estos dos archivos se pueden enviar vía correo.

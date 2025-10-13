@@ -1,0 +1,243 @@
+<applet name="cristal_yodo" width=630 height=600
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="editable" value="sí">
+   <param name="nombre" value="cristal_yodo">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R3' id='E4' x='0' y='0' ancho='630' alto='600' despl_imagen='arr-izq' fondo='1efffff1' R3='s&iacute;'">
+   <param name="A_00" value="id='x' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='140' archivo='escenas/cristal_iodo/I2_x.txt'">
+   <param name="A_01" value="id='y' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='140' archivo='escenas/cristal_iodo/I2_y.txt'">
+   <param name="A_02" value="id='z' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='140' archivo='escenas/cristal_iodo/I2_z.txt'">
+   <param name="A_03" value="id='escala' constante='s&iacute;' expresi&oacute;n='0.4' evaluar='una-sola-vez'">
+   <param name="A_04" value="id='e' constante='s&iacute;' expresi&oacute;n='escala' evaluar='una-sola-vez'">
+   <param name="A_05" value="id='a' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='140' archivo='escenas/cristal_iodo/I2_a.txt'">
+   <param name="A_06" value="id='b' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='140' archivo='escenas/cristal_iodo/I2_b.txt'">
+   <param name="S_00" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[0]*e,y[0]*e,z[0]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_01" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[1]*e,y[1]*e,z[1]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_02" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[2]*e,y[2]*e,z[2]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_03" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[3]*e,y[3]*e,z[3]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_04" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[4]*e,y[4]*e,z[4]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_05" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[5]*e,y[5]*e,z[5]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_06" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[6]*e,y[6]*e,z[6]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_07" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[7]*e,y[7]*e,z[7]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_08" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[8]*e,y[8]*e,z[8]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_09" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[9]*e,y[9]*e,z[9]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_10" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[10]*e,y[10]*e,z[10]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_11" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[11]*e,y[11]*e,z[11]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_12" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[12]*e,y[12]*e,z[12]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_13" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[13]*e,y[13]*e,z[13]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_14" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[14]*e,y[14]*e,z[14]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_15" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[15]*e,y[15]*e,z[15]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_16" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[16]*e,y[16]*e,z[16]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_17" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[17]*e,y[17]*e,z[17]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_18" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[18]*e,y[18]*e,z[18]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_19" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[19]*e,y[19]*e,z[19]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_20" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[20]*e,y[20]*e,z[20]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_21" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[21]*e,y[21]*e,z[21]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_22" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[22]*e,y[22]*e,z[22]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_23" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[23]*e,y[23]*e,z[23]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_24" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[24]*e,y[24]*e,z[24]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_25" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[25]*e,y[25]*e,z[25]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_26" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[26]*e,y[26]*e,z[26]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_27" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[27]*e,y[27]*e,z[27]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_28" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[28]*e,y[28]*e,z[28]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_29" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[29]*e,y[29]*e,z[29]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_30" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[30]*e,y[30]*e,z[30]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_31" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[31]*e,y[31]*e,z[31]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_32" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[32]*e,y[32]*e,z[32]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_67" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[33]*e,y[33]*e,z[33]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_68" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[34]*e,y[34]*e,z[34]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_69" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[35]*e,y[35]*e,z[35]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_70" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[36]*e,y[36]*e,z[36]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_71" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[37]*e,y[37]*e,z[37]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_72" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[38]*e,y[38]*e,z[38]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_73" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[39]*e,y[39]*e,z[39]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_74" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[40]*e,y[40]*e,z[40]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_75" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[41]*e,y[41]*e,z[41]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_76" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[42]*e,y[42]*e,z[42]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_77" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[43]*e,y[43]*e,z[43]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_78" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[44]*e,y[44]*e,z[44]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_79" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[45]*e,y[45]*e,z[45]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_80" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[46]*e,y[46]*e,z[46]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_81" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[47]*e,y[47]*e,z[47]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_82" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[48]*e,y[48]*e,z[48]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_83" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[49]*e,y[49]*e,z[49]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_84" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[50]*e,y[50]*e,z[50]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_85" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[51]*e,y[51]*e,z[51]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_86" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[52]*e,y[52]*e,z[52]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_87" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[53]*e,y[53]*e,z[53]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_88" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[54]*e,y[54]*e,z[54]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_89" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[55]*e,y[55]*e,z[55]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_90" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[56]*e,y[56]*e,z[56]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_91" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[57]*e,y[57]*e,z[57]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_92" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[58]*e,y[58]*e,z[58]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_93" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[59]*e,y[59]*e,z[59]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_98" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[60]*e,y[60]*e,z[60]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_99" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[61]*e,y[61]*e,z[61]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_100" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[62]*e,y[62]*e,z[62]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_101" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[63]*e,y[63]*e,z[63]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_102" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[64]*e,y[64]*e,z[64]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_103" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[65]*e,y[65]*e,z[65]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_104" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[66]*e,y[66]*e,z[66]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_105" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[67]*e,y[67]*e,z[67]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_106" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[68]*e,y[68]*e,z[68]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_107" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[69]*e,y[69]*e,z[69]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_108" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[70]*e,y[70]*e,z[70]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_109" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[71]*e,y[71]*e,z[71]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_110" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[72]*e,y[72]*e,z[72]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_111" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[73]*e,y[73]*e,z[73]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'"><param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='p=0' hacer='p=p+1;t=t+1' mientras='p&lt;100'">
+   <param name="S_200" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+0]*e,y[74+0]*e,z[74+0]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_201" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+1]*e,y[74+1]*e,z[74+1]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_202" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+2]*e,y[74+2]*e,z[74+2]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_203" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+3]*e,y[74+3]*e,z[74+3]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_204" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+4]*e,y[74+4]*e,z[74+4]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_205" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+5]*e,y[74+5]*e,z[74+5]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_206" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+6]*e,y[74+6]*e,z[74+6]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_207" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+7]*e,y[74+7]*e,z[74+7]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_208" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+8]*e,y[74+8]*e,z[74+8]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_209" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+9]*e,y[74+9]*e,z[74+9]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_210" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+10]*e,y[74+10]*e,z[74+10]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_211" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+11]*e,y[74+11]*e,z[74+11]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_212" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+12]*e,y[74+12]*e,z[74+12]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_213" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+13]*e,y[74+13]*e,z[74+13]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_214" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+14]*e,y[74+14]*e,z[74+14]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_215" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+15]*e,y[74+15]*e,z[74+15]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_216" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+16]*e,y[74+16]*e,z[74+16]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_217" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+17]*e,y[74+17]*e,z[74+17]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_218" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+18]*e,y[74+18]*e,z[74+18]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_219" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+19]*e,y[74+19]*e,z[74+19]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_220" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+20]*e,y[74+20]*e,z[74+20]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_221" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+21]*e,y[74+21]*e,z[74+21]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_222" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+22]*e,y[74+22]*e,z[74+22]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_223" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+23]*e,y[74+23]*e,z[74+23]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_224" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+24]*e,y[74+24]*e,z[74+24]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_225" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+25]*e,y[74+25]*e,z[74+25]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_226" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+26]*e,y[74+26]*e,z[74+26]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_227" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+27]*e,y[74+27]*e,z[74+27]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_228" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+28]*e,y[74+28]*e,z[74+28]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_229" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+29]*e,y[74+29]*e,z[74+29]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_230" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+30]*e,y[74+30]*e,z[74+30]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_231" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+31]*e,y[74+31]*e,z[74+31]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_232" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+32]*e,y[74+32]*e,z[74+32]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_267" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+33]*e,y[74+33]*e,z[74+33]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_268" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+34]*e,y[74+34]*e,z[74+34]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_269" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+35]*e,y[74+35]*e,z[74+35]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_270" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+36]*e,y[74+36]*e,z[74+36]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_271" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+37]*e,y[74+37]*e,z[74+37]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_272" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+38]*e,y[74+38]*e,z[74+38]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_273" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+39]*e,y[74+39]*e,z[74+39]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_274" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+40]*e,y[74+40]*e,z[74+40]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_275" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+41]*e,y[74+41]*e,z[74+41]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_276" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+42]*e,y[74+42]*e,z[74+42]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_277" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+43]*e,y[74+43]*e,z[74+43]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_278" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+44]*e,y[74+44]*e,z[74+44]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_279" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+45]*e,y[74+45]*e,z[74+45]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_280" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+46]*e,y[74+46]*e,z[74+46]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_281" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+47]*e,y[74+47]*e,z[74+47]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_282" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+48]*e,y[74+48]*e,z[74+48]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_283" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+49]*e,y[74+49]*e,z[74+49]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_284" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+50]*e,y[74+50]*e,z[74+50]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_285" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+51]*e,y[74+51]*e,z[74+51]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_286" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+52]*e,y[74+52]*e,z[74+52]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_287" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+53]*e,y[74+53]*e,z[74+53]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_288" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+54]*e,y[74+54]*e,z[74+54]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_289" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+55]*e,y[74+55]*e,z[74+55]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_290" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+56]*e,y[74+56]*e,z[74+56]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_291" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+57]*e,y[74+57]*e,z[74+57]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_292" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+58]*e,y[74+58]*e,z[74+58]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_293" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+59]*e,y[74+59]*e,z[74+59]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_298" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+60]*e,y[74+60]*e,z[74+60]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_299" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+61]*e,y[74+61]*e,z[74+61]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_300" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+62]*e,y[74+62]*e,z[74+62]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_301" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+63]*e,y[74+63]*e,z[74+63]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_302" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+64]*e,y[74+64]*e,z[74+64]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   <param name="S_303" value="espacio='E4' tipo='punto' color='660000' color_reverso='a55a00' expresi&oacute;n='(x[74+65]*e,y[74+65]*e,z[74+65]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='8'">
+   
+
+
+
+
+
+
+   <param name="S_33" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[0]]*e,y[a[0]]*e,z[a[0]]*e)(x[b[0]]*e,y[b[0]]*e,z[b[0]]*e)' ancho='8'">
+   <param name="S_34" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[1]]*e,y[a[1]]*e,z[a[1]]*e)(x[b[1]]*e,y[b[1]]*e,z[b[1]]*e)' ancho='8'">
+   <param name="S_35" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[2]]*e,y[a[2]]*e,z[a[2]]*e)(x[b[2]]*e,y[b[2]]*e,z[b[2]]*e)' ancho='8'">
+   <param name="S_36" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[3]]*e,y[a[3]]*e,z[a[3]]*e)(x[b[3]]*e,y[b[3]]*e,z[b[3]]*e)' ancho='8'">
+   <param name="S_37" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[4]]*e,y[a[4]]*e,z[a[4]]*e)(x[b[4]]*e,y[b[4]]*e,z[b[4]]*e)' ancho='8'">
+   <param name="S_38" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[5]]*e,y[a[5]]*e,z[a[5]]*e)(x[b[5]]*e,y[b[5]]*e,z[b[5]]*e)' ancho='8'">
+   <param name="S_39" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[6]]*e,y[a[6]]*e,z[a[6]]*e)(x[b[6]]*e,y[b[6]]*e,z[b[6]]*e)' ancho='8'">
+   <param name="S_40" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[7]]*e,y[a[7]]*e,z[a[7]]*e)(x[b[7]]*e,y[b[7]]*e,z[b[7]]*e)' ancho='8'">
+   <param name="S_41" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[8]]*e,y[a[8]]*e,z[a[8]]*e)(x[b[8]]*e,y[b[8]]*e,z[b[8]]*e)' ancho='8'">
+   <param name="S_42" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[9]]*e,y[a[9]]*e,z[a[9]]*e)(x[b[9]]*e,y[b[9]]*e,z[b[9]]*e)' ancho='8'">
+   <param name="S_43" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[10]]*e,y[a[10]]*e,z[a[10]]*e)(x[b[10]]*e,y[b[10]]*e,z[b[10]]*e)' ancho='8'">
+   <param name="S_44" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[11]]*e,y[a[11]]*e,z[a[11]]*e)(x[b[11]]*e,y[b[11]]*e,z[b[11]]*e)' ancho='8'">
+   <param name="S_45" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[12]]*e,y[a[12]]*e,z[a[12]]*e)(x[b[12]]*e,y[b[12]]*e,z[b[12]]*e)' ancho='8'">
+   <param name="S_46" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[13]]*e,y[a[13]]*e,z[a[13]]*e)(x[b[13]]*e,y[b[13]]*e,z[b[13]]*e)' ancho='8'">
+   <param name="S_47" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[14]]*e,y[a[14]]*e,z[a[14]]*e)(x[b[14]]*e,y[b[14]]*e,z[b[14]]*e)' ancho='8'">
+   <param name="S_48" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[15]]*e,y[a[15]]*e,z[a[15]]*e)(x[b[15]]*e,y[b[15]]*e,z[b[15]]*e)' ancho='8'">
+   <param name="S_49" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[16]]*e,y[a[16]]*e,z[a[16]]*e)(x[b[16]]*e,y[b[16]]*e,z[b[16]]*e)' ancho='8'">
+   <param name="S_50" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[17]]*e,y[a[17]]*e,z[a[17]]*e)(x[b[17]]*e,y[b[17]]*e,z[b[17]]*e)' ancho='8'">
+   <param name="S_51" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[18]]*e,y[a[18]]*e,z[a[18]]*e)(x[b[18]]*e,y[b[18]]*e,z[b[18]]*e)' ancho='8'">
+   <param name="S_52" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[19]]*e,y[a[19]]*e,z[a[19]]*e)(x[b[19]]*e,y[b[19]]*e,z[b[19]]*e)' ancho='8'">
+   <param name="S_53" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[20]]*e,y[a[20]]*e,z[a[20]]*e)(x[b[20]]*e,y[b[20]]*e,z[b[20]]*e)' ancho='8'">
+   <param name="S_54" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[21]]*e,y[a[21]]*e,z[a[21]]*e)(x[b[21]]*e,y[b[21]]*e,z[b[21]]*e)' ancho='8'">
+   <param name="S_55" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[22]]*e,y[a[22]]*e,z[a[22]]*e)(x[b[22]]*e,y[b[22]]*e,z[b[22]]*e)' ancho='8'">
+   <param name="S_56" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[23]]*e,y[a[23]]*e,z[a[23]]*e)(x[b[23]]*e,y[b[23]]*e,z[b[23]]*e)' ancho='8'">
+   <param name="S_57" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[24]]*e,y[a[24]]*e,z[a[24]]*e)(x[b[24]]*e,y[b[24]]*e,z[b[24]]*e)' ancho='8'">
+   <param name="S_58" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[25]]*e,y[a[25]]*e,z[a[25]]*e)(x[b[25]]*e,y[b[25]]*e,z[b[25]]*e)' ancho='8'">
+   <param name="S_59" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[26]]*e,y[a[26]]*e,z[a[26]]*e)(x[b[26]]*e,y[b[26]]*e,z[b[26]]*e)' ancho='8'">
+   <param name="S_60" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[27]]*e,y[a[27]]*e,z[a[27]]*e)(x[b[27]]*e,y[b[27]]*e,z[b[27]]*e)' ancho='8'">
+   <param name="S_61" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[28]]*e,y[a[28]]*e,z[a[28]]*e)(x[b[28]]*e,y[b[28]]*e,z[b[28]]*e)' ancho='8'">
+   <param name="S_62" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[29]]*e,y[a[29]]*e,z[a[29]]*e)(x[b[29]]*e,y[b[29]]*e,z[b[29]]*e)' ancho='8'">
+   <param name="S_63" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[30]]*e,y[a[30]]*e,z[a[30]]*e)(x[b[30]]*e,y[b[30]]*e,z[b[30]]*e)' ancho='8'">
+   <param name="S_64" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[31]]*e,y[a[31]]*e,z[a[31]]*e)(x[b[31]]*e,y[b[31]]*e,z[b[31]]*e)' ancho='8'">
+   <param name="S_65" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[32]]*e,y[a[32]]*e,z[a[32]]*e)(x[b[32]]*e,y[b[32]]*e,z[b[32]]*e)' ancho='8'">
+   <param name="S_66" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[33]]*e,y[a[33]]*e,z[a[33]]*e)(x[b[33]]*e,y[b[33]]*e,z[b[33]]*e)' ancho='8'">
+   <param name="S_94" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[34]]*e,y[a[34]]*e,z[a[34]]*e)(x[b[34]]*e,y[b[34]]*e,z[b[34]]*e)' ancho='8'">
+   <param name="S_95" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[35]]*e,y[a[35]]*e,z[a[35]]*e)(x[b[35]]*e,y[b[35]]*e,z[b[35]]*e)' ancho='8'">
+   <param name="S_96" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[36]]*e,y[a[36]]*e,z[a[36]]*e)(x[b[36]]*e,y[b[36]]*e,z[b[36]]*e)' ancho='8'">
+   <param name="S_97" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[37]]*e,y[a[37]]*e,z[a[37]]*e)(x[b[37]]*e,y[b[37]]*e,z[b[37]]*e)' ancho='8'">
+   <param name="S_533" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+0]]*e,y[a[38+0]]*e,z[a[38+0]]*e)(x[b[38+0]]*e,y[b[38+0]]*e,z[b[38+0]]*e)' ancho='8'">
+   <param name="S_534" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+1]]*e,y[a[38+1]]*e,z[a[38+1]]*e)(x[b[38+1]]*e,y[b[38+1]]*e,z[b[38+1]]*e)' ancho='8'">
+   <param name="S_535" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+2]]*e,y[a[38+2]]*e,z[a[38+2]]*e)(x[b[38+2]]*e,y[b[38+2]]*e,z[b[38+2]]*e)' ancho='8'">
+   <param name="S_536" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+3]]*e,y[a[38+3]]*e,z[a[38+3]]*e)(x[b[38+3]]*e,y[b[38+3]]*e,z[b[38+3]]*e)' ancho='8'">
+   <param name="S_537" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+4]]*e,y[a[38+4]]*e,z[a[38+4]]*e)(x[b[38+4]]*e,y[b[38+4]]*e,z[b[38+4]]*e)' ancho='8'">
+   <param name="S_538" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+5]]*e,y[a[38+5]]*e,z[a[38+5]]*e)(x[b[38+5]]*e,y[b[38+5]]*e,z[b[38+5]]*e)' ancho='8'">
+   <param name="S_539" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+6]]*e,y[a[38+6]]*e,z[a[38+6]]*e)(x[b[38+6]]*e,y[b[38+6]]*e,z[b[38+6]]*e)' ancho='8'">
+   <param name="S_540" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+7]]*e,y[a[38+7]]*e,z[a[38+7]]*e)(x[b[38+7]]*e,y[b[38+7]]*e,z[b[38+7]]*e)' ancho='8'">
+   <param name="S_541" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+8]]*e,y[a[38+8]]*e,z[a[38+8]]*e)(x[b[38+8]]*e,y[b[38+8]]*e,z[b[38+8]]*e)' ancho='8'">
+   <param name="S_542" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+9]]*e,y[a[38+9]]*e,z[a[38+9]]*e)(x[b[38+9]]*e,y[b[38+9]]*e,z[b[38+9]]*e)' ancho='8'">
+   <param name="S_543" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+10]]*e,y[a[38+10]]*e,z[a[38+10]]*e)(x[b[38+10]]*e,y[b[38+10]]*e,z[b[38+10]]*e)' ancho='8'">
+   <param name="S_544" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+11]]*e,y[a[38+11]]*e,z[a[38+11]]*e)(x[b[38+11]]*e,y[b[38+11]]*e,z[b[38+11]]*e)' ancho='8'">
+   <param name="S_545" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+12]]*e,y[a[38+12]]*e,z[a[38+12]]*e)(x[b[38+12]]*e,y[b[38+12]]*e,z[b[38+12]]*e)' ancho='8'">
+   <param name="S_546" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+13]]*e,y[a[38+13]]*e,z[a[38+13]]*e)(x[b[38+13]]*e,y[b[38+13]]*e,z[b[38+13]]*e)' ancho='8'">
+   <param name="S_547" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+14]]*e,y[a[38+14]]*e,z[a[38+14]]*e)(x[b[38+14]]*e,y[b[38+14]]*e,z[b[38+14]]*e)' ancho='8'">
+   <param name="S_548" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+15]]*e,y[a[38+15]]*e,z[a[38+15]]*e)(x[b[38+15]]*e,y[b[38+15]]*e,z[b[38+15]]*e)' ancho='8'">
+   <param name="S_549" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+16]]*e,y[a[38+16]]*e,z[a[38+16]]*e)(x[b[38+16]]*e,y[b[38+16]]*e,z[b[38+16]]*e)' ancho='8'">
+   <param name="S_550" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+17]]*e,y[a[38+17]]*e,z[a[38+17]]*e)(x[b[38+17]]*e,y[b[38+17]]*e,z[b[38+17]]*e)' ancho='8'">
+   <param name="S_551" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+18]]*e,y[a[38+18]]*e,z[a[38+18]]*e)(x[b[38+18]]*e,y[b[38+18]]*e,z[b[38+18]]*e)' ancho='8'">
+   <param name="S_552" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+19]]*e,y[a[38+19]]*e,z[a[38+19]]*e)(x[b[38+19]]*e,y[b[38+19]]*e,z[b[38+19]]*e)' ancho='8'">
+   <param name="S_553" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+20]]*e,y[a[38+20]]*e,z[a[38+20]]*e)(x[b[38+20]]*e,y[b[38+20]]*e,z[b[38+20]]*e)' ancho='8'">
+   <param name="S_554" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+21]]*e,y[a[38+21]]*e,z[a[38+21]]*e)(x[b[38+21]]*e,y[b[38+21]]*e,z[b[38+21]]*e)' ancho='8'">
+   <param name="S_555" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+22]]*e,y[a[38+22]]*e,z[a[38+22]]*e)(x[b[38+22]]*e,y[b[38+22]]*e,z[b[38+22]]*e)' ancho='8'">
+   <param name="S_556" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+23]]*e,y[a[38+23]]*e,z[a[38+23]]*e)(x[b[38+23]]*e,y[b[38+23]]*e,z[b[38+23]]*e)' ancho='8'">
+   <param name="S_557" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+24]]*e,y[a[38+24]]*e,z[a[38+24]]*e)(x[b[38+24]]*e,y[b[38+24]]*e,z[b[38+24]]*e)' ancho='8'">
+   <param name="S_558" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+25]]*e,y[a[38+25]]*e,z[a[38+25]]*e)(x[b[38+25]]*e,y[b[38+25]]*e,z[b[38+25]]*e)' ancho='8'">
+   <param name="S_559" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+26]]*e,y[a[38+26]]*e,z[a[38+26]]*e)(x[b[38+26]]*e,y[b[38+26]]*e,z[b[38+26]]*e)' ancho='8'">
+   <param name="S_560" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+27]]*e,y[a[38+27]]*e,z[a[38+27]]*e)(x[b[38+27]]*e,y[b[38+27]]*e,z[b[38+27]]*e)' ancho='8'">
+   <param name="S_561" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+28]]*e,y[a[38+28]]*e,z[a[38+28]]*e)(x[b[38+28]]*e,y[b[38+28]]*e,z[b[38+28]]*e)' ancho='8'">
+   <param name="S_562" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+29]]*e,y[a[38+29]]*e,z[a[38+29]]*e)(x[b[38+29]]*e,y[b[38+29]]*e,z[b[38+29]]*e)' ancho='8'">
+   <param name="S_563" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+30]]*e,y[a[38+30]]*e,z[a[38+30]]*e)(x[b[38+30]]*e,y[b[38+30]]*e,z[b[38+30]]*e)' ancho='8'">
+   <param name="S_564" value="espacio='E4' tipo='segmento' color='a55a00' expresi&oacute;n='(x[a[38+31]]*e,y[a[38+31]]*e,z[a[38+31]]*e)(x[b[38+31]]*e,y[b[38+31]]*e,z[b[38+31]]*e)' ancho='8'">
+  
+
+
+<param name="Animaci&oacute;n" value="controles='no' auto='s&iacute;' inicio='p=0' hacer='p=p+1;t=t+1;t=t+0.01;E4.rot.z=E4.rot.z+5' mientras='p&lt;100'">
+
+
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

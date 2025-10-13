@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>4q8 8</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+
+
+
+
+
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="./paracidead1.css" rel="stylesheet" type="text/css">
+
+
+
+<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onload="MM_preloadImages('imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraantes2.png','imagen4/paracont2.png','imagen4/atrasb.png','imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraejer3.png','imagen4/paraejer2.png','imagen4/paraeval3.png','imagen4/paraeval2.png','imagen4/paratut3.png','imagen4/paratut2.png','imagen4/paramas3.png','imagen4/paramas2.png','imagen4/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="4q8_centro.htm" target="centro" onclick="MM_nbGroup('down','group1','antes','imagen4/paraantes3.png',1)" onmouseover="MM_nbGroup('over','antes','imagen4/paraantes2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen4/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen4/paracont2.png','imagen4/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen4/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen4/paraconte.png',1)" border="0"></a></td>
+      <td><a href="4q8_ejercicios_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','ejercicios','imagen4/paraejer3.png',1)" onmouseover="MM_nbGroup('over','ejercicios','imagen4/paraejer2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q8_autoevaluacion_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','autoeval','imagen4/paraeval3.png',1)" onmouseover="MM_nbGroup('over','autoeval','imagen4/paraeval2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="4q8_tutor_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paratutor','imagen4/paratut3.png',1)" onmouseover="MM_nbGroup('over','paratutor','imagen4/paratut2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="4q8_sabermas_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paramas','imagen4/paramas3.png',1)" onmouseover="MM_nbGroup('over','paramas','imagen4/paramas2.png','imagen4/paramas3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen4/es1.gif" height="8" width="8"></td>
+      <td background="imagen4/bor1.gif" height="8"></td>
+      <td background="imagen4/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen4/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="43%" valign="top"> <span class="titulo"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">2. Modelos at&oacute;micos </font></span></td>
+            <td width="57%">
+<div align="right"></div></td>
+          </tr>
+          <tr>
+            <td valign="top"> <p class="subtitulo"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">Modelo mecano-cu&aacute;ntico </font></p>
+              <p align="justify"><span class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">El f&iacute;sico
+
+
+			   <a href="#" onClick="MM_openBrWindow('../biografias4/schrodinger.htm','Estilos','width=850,height=600')"> E. Schrödinger</a>
+
+
+
+			   estableci&oacute; el modelo mecano-cu&aacute;ntico del &aacute;tomo, ya que el modelo de Bohr supon&iacute;a que los electrones se encontraban en &oacute;rbitas concretas a distancias definidas del n&uacute;cleo; mientras que, el nuevo modelo establece que los electrones se encuentran alrededor del n&uacute;cleo ocupando posiciones m&aacute;s o menos probables, pero su posici&oacute;n no se puede predecir con exactitud.</font></span>
+                </p>
+              <div align="justify">
+                <table width="97%" height="84" align="center" cellpadding="10" cellspacing="0" background="imagen4/clipcon.png">
+                  <tr>
+                    <td height="45" align="center" valign="top"><p align="center" class="textonormal"><font face="Verdana, Arial, Helvetica, sans-serif"><br>
+                      Se llama <strong>orbital</strong> a la regi&oacute;n del espacio en la que existe una probabilidad elevada (superior al 90 %) de encontrar al electr&oacute;n. </font><br>
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+                <p class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Si representamos con puntos las distintas posiciones que va ocupando un electr&oacute;n en su movimiento alrededor del n&uacute;cleo, obtendremos el <strong>orbital</strong>. La zona donde la nube de puntos es m&aacute;s densa indica que ah&iacute; es m&aacute;s probable encontrar al electr&oacute;n.
+
+
+		        <a href="4q8_contenidos_2f_ampliacion.htm" target="_blank">    Tipos de orbitales</a>. </font></p>
+              </div>
+              </td>
+            <td valign="top">
+<div align="right">
+                <p>
+
+
+
+
+<ajs name=""atomocuantico"" width=420 height=348
+        code="Descartes.class" codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="nombre" value="atomocuantico">
+   <param name="Versi&oacute;n" value="3.92, 2008-05-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='si' despl_imagen='arr-izq' fondo='negro' red='no' red10='no' ejes='no' texto='no' eje-x='no' eje-y='no'">
+   <param name="C_00" value="tipo='num&eacute;rico' id='Ayuda' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='Ayuda' visible='si' tooltip='Ayuda para entender la escena' Explicaci&oacute;n='Ayuda para entender la escena' acci&oacute;n='mensaje' par&aacute;metro='Puedes variar el valor de los 4 n&uacute;meros cu&aacute;nticos que determinan el estado de un electr&oacute;n. \nEl programa dibuja un n&uacute;cleo rojo y una nube de puntos a su alrededor que podemos interpretar como diferentes resultados de medir la posici&oacute;n del electr&oacute;n, no como part&iacute;culas individuales.  \nEn las regiones donde hay m&aacute;s abundancia de puntos habr&aacute; m&aacute;s posibilidad de encontrar el electr&oacute;n.' pos_mensajes='centro'">
+   <param name="C_01" value="tipo='num&eacute;rico' id='A1' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='A1' visible='si' tooltip='El significado de n' Explicaci&oacute;n='El significado de n' acci&oacute;n='mensaje' par&aacute;metro='El n&uacute;mero cu&aacute;ntico principal, n, es funci&oacute;n de la energ&iacute;a del electr&oacute;n. Comprueba qu&eacute; influencia tiene sobre el orbital del electr&oacute;n. ' pos_mensajes='centro'">
+   <param name="C_02" value="tipo='num&eacute;rico' id='A2' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='A2' visible='si' tooltip='El significado de l y m' Explicaci&oacute;n='El significado de l y m' acci&oacute;n='mensaje' par&aacute;metro='Da a n el valor 3 y ve variando despu&eacute;s los valores de l, el n&uacute;mero cu&aacute;ntico relacionado con el tipo de orbital. &iquest;Qu&eacute; influencia tiene el valor de l sobre el orbital?\nPara cada valor de l, da los posibles valores de m (orientaci&oacute;n del orbital). &iquest;Qu&eacute; influencia tiene sobre el orbital?\n\n' pos_mensajes='centro'">
+   <param name="C_03" value="tipo='num&eacute;rico' id='A3' interfaz='bot&oacute;n' regi&oacute;n='norte' nombre='A3' visible='si' tooltip='El spin del electr&oacute;n. ' Explicaci&oacute;n='El spin del electr&oacute;n. ' acci&oacute;n='mensaje' par&aacute;metro='Var&iacute;a ahora el spin. &iquest;Var&iacute;a de alguna forma el orbital?' pos_mensajes='centro'">
+   <param name="C_04" value="tipo='num&eacute;rico' id='N' valor='1' decimales='0' nombre='n' incr='1' min='1' max='3' visible='si' tooltip='N&uacute;mero cu&aacute;ntico principal' Explicaci&oacute;n='N&uacute;mero cu&aacute;ntico principal' pos_mensajes='centro'">
+   <param name="C_05" value="tipo='num&eacute;rico' id='L' decimales='0' nombre='l' incr='1' min='0' max='2' visible='si' tooltip='Momento angular' Explicaci&oacute;n='Momento angular' pos_mensajes='centro'">
+   <param name="C_06" value="tipo='num&eacute;rico' id='M' decimales='0' nombre='m' incr='1' min='-2' max='2' visible='si' tooltip='Orientaci&oacute;n espacial' Explicaci&oacute;n='Orientaci&oacute;n espacial' pos_mensajes='centro'">
+   <param name="C_07" value="tipo='num&eacute;rico' id='S' valor='0.5' decimales='1' nombre='s' incr='1' min='-0.5' max='0.5' visible='si' tooltip='Soin del electr&oacute;n' Explicaci&oacute;n='Soin del electr&oacute;n' pos_mensajes='centro'">
+   <param name="A_00" value="id='pi' expresi&oacute;n='3.1416' evaluar='una-sola-vez' constante='si'">
+   <param name="A_01" value="id='mal' expresi&oacute;n='(L&lt;N)?0:1' evaluar='siempre' constante='si'">
+   <param name="A_02" value="id='mal2' expresi&oacute;n='(abs(M)&lt;=L)?0:1' evaluar='siempre' constante='si'">
+   <param name="A_03" value="id='a' tama&ntilde;o='100' evaluar='una-sola-vez' vector='si'">
+   <param name="A_04" value="id='vala' inicio='nm=0' hacer='a[nm]=(nm&lt;80)?rnd*0.1*pi*(-1)^(nm%2+1):0;a[nm]=(nm&gt;=80)?(0.1*pi+rnd*0.9*pi)*(-1)^(nm%2+1):a[nm];nm=nm+1' mientras='nm&lt;100' evaluar='siempre' algoritmo='si'">
+   <param name="A_05" value="id='azar' expresi&oacute;n='rnd'">
+   <param name="A_06" value="id='ang(x)' inicio='valor=-1' hacer='valor=(x=0)?0:valor;valor=(x=1)?1.57:valor;valor=(x=-1)?0.753:valor;valor=(x=2)?2.223:valor;valor=(x=-2)?4.446:valor' mientras='valor&lt;0' expresi&oacute;n='valor' algoritmo='si'">
+   <param name="A_07" value="id='azul' expresi&oacute;n='(S=-0.5)?1:0' evaluar='siempre' constante='si'">
+   <param name="A_08" value="id='verde' expresi&oacute;n='(S=0.5)?1:0' evaluar='una-sola-vez' constante='si'">
+   <param name="G_00" value="tipo='punto' dibujar-si='(L=0)' color='(rojo,verde,azul,00)' expresi&oacute;n='(N*(1-azar^10)*cos(s*2*pi),N*(1-azar^10)*sen(s*2*pi))' familia='s' s.intervalo='[0,1]' s.pasos='100'">
+   <param name="G_01" value="tipo='punto' dibujar-si='(L=1)&amp;(M=0)' color='(rojo,verde,azul,00)' expresi&oacute;n='(N/2+N/2*cos(a[s]),rnd*N/3*sen(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_02" value="tipo='punto' dibujar-si='(L=1)&amp;(M=0)' color='(rojo,verde,azul,00)' expresi&oacute;n='(-N/2-N/2*cos(a[s]),rnd*N/3*sen(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_03" value="tipo='punto' dibujar-si='(L=1)&amp;(M=1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/3*sen(a[s]),N/2+N/2*cos(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_04" value="tipo='punto' dibujar-si='(L=1)&amp;(M=1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(-rnd*N/3*sen(a[s]),-N/2-N/2*cos(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_05" value="tipo='punto' dibujar-si='(L=1)&amp;(M=-1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/3*sen(a[s])+cos(a[s])+1,(N/2+N/2*cos(a[s])))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_06" value="tipo='punto' dibujar-si='(L=1)&amp;(M=-1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(-rnd*N/3*sen(a[s])-cos(a[s])-1,-(N/2+N/2*cos(a[s])))' familia='s' s.intervalo='[0,99]' s.pasos='99'">
+   <param name="G_07" value="tipo='punto' dibujar-si='(L=2)&amp;(M=0)' color='(rojo,verde,azul,00)' expresi&oacute;n='(N/2.5+N/2.5*cos(a[s]),rnd*N/4*sen(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_08" value="tipo='punto' dibujar-si='(L=2)&amp;(M=0)' color='(rojo,verde,azul,00)' expresi&oacute;n='(-N/6-N/6*cos(a[s]),rnd*N/4*sen(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_09" value="tipo='punto' dibujar-si='(L=2)&amp;(M=1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/4*sen(a[s]),N/2.5+N/2.5*cos(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='99'">
+   <param name="G_10" value="tipo='punto' dibujar-si='(L=2)&amp;(M=1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/4*sen(a[s]),-N/6-N/6*cos(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_11" value="tipo='punto' dibujar-si='(L=2)&amp;(M=-1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/4*sen(a[s]),-N/2.5-N/2.5*cos(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_12" value="tipo='punto' dibujar-si='(L=2)&amp;(M=-1)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/4*sen(a[s]),N/6+N/6*cos(a[s]))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_13" value="tipo='punto' dibujar-si='(L=2)&amp;(M=2)' color='(rojo,verde,azul,00)' expresi&oacute;n='(rnd*N/4*sen(a[s])+cos(a[s])+1,(N/2.5+N/2.5*cos(a[s])))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_14" value="tipo='punto' dibujar-si='(L=2)&amp;(M=2)' color='(rojo,verde,azul,00)' expresi&oacute;n='(-0.5*(rnd*N/4*sen(a[s])+cos(a[s])+1),-0.25*(N/2.5+N/2.5*cos(a[s])))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_15" value="tipo='punto' dibujar-si='(L=2)&amp;(M=-2)' color='(00,verde,azul,00)' expresi&oacute;n='(-(N/2.5+N/2.5*cos(a[s])),rnd*N/4*sen(a[s])+cos(a[s])+1)' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_16" value="tipo='punto' dibujar-si='(L=2)&amp;(M=-2)' color='(00,verde,azul,00)' expresi&oacute;n='(0.5*(rnd*N/4*sen(a[s])+cos(a[s])+1),-0.25*(N/2.5+N/2.5*cos(a[s])))' familia='s' s.intervalo='[0,99]' s.pasos='100'">
+   <param name="G_17" value="tipo='punto' color='d40000' expresi&oacute;n='(0,0)' tama&ntilde;o='5'">
+   <param name="G_18" value="tipo='pol&iacute;gono' dibujar-si='mal+mal2&gt;0' color='blanco' expresi&oacute;n='(-2,2)(2,2)(2,-1)(-2,-1)' relleno='blanco'">
+   <param name="G_19" value="tipo='texto' dibujar-si='mal=1' color='azul' expresi&oacute;n='[150,100]' texto='Valor imposible\n        de L' fuente='Serif,BOLD,24'">
+   <param name="G_20" value="tipo='texto' dibujar-si='(mal2=1) &amp;(mal=0)' color='azul' expresi&oacute;n='[150,100]' texto='Valor imposible\n        de M' fuente='Serif,BOLD,24'">
+   <param name="Animaci&oacute;n" value="controles='no' inicio='t=0' hacer='t=t+0.1;t=(t&gt;9999)?0:t' mientras='t&lt;10000'">
+</ajs>
+
+
+
+
+
+
+
+
+
+                </p>
+              </div></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen4/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="imagen4/es4.gif" height="8" width="8"></td>
+      <td background="imagen4/bor3.gif" height="8"></td>
+      <td background="imagen4/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"></div></td>
+      <td width="30">
+        <div align="center"></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vacía para el popup-->
+</div>
+</body>
+</html>

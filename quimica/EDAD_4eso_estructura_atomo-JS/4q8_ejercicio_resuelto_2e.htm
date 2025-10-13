@@ -1,0 +1,128 @@
+<html><script type='text/javascript' src='lib/descartes-min.js'></script><ajs name=""Part&iacute;culas subat&oacute;micas"" width=900 height=500
+        code="Descartes.class" codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="nombre" value="Part&iacute;culas subat&oacute;micas">
+   <param name="Versi&oacute;n" value="3.92, 2008-05-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=si limpiar=no">
+   <param name="E_00" value="tipo='R2' fijo='si' despl_imagen='arr-izq' fondo='negro' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_01" value="tipo='R2' id='E2' x='70%' y='0%' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_00" value="tipo='num&eacute;rico' id='l' interfaz='bot&oacute;n' valor='(i=0)?0:ent(36*rnd)' fijo='no' nombre='Especie at&oacute;mica' visible='no' acci&oacute;n='calcular' pos_mensajes='centro'">
+   <param name="C_01" value="tipo='num&eacute;rico' id='e' interfaz='men&uacute;' regi&oacute;n='interior' espacio='E2' expresi&oacute;n='(20,250,120,20)' decimales='0' fijo='no' nombre='Electrones' visible='no' opciones='0[0],1[1],2[2],3[3],4[4],5[5],6[6],7[7],8[8],9[9],10[10],11[11],12[12],13[13],14[14],15[15],16[16],17[17],18[18]' par&aacute;metro='i=0' pos_mensajes='centro'">
+   <param name="C_02" value="tipo='num&eacute;rico' id='n' interfaz='men&uacute;' regi&oacute;n='interior' espacio='E2' expresi&oacute;n='(20,300,120,20)' decimales='0' fijo='no' nombre='Neutrones' visible='no' opciones='0[0],1[1],2[2],3[3],4[4],5[5],6[6],7[7],8[8],9[9],10[10],11[11],12[12],13[13],14[14],15[15],16[16],17[17],18[18]' par&aacute;metro='i=0' pos_mensajes='centro'">
+   <param name="C_03" value="tipo='num&eacute;rico' id='p' interfaz='men&uacute;' regi&oacute;n='interior' espacio='E2' expresi&oacute;n='(20,200,120,20)' decimales='0' fijo='no' nombre='Protones' visible='no' opciones='1[1],2[2],3[3],4[4],5[5],6[6],7[7],8[8],9[9],10[10],11[11],12[12],13[13],14[14],15[15],16[16],17[17],18[18]' par&aacute;metro='i=0' pos_mensajes='centro'">
+   <param name="C_04" value="tipo='num&eacute;rico' id='Ayuda' interfaz='bot&oacute;n' nombre='Ayuda' visible='si' acci&oacute;n='mensaje' par&aacute;metro='Selecciona el n&uacute;mero de protones, neutrones y electrones que correspondan a la especie at&oacute;mica que ves en la parte superior derecha.\nEn la parte izquierda podr&aacute;s ver el &aacute;tomo correspondiente con sus part&iacute;culas subat&oacute;micas.\nProt&oacute;n-&gt;Azul\nElectr&oacute;n-&gt;Rojo\nNeutr&oacute;n-&gt;Naranja' pos_mensajes='centro'">
+   <param name="A_00" value="id='pi' expresi&oacute;n='3.1416' evaluar='una-sola-vez' constante='si'">
+   <param name="A_01" value="id='h' expresi&oacute;n='pi' evaluar='una-sola-vez' constante='si'">
+   <param name="A_02" value="id='a' expresi&oacute;n='(n&gt;2)?2:n' evaluar='siempre' constante='si'">
+   <param name="A_03" value="id='b' expresi&oacute;n='(n&gt;10)?8:n-2' evaluar='siempre' constante='si'">
+   <param name="A_04" value="id='c' expresi&oacute;n='(n&gt;10)?n-10:0' evaluar='siempre' constante='si'">
+   <param name="A_05" value="id='i' expresi&oacute;n='1' evaluar='una-sola-vez' constante='si'">
+   <param name="A_06" value="id='pl' expresi&oacute;n='(((l&lt;5)&amp;(p=1))|((l=5)&amp;(p=2))|((l=6)&amp;(p=3))|((l=7)&amp;(p=3))|((l=8)&amp;(p=4))|((l=9)&amp;(p=4))|((l=10)&amp;(p=5))|((l=11)&amp;(p=5))|((l=12)&amp;(p=6))|((l=13)&amp;(p=6))|((l=14)&amp;(p=6))|((l=15)&amp;(p=7))|((l=16)&amp;(p=7))|((l=17)&amp;(p=8))|((l=18)&amp;(p=8))|((l=19)&amp;(p=9))|((l=20)&amp;(p=9))|((l=21)&amp;(p=10))|((l=22)&amp;(p=11))|((l=23)&amp;(p=11))|((l=24)&amp;(p=12))|((l=25)&amp;(p=12))|((l=26)&amp;(p=13))|((l=27)&amp;(p=13))|((l=28)&amp;(p=14))|((l=29)&amp;(p=15))|((l=30)&amp;(p=15))|((l=31)&amp;(p=16))|((l=32)&amp;(p=16))|((l=33)&amp;(p=17))|((l=34)&amp;(p=17))|((l=35)&amp;(p=18)))?0:1' evaluar='siempre' constante='si'">
+   <param name="A_07" value="id='nl' expresi&oacute;n='((((l=0)|(l=3)|(l=4))&amp;(n=0))|((l=1)&amp;(n=1))|(((l=2)|(l=5))&amp;(n=2))|(((l=6)|(l=7))&amp;(n=4))|(((l=8)|(l=9))&amp;(n=5))|(((l=10)|(l=11)|(l=12))&amp;(n=6))|(((l=13)|(l=15)|(l=16))&amp;(n=7))|(((l=14)|(l=17)|(l=18))&amp;(n=8))|(((l=19)|(l=20))&amp;(n=10))|(((l=21)|(l=22)|(l=23)|(l=24)|(l=25))&amp;(n=12))|(((l=26)|(l=27)|(l=28))&amp;(n=14))|(((l=29)|(l=30)|(l=31)|(l=32))&amp;(n=16))|(((l=33)|(l=34)|(l=35))&amp;(n=18)))?0:1' evaluar='siempre' constante='si'">
+   <param name="A_08" value="id='el' expresi&oacute;n='((((l=0)|(l=1)|(l=2))&amp;(e=1))|((l=3)&amp;(e=0))|(((l=4)|(l=5)|(l=7)|(l=9)|(l=11))&amp;(e=2))|((l=6)&amp;(e=3))|((l=8)&amp;(e=4))|(((l=12)|(l=13)|(l=14))&amp;(e=6))|((l=15)&amp;(e=7))|((l=17)&amp;(e=8))|((l=19)&amp;(e=9))|((l=10)&amp;(e=5))|(((l=16)|(l=18)|(l=20)|(l=21)|(l=23)|(l=25)|(l=27))&amp;(e=10))|((l=22)&amp;(e=11))|((l=24)&amp;(e=12))|((l=26)&amp;(e=13))|((l=28)&amp;(e=14))|((l=29)&amp;(e=15))|((l=31)&amp;(e=16))|((l=33)&amp;(e=17))|(((l=30)|(l=32)|(l=34)|(l=35))&amp;(e=18)))?0:1' evaluar='siempre' constante='si'">
+   <param name="G_00" value="tipo='curva' color='blanco' expresi&oacute;n='(-3+4.5*cos(pi*t),4.5*sen(pi*t))' t.intervalo='[0,2]' t.pasos='50' visible='no'">
+   <param name="G_01" value="tipo='punto' dibujar-si='e&gt;17' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u-h/4),4.5*sen(pi*u-h/4))' tama&ntilde;o='4'">
+   <param name="G_02" value="tipo='punto' dibujar-si='e&gt;16' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u+h/2),4.5*sen(pi*u+h/2))' tama&ntilde;o='4'">
+   <param name="G_03" value="tipo='punto' dibujar-si='e&gt;15' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u-3*h/4),4.5*sen(pi*u-3*h/4))' tama&ntilde;o='4'">
+   <param name="G_04" value="tipo='punto' dibujar-si='e&gt;14' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u-h/2),4.5*sen(pi*u-h/2))' tama&ntilde;o='4'">
+   <param name="G_05" value="tipo='punto' dibujar-si='e&gt;13' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u+3*h/4),4.5*sen(pi*u+3*h/4))' tama&ntilde;o='4'">
+   <param name="G_06" value="tipo='punto' dibujar-si='e&gt;12' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u+h),4.5*sen(pi*u+h))' tama&ntilde;o='4'">
+   <param name="G_07" value="tipo='punto' dibujar-si='e&gt;11' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u+h/4),4.5*sen(pi*u+h/4))' tama&ntilde;o='4'">
+   <param name="G_08" value="tipo='punto' dibujar-si='e&gt;10' color='rojo' expresi&oacute;n='(-3+4.5*cos(pi*u),4.5*sen(pi*u))' tama&ntilde;o='4'">
+   <param name="G_09" value="tipo='curva' color='blanco' expresi&oacute;n='(-3+3.5*cos(pi*t),3.5*sen(pi*t))' t.intervalo='[0,2]' t.pasos='50' visible='no'">
+   <param name="G_10" value="tipo='punto' dibujar-si='e&gt;9' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u),3.5*sen(pi*u))' tama&ntilde;o='4'">
+   <param name="G_11" value="tipo='punto' dibujar-si='e&gt;8' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u+h),3.5*sen(pi*u+h))' tama&ntilde;o='4'">
+   <param name="G_12" value="tipo='punto' dibujar-si='e&gt;7' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u+h/2),3.5*sen(pi*u+h/2))' tama&ntilde;o='4'">
+   <param name="G_13" value="tipo='punto' dibujar-si='e&gt;6' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u-h/2),3.5*sen(pi*u-h/2))' tama&ntilde;o='4'">
+   <param name="G_14" value="tipo='punto' dibujar-si='e&gt;5' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u+h/4),3.5*sen(pi*u+h/4))' tama&ntilde;o='4'">
+   <param name="G_15" value="tipo='punto' dibujar-si='e&gt;4' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u+3*h/4),3.5*sen(pi*u+3*h/4))' tama&ntilde;o='4'">
+   <param name="G_16" value="tipo='punto' dibujar-si='e&gt;3' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u-3*h/4),3.5*sen(pi*u-3*h/4))' tama&ntilde;o='4'">
+   <param name="G_17" value="tipo='punto' dibujar-si='e&gt;2' color='rojo' expresi&oacute;n='(-3+3.5*cos(pi*u-h/4),3.5*sen(pi*u-h/4))' tama&ntilde;o='4'">
+   <param name="G_18" value="tipo='curva' color='blanco' expresi&oacute;n='(-3+2*cos(pi*t),2*sen(pi*t))' t.intervalo='[0,2]' t.pasos='50' visible='no'">
+   <param name="G_19" value="tipo='punto' dibujar-si='e&gt;0' color='rojo' expresi&oacute;n='(-3+2*cos(pi*u+h/2),2*sen(pi*u+h/2))' tama&ntilde;o='4'">
+   <param name="G_20" value="tipo='punto' dibujar-si='e&gt;1' color='rojo' expresi&oacute;n='(-3+2*cos(pi*u-h/2),2*sen(pi*u-h/2))' tama&ntilde;o='4'">
+   <param name="G_21" value="tipo='punto' dibujar-si='p&gt;0' color='turquesa' expresi&oacute;n='(-3+0,0)'">
+   <param name="G_22" value="tipo='punto' dibujar-si='p&gt;1' color='turquesa' expresi&oacute;n='(-3+0,0.2)'">
+   <param name="G_23" value="tipo='punto' dibujar-si='p&gt;2' color='turquesa' expresi&oacute;n='(-3+0.3,0.2)'">
+   <param name="G_24" value="tipo='punto' dibujar-si='p&gt;3' color='turquesa' expresi&oacute;n='(-3-0.3,0.1)'">
+   <param name="G_25" value="tipo='punto' dibujar-si='p&gt;4' color='turquesa' expresi&oacute;n='(-3-0.3,-0.1)'">
+   <param name="G_26" value="tipo='punto' dibujar-si='p&gt;5' color='turquesa' expresi&oacute;n='(-3+0.2,-0.1)'">
+   <param name="G_27" value="tipo='punto' dibujar-si='p&gt;6' color='turquesa' expresi&oacute;n='(-3+0,-0.2)'">
+   <param name="G_28" value="tipo='punto' dibujar-si='p&gt;7' color='turquesa' expresi&oacute;n='(-3+-0.2,-0.25)'">
+   <param name="G_29" value="tipo='punto' dibujar-si='p&gt;8' color='turquesa' expresi&oacute;n='(-3+0.3,-0.25)'">
+   <param name="G_30" value="tipo='punto' dibujar-si='p&gt;9' color='turquesa' expresi&oacute;n='(-3+0.35,0.05)'">
+   <param name="G_31" value="tipo='punto' dibujar-si='p&gt;10' color='turquesa' expresi&oacute;n='(-3+0.3,0.4)'">
+   <param name="G_32" value="tipo='punto' dibujar-si='p&gt;11' color='turquesa' expresi&oacute;n='(-3+0.1,0.4)'">
+   <param name="G_33" value="tipo='punto' dibujar-si='n&gt;0' color='naranja' expresi&oacute;n='(-3+0.2,0.35)'">
+   <param name="G_34" value="tipo='punto' dibujar-si='n&gt;1' color='naranja' expresi&oacute;n='(-3-0.1,0.35)'">
+   <param name="G_35" value="tipo='punto' dibujar-si='n&gt;2' color='naranja' expresi&oacute;n='(-3-0.1,-0.35)'">
+   <param name="G_36" value="tipo='punto' dibujar-si='n&gt;3' color='naranja' expresi&oacute;n='(-3-0.1,0)'">
+   <param name="G_37" value="tipo='punto' dibujar-si='n&gt;4' color='naranja' expresi&oacute;n='(-3+0.1,0.1)'">
+   <param name="G_38" value="tipo='punto' dibujar-si='n&gt;5' color='naranja' expresi&oacute;n='(-3+0.1,-0.25)'">
+   <param name="G_39" value="tipo='punto' dibujar-si='n&gt;6' color='naranja' expresi&oacute;n='(-3-0.2,-0.1)'">
+   <param name="G_40" value="tipo='punto' dibujar-si='n&gt;7' color='naranja' expresi&oacute;n='(-3-0.2,0.1)'">
+   <param name="G_41" value="tipo='punto' dibujar-si='n&gt;8' color='naranja' expresi&oacute;n='(-3+0.2,0.1)'">
+   <param name="G_42" value="tipo='punto' dibujar-si='n&gt;9' color='naranja' expresi&oacute;n='(-3+0.35,0.15)'">
+   <param name="G_43" value="tipo='punto' dibujar-si='n&gt;10' color='naranja' expresi&oacute;n='(-3+0.3,-0.15)'">
+   <param name="G_44" value="tipo='punto' dibujar-si='n&gt;11' color='naranja' expresi&oacute;n='(-3-0.4,-0.15)'">
+   <param name="G_45" value="tipo='punto' dibujar-si='n&gt;12' color='naranja' expresi&oacute;n='(-3-0.25,+0.4)'">
+   <param name="G_46" value="tipo='punto' dibujar-si='n&gt;13' color='naranja' expresi&oacute;n='(-3-0.35,+0.2)'">
+   <param name="G_47" value="tipo='punto' dibujar-si='n&gt;14' color='naranja' expresi&oacute;n='(-3-0.35,0.3)'">
+   <param name="G_48" value="tipo='punto' dibujar-si='n&gt;15' color='naranja' expresi&oacute;n='(-3+0.4,0.5)'">
+   <param name="G_49" value="tipo='punto' dibujar-si='n&gt;16' color='naranja' expresi&oacute;n='(-3+0.4,0.4)'">
+   <param name="G_50" value="tipo='punto' dibujar-si='n&gt;17' color='naranja' expresi&oacute;n='(-3+0.4,-0.4)'">
+   <param name="G_51" value="tipo='punto' dibujar-si='p&gt;12' color='turquesa' expresi&oacute;n='(-3-0.1,0.45)'">
+   <param name="G_52" value="tipo='punto' dibujar-si='p&gt;13' color='turquesa' expresi&oacute;n='(-3-0.1,0.25)'">
+   <param name="G_53" value="tipo='punto' dibujar-si='p&gt;14' color='turquesa' expresi&oacute;n='(-3-0.2,0.3)'">
+   <param name="G_54" value="tipo='punto' dibujar-si='p&gt;15' color='turquesa' expresi&oacute;n='(-3+0.1,0.3)'">
+   <param name="G_55" value="tipo='punto' dibujar-si='p&gt;16' color='turquesa' expresi&oacute;n='(-3+0.1,-0.1)'">
+   <param name="G_56" value="tipo='punto' dibujar-si='p&gt;17' color='turquesa' expresi&oacute;n='(-3+0.1,-0.4)'">
+   <param name="G_57" value="espacio='E2' tipo='imagen' dibujar-si='(l=0)' expresi&oacute;n='(80,20)' archivo='images/1.jpg' coord_abs='si'">
+   <param name="G_58" value="espacio='E2' tipo='imagen' dibujar-si='(l=1)' expresi&oacute;n='(80,20)' archivo='images/2.jpg' coord_abs='si'">
+   <param name="G_59" value="espacio='E2' tipo='imagen' dibujar-si='(l=2)' expresi&oacute;n='(80,20)' archivo='images/3.jpg' coord_abs='si'">
+   <param name="G_60" value="espacio='E2' tipo='imagen' dibujar-si='(l=3)' expresi&oacute;n='(80,20)' archivo='images/4.jpg' coord_abs='si'">
+   <param name="G_61" value="espacio='E2' tipo='imagen' dibujar-si='(l=4)' expresi&oacute;n='(80,20)' archivo='images/5.jpg' coord_abs='si'">
+   <param name="G_62" value="espacio='E2' tipo='imagen' dibujar-si='(l=5)' expresi&oacute;n='(80,20)' archivo='images/6.jpg' coord_abs='si'">
+   <param name="G_63" value="espacio='E2' tipo='imagen' dibujar-si='(l=6)' expresi&oacute;n='(80,20)' archivo='images/7.jpg' coord_abs='si'">
+   <param name="G_64" value="espacio='E2' tipo='imagen' dibujar-si='(l=7)' expresi&oacute;n='(80,20)' archivo='images/8.jpg' coord_abs='si'">
+   <param name="G_65" value="espacio='E2' tipo='imagen' dibujar-si='(l=8)' expresi&oacute;n='(80,20)' archivo='images/9.jpg' coord_abs='si'">
+   <param name="G_66" value="espacio='E2' tipo='imagen' dibujar-si='(l=9)' expresi&oacute;n='(80,20)' archivo='images/10.jpg' coord_abs='si'">
+   <param name="G_67" value="espacio='E2' tipo='imagen' dibujar-si='(l=10)' expresi&oacute;n='(80,20)' archivo='images/11.jpg' coord_abs='si'">
+   <param name="G_68" value="espacio='E2' tipo='imagen' dibujar-si='(l=11)' expresi&oacute;n='(80,20)' archivo='images/12.jpg' coord_abs='si'">
+   <param name="G_69" value="espacio='E2' tipo='imagen' dibujar-si='(l=12)' expresi&oacute;n='(80,20)' archivo='images/13.jpg' coord_abs='si'">
+   <param name="G_70" value="espacio='E2' tipo='imagen' dibujar-si='(l=13)' expresi&oacute;n='(80,20)' archivo='images/14.jpg' coord_abs='si'">
+   <param name="G_71" value="espacio='E2' tipo='imagen' dibujar-si='(l=14)' expresi&oacute;n='(80,20)' archivo='images/15.jpg' coord_abs='si'">
+   <param name="G_72" value="espacio='E2' tipo='imagen' dibujar-si='(l=15)' expresi&oacute;n='(80,20)' archivo='images/16.jpg' coord_abs='si'">
+   <param name="G_73" value="espacio='E2' tipo='imagen' dibujar-si='(l=16)' expresi&oacute;n='(80,20)' archivo='images/17.jpg' coord_abs='si'">
+   <param name="G_74" value="espacio='E2' tipo='imagen' dibujar-si='(l=17)' expresi&oacute;n='(80,20)' archivo='images/18.jpg' coord_abs='si'">
+   <param name="G_75" value="espacio='E2' tipo='imagen' dibujar-si='(l=18)' expresi&oacute;n='(80,20)' archivo='images/19.jpg' coord_abs='si'">
+   <param name="G_76" value="espacio='E2' tipo='imagen' dibujar-si='(l=19)' expresi&oacute;n='(80,20)' archivo='images/20.jpg' coord_abs='si'">
+   <param name="G_77" value="espacio='E2' tipo='imagen' dibujar-si='(l=20)' expresi&oacute;n='(80,20)' archivo='images/21.jpg' coord_abs='si'">
+   <param name="G_78" value="espacio='E2' tipo='imagen' dibujar-si='(l=21)' expresi&oacute;n='(80,20)' archivo='images/22.jpg' coord_abs='si'">
+   <param name="G_79" value="espacio='E2' tipo='imagen' dibujar-si='(l=22)' expresi&oacute;n='(80,20)' archivo='images/23.jpg' coord_abs='si'">
+   <param name="G_80" value="espacio='E2' tipo='imagen' dibujar-si='(l=23)' expresi&oacute;n='(80,20)' archivo='images/24.jpg' coord_abs='si'">
+   <param name="G_81" value="espacio='E2' tipo='imagen' dibujar-si='(l=24)' expresi&oacute;n='(80,20)' archivo='images/25.jpg' coord_abs='si'">
+   <param name="G_82" value="espacio='E2' tipo='imagen' dibujar-si='(l=25)' expresi&oacute;n='(80,20)' archivo='images/26.jpg' coord_abs='si'">
+   <param name="G_83" value="espacio='E2' tipo='imagen' dibujar-si='(l=26)' expresi&oacute;n='(80,20)' archivo='images/27.jpg' coord_abs='si'">
+   <param name="G_84" value="espacio='E2' tipo='imagen' dibujar-si='(l=27)' expresi&oacute;n='(80,20)' archivo='images/28.jpg' coord_abs='si'">
+   <param name="G_85" value="espacio='E2' tipo='imagen' dibujar-si='(l=28)' expresi&oacute;n='(80,20)' archivo='images/29.jpg' coord_abs='si'">
+   <param name="G_86" value="espacio='E2' tipo='imagen' dibujar-si='(l=29)' expresi&oacute;n='(80,20)' archivo='images/30.jpg' coord_abs='si'">
+   <param name="G_87" value="espacio='E2' tipo='imagen' dibujar-si='(l=30)' expresi&oacute;n='(80,20)' archivo='images/31.jpg' coord_abs='si'">
+   <param name="G_88" value="espacio='E2' tipo='imagen' dibujar-si='(l=31)' expresi&oacute;n='(80,20)' archivo='images/32.jpg' coord_abs='si'">
+   <param name="G_89" value="espacio='E2' tipo='imagen' dibujar-si='(l=32)' expresi&oacute;n='(80,20)' archivo='images/33.jpg' coord_abs='si'">
+   <param name="G_90" value="espacio='E2' tipo='imagen' dibujar-si='(l=33)' expresi&oacute;n='(80,20)' archivo='images/34.jpg' coord_abs='si'">
+   <param name="G_91" value="espacio='E2' tipo='imagen' dibujar-si='(l=34)' expresi&oacute;n='(80,20)' archivo='images/35.jpg' coord_abs='si'">
+   <param name="G_92" value="espacio='E2' tipo='imagen' dibujar-si='(l=35)' expresi&oacute;n='(80,20)' archivo='images/36.jpg' coord_abs='si'">
+   <param name="G_93" value="espacio='E2' tipo='texto' dibujar-si='pl=0' color='azul' expresi&oacute;n='[150,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 Correcto\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_94" value="espacio='E2' tipo='texto' dibujar-si='pl=1' color='azul' expresi&oacute;n='[150,200]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green0\blue0;\red0\green0\blue255;}\f1\fs24\b\cf0 Incorrecto\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_95" value="espacio='E2' tipo='texto' dibujar-si='nl=0' color='azul' expresi&oacute;n='[150,300]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 Correcto\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_96" value="espacio='E2' tipo='texto' dibujar-si='nl=1' color='azul' expresi&oacute;n='[150,300]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green0\blue0;\red0\green0\blue255;}\f1\fs24\b\cf0 Incorrecto\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_97" value="espacio='E2' tipo='texto' dibujar-si='el=0' color='azul' expresi&oacute;n='[150,250]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 Correcto\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_98" value="espacio='E2' tipo='texto' dibujar-si='el=1' color='azul' expresi&oacute;n='[150,250]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green0\blue0;\red0\green0\blue255;}\f1\fs24\b\cf0 Incorrecto\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="Animaci&oacute;n" value="controles='no' inicio='u=0' hacer='u=u+0.05' mientras='u&lt;5000'">
+</ajs>
+
+
+</html>

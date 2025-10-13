@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>4q8 8</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+
+<!-- Esta función popup que aparece a continuación sirve para que aparezca el cuadro de texto al pasar el ratón por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta función que viene a continuación sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+
+
+
+
+//-->
+</script>
+<script type="text/javascript" src="../embeddedcontent.js" defer="defer"></script>
+
+<link href="./paracidead1.css" rel="stylesheet" type="text/css">
+
+
+
+<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+
+
+
+<body onload="MM_preloadImages('imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraantes2.png','imagen4/paracont2.png','imagen4/atrasb.png','imagen4/paraantes3.png','imagen4/paraconte.png','imagen4/paraejer3.png','imagen4/paraejer2.png','imagen4/paraeval3.png','imagen4/paraeval2.png','imagen4/paratut3.png','imagen4/paratut2.png','imagen4/paramas3.png','imagen4/paramas2.png','imagen4/paracont3.png');popup()" bgcolor="#f1f1f1">
+<div id="Layer1" style="position: absolute; left: 0px; top: 0px; width: 800px; height: 528px; z-index: 1;">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="4q8_centro.htm" target="centro" onclick="MM_nbGroup('down','group1','antes','imagen4/paraantes3.png',1)" onmouseover="MM_nbGroup('over','antes','imagen4/paraantes2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraantes.png" alt="" name="antes" width="130" height="20" border="0" onload=""></a></td>
+      <td><a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen4/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen4/paracont2.png','imagen4/paracont3.png',1)" onMouseOut="MM_nbGroup('out')"><img src="imagen4/paracont3.png" alt="" name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen4/paraconte.png',1)" border="0"></a></td>
+      <td><a href="4q8_ejercicios_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','ejercicios','imagen4/paraejer3.png',1)" onmouseover="MM_nbGroup('over','ejercicios','imagen4/paraejer2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraejer.png" alt="" name="ejercicios" onload="" border="0"></a></td>
+      <td><a href="4q8_autoevaluacion_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','autoeval','imagen4/paraeval3.png',1)" onmouseover="MM_nbGroup('over','autoeval','imagen4/paraeval2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paraeval.png" alt="" name="autoeval" onload="" border="0"></a></td>
+      <td><a href="4q8_tutor_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paratutor','imagen4/paratut3.png',1)" onmouseover="MM_nbGroup('over','paratutor','imagen4/paratut2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paratut.png" alt="" name="paratutor" onload="" border="0"></a></td>
+      <td><a href="4q8_sabermas_1a.htm" target="centro" onclick="MM_nbGroup('down','group1','paramas','imagen4/paramas3.png',1)" onmouseover="MM_nbGroup('over','paramas','imagen4/paramas2.png','imagen4/paramas3.png',1)" onmouseout="MM_nbGroup('out')"><img src="imagen4/paramas.png" alt="" name="paramas" onload="" border="0"></a></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+<table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen4/es1.gif" height="8" width="8"></td>
+      <td background="imagen4/bor1.gif" height="8"></td>
+      <td background="imagen4/es2.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="85%" width="800">
+     <tr>
+      <td background="imagen4/bor4.gif" width="8"></td>
+      <td bgcolor="#ffffff" height="89%" valign="top">
+      <table cellspacing="12" width="100%">
+          <tr>
+            <td width="43%" valign="top"> <span class="titulo"><font face="Geneva, Arial, Helvetica, sans-serif" size="4">4. El enlace qu&iacute;mico</font></span></td>
+            <td width="57%">
+<div align="right"></div></td>
+          </tr>
+          <tr>
+            <td valign="top"> <p class="subtitulo"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">El enlace covalente </font></p>
+              <p align="justify" class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">El <strong>enlace covalente </strong> se produce cuando se combinan entre s&iacute; dos &aacute;tomos de elementos no met&aacute;licos. Los no metales necesitan ganar electrones para alcanzar la configuraci&oacute;n de gas noble y el &uacute;nico modo de hacerlo, entre ellos, es compartiendo electrones; es decir: </font></p>
+              <div align="justify">
+                <table width="95%" height="84" align="center" cellpadding="10" cellspacing="0" background="imagen4/clipcon.png">
+                  <tr>
+                    <td height="45" align="center" valign="bottom"><p align="justify" class="textonormal"><br>
+                      El <strong>enlace covalente</strong> se da entre &aacute;tomos que comparten electrones. Estos electrones son atra&iacute;dos por los n&uacute;cleos de los dos &aacute;tomos. <br>
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+                <p align="center" class="textonormal"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+
+				<a href="#" onClick="MM_openBrWindow('../biografias4/lewis.htm','Estilos','width=850,height=600')"> G. N. Lewis</a>
+
+
+				 propuso representar los enlaces usando los s&iacute;mbolos de los elementos y puntos para los electrones de valencia. El  par de electrones compartidos se representa por una raya entre los &aacute;tomos: </font><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="imagenes8/nitrolewis.gif" width="24" height="25"> , <img src="imagenes8/oxigelewis.gif" width="25" height="25"> , </font><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><img src="imagenes8/fluorlewis.gif" width="26" height="25"></font></p>
+              </div>
+              <table width="100%" height="61" border="0" cellpadding="6" cellspacing="0" bordercolor="#999966" bgcolor="#eeeedd">
+                <tr>
+
+				<td width="75%" height="50" valign="middle" bordercolor="#F1F1F1" bgcolor="#F1F1F1">
+                    <div align="justify">
+                      <p align="center" class="titulo_sabermas">Ampliaci&oacute;n</p>
+                  </div></td>
+                  <td width="25%" height="50" valign="middle" bordercolor="#c6d8f4" bgcolor="#F1F1F1">&nbsp;
+
+
+				 <a href="#" onMouseOver="MM_swapImage('calcula','','imagen4/lapiz2.png',1)" onMouseOut="MM_swapImgRestore()"><img src="imagen4/lapiz1.png" alt="Ejercicio" name="calcula" width="38" height="38" border="0" onClick="MM_openBrWindow('4q8_contenidos_4b_ampliacion.htm','calcula','width=750,height=500')"></a>
+
+
+				   </td>
+
+
+
+
+
+
+                </tr>
+            </table></td>
+            <td valign="top">
+<div align="right">
+                <p>
+
+
+
+
+<ajs name=""Enlace covalente"" width=420 height=400
+        code="Descartes.class" codebase="./"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="nombre" value="Enlace covalente">
+   <param name="Versi&oacute;n" value="3.92, 2008-05-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no alto=0">
+   <param name="E_00" value="tipo='R2' fijo='si' despl_imagen='arr-izq' fondo='f1f1f1' red='no' red10='no' ejes='no' texto='no' dibujar-si='l=1'">
+   <param name="E_01" value="tipo='R2' id='E2' fijo='si' despl_imagen='arr-izq' fondo='f1f1f1' red='no' red10='no' ejes='no' texto='no' dibujar-si='l=0'">
+   <param name="C_00" value="tipo='num&eacute;rico' id='Siguiente' interfaz='bot&oacute;n' regi&oacute;n='interior' expresi&oacute;n='(380,30,22,22)' visible='si' imagen='imagen4/siguiente.png' dibujar-si='n&lt;1' acci&oacute;n='calcular' par&aacute;metro='n=n+1' pos_mensajes='centro'">
+   <param name="C_01" value="tipo='num&eacute;rico' id='Anterior' interfaz='bot&oacute;n' regi&oacute;n='interior' expresi&oacute;n='(350,30,22,22)' visible='si' imagen='imagen4/anterior.png' dibujar-si='n&gt;0' acci&oacute;n='calcular' par&aacute;metro='n=n-1' pos_mensajes='centro'">
+   <param name="C_02" value="tipo='num&eacute;rico' id='n7' interfaz='bot&oacute;n' regi&oacute;n='interior' espacio='E2' expresi&oacute;n='(60,120,280,280)' visible='si' imagen='imagenes8/metano_covalente.jpg' acci&oacute;n='calcular' par&aacute;metro='l=1' pos_mensajes='centro'">
+   <param name="C_03" value="tipo='num&eacute;rico' id='Z' interfaz='men&uacute;' regi&oacute;n='interior' expresi&oacute;n='(20,160,180,30)' decimales='0' visible='no' dibujar-si='n=0' opciones='Elige un elemento[0],Hidr&oacute;geno[1],Carbono[6],Nitr&oacute;geno[7],Ox&iacute;geno[8],Fl&uacute;or[9]' acci&oacute;n='calcular' par&aacute;metro='lewis=0' pos_mensajes='centro'">
+   <param name="C_04" value="tipo='num&eacute;rico' id='lewis' interfaz='bot&oacute;n' regi&oacute;n='interior' expresi&oacute;n='(220,160,180,30)' nombre='Notaci&oacute;n de Lewis' visible='si' dibujar-si='(n=0)&amp;(Z#0)' acci&oacute;n='calcular' par&aacute;metro='lewis=1' pos_mensajes='centro'">
+   <param name="C_05" value="tipo='num&eacute;rico' id='M' interfaz='men&uacute;' regi&oacute;n='interior' expresi&oacute;n='(80,80,250,30)' decimales='0' visible='no' dibujar-si='n=1' opciones='Elige mol&eacute;cula[0],Hidr&oacute;geno con Hidr&oacute;geno[1],Fl&uacute;or con Fl&uacute;or[2],Hidr&oacute;geno con Fl&uacute;or[3],Hidr&oacute;geno con Ox&iacute;geno[4],Hidr&oacute;geno con Nitr&oacute;geno[5],Hidr&oacute;geno con Carbono[6]' acci&oacute;n='calcular' pos_mensajes='centro'">
+   <param name="G_00" value="tipo='pol&iacute;gono' dibujar-si='n=2' color='000099' expresi&oacute;n='(5,5)(5,60)(415,60)(415,5)(5,5)' relleno='1efffff1' ancho='3' coord_abs='si'">
+   <param name="G_01" value="tipo='pol&iacute;gono' dibujar-si='n=1' color='000099' expresi&oacute;n='(5,5)(5,60)(415,60)(415,5)(5,5)' relleno='1efffff1' ancho='3' coord_abs='si'">
+   <param name="G_02" value="tipo='pol&iacute;gono' dibujar-si='n=0' color='000099' expresi&oacute;n='(5,5)(5,60)(415,60)(415,5)(5,5)' relleno='1efffff1' ancho='3' coord_abs='si'">
+   <param name="G_03" value="tipo='texto' dibujar-si='n=0' color='000099' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs32\b 1.- Notaci\u243 n de Lewis.\f2\fs24\b0\par \par \par}' fuente='Arial,BOLD,16'">
+   <param name="G_04" value="tipo='texto' dibujar-si='n=1' color='000099' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs32\b 2.- El enlace covalente.\f2\fs24\b0\par \par}' fuente='Arial,BOLD,16'">
+   <param name="G_05" value="espacio='E2' tipo='pol&iacute;gono' color='000099' expresi&oacute;n='(-4.2,4)(4.2,4)(4.2,2)(-4.2,2)(-4.2,4)' relleno='1efffff1' ancho='3'">
+   <param name="G_06" value="espacio='E2' tipo='texto' dibujar-si='n=0' color='000099' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Courier New;}\f1\fs40             ENLACE COVALENTE\fs24\par \par       Para conocer el enlace covalente pulsa sobre la imagen \f3\fs24\par \par}' fuente='Arial,PLAIN,20'">
+   <param name="G_07" value="tipo='texto' dibujar-si='((Z&gt;=13)&amp;(Z&lt;19))&amp;(n=0)' color='azul' expresi&oacute;n='[47,207]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs36\b 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s{\*\mjaformula{\supix\cf1 2\cf0}}3p{\*\mjaformula{\supix\cf1{\expr Z-12\decimals 0\fixed1}\cf0}}\cf2\f2\fs32\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_08" value="tipo='texto' dibujar-si='((Z&gt;=11)&amp;(Z&lt;13))&amp;(n=0)' color='azul' expresi&oacute;n='[47,207]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs28 1s{\*\mjaformula{\supix 2}}2s{\*\mjaformula{\supix 2}}2p{\*\mjaformula{\supix 6}}3s\b\cf1{\*\mjaformula{\supix\f3\fs22\b{\expr Z-10\decimals 0\fixed1}}}\cf2\f4\fs32\b0\par}' fuente='Arial,PLAIN,14'">
+   <param name="G_09" value="tipo='texto' dibujar-si='((Z&gt;=5)&amp;(Z&lt;11))&amp;(n=0)' color='azul' expresi&oacute;n='[47,207]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs36\b 1s{\*\mjaformula{\supix 2}}2s\cf1{\*\mjaformula{\supix 2}}\cf0 2p\cf1{\*\mjaformula{\supix{\expr Z-4\decimals 0\fixed1}}}\cf2\f2\fs32\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_10" value="tipo='texto' dibujar-si='((Z&gt;=3)&amp;(Z&lt;5))&amp;(n=0)' color='azul' expresi&oacute;n='[47,207]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs36\b 1s{\*\mjaformula{\supix 2}}2s\cf1{\*\mjaformula{\supix{\expr Z-2\decimals 0\fixed1}}}\cf2\f2\fs32\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_11" value="tipo='texto' dibujar-si='((Z&gt;0)&amp;(Z&lt;3))&amp;(n=0)' color='azul' expresi&oacute;n='[47,207]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red255\green0\blue0;\red0\green0\blue255;}\cf0\f1\fs36\b 1s\cf1{\*\mjaformula{\supix{\expr Z\decimals 0\fixed1}}}\cf2\f2\fs32\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_12" value="tipo='texto' dibujar-si='(Z=1)&amp;(n=0)' color='azul' expresi&oacute;n='[20,211]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs36\b H:\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_13" value="tipo='texto' dibujar-si='(Z=6)&amp;(n=0)' color='azul' expresi&oacute;n='[20,211]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs36\b C:\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_14" value="tipo='texto' dibujar-si='(Z=7)&amp;(n=0)' color='azul' expresi&oacute;n='[20,211]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs36\b N:\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_15" value="tipo='texto' dibujar-si='(Z=8)&amp;(n=0)' color='azul' expresi&oacute;n='[20,211]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs36\b O:\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_16" value="tipo='texto' dibujar-si='(Z=9)&amp;(n=0)' color='azul' expresi&oacute;n='[20,211]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\cf0\f1\fs36\b F:\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,18'">
+   <param name="G_17" value="tipo='texto' dibujar-si='n=0' color='azul' expresi&oacute;n='[20,80]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 En la notaci\u243 n de Lewis se representan por puntos los electrones \par de valencia del \u225 tomo, es decir, los electrones m\u225 s externos de \par orbitales s y p.\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_18" value="tipo='imagen' dibujar-si='(Z=1)&amp;(n=0)&amp;(lewis=1)' expresi&oacute;n='(280,190)' archivo='imagenes8/lewis_h.jpg' coord_abs='si'">
+   <param name="G_19" value="tipo='imagen' dibujar-si='(Z=6)&amp;(n=0)&amp;(lewis=1)' expresi&oacute;n='(280,190)' archivo='imagenes8/lewis_c.jpg' coord_abs='si'">
+   <param name="G_20" value="tipo='imagen' dibujar-si='(Z=7)&amp;(n=0)&amp;(lewis=1)' expresi&oacute;n='(280,190)' archivo='imagenes8/lewis_n.jpg' coord_abs='si'">
+   <param name="G_21" value="tipo='imagen' dibujar-si='(Z=8)&amp;(n=0)&amp;(lewis=1)' expresi&oacute;n='(280,190)' archivo='imagenes8/lewis_o.jpg' coord_abs='si'">
+   <param name="G_22" value="tipo='imagen' dibujar-si='(Z=9)&amp;(n=0)&amp;(lewis=1)' expresi&oacute;n='(280,190)' archivo='imagenes8/lewis_f.jpg' coord_abs='si'">
+   <param name="G_23" value="tipo='texto' dibujar-si='(n=0)&amp;(Z=1)&amp;(lewis=1)' color='azul' expresi&oacute;n='[20,280]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;}\f1\fs24\b\cf0 En la notaci\u243 n de Lewis del Hidr\u243 geno, s\u243 lo hay 1 electr\u243 n externo,\par el que est\u225  en el orbital 1s y, por tanto, se representa con el\par s\u237 mbolo del elemento, H, y un punto a su alrededor.\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_24" value="tipo='texto' dibujar-si='(n=0)&amp;(Z=6)&amp;(lewis=1)' color='azul' expresi&oacute;n='[20,280]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 En la notaci\u243 n de Lewis del Carbono, hay 4 electrones externos,\par 2 que est\u225 n en el orbital 2s y 2 en los orbitales 2p;  por tanto, \par se representa con el s\u237 mbolo del elemento, C, y 4 puntos alrededor.\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_25" value="tipo='texto' dibujar-si='(n=0)&amp;(Z=7)&amp;(lewis=1)' color='azul' expresi&oacute;n='[20,280]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 En la notaci\u243 n de Lewis del Nitr\u243 geno, hay 5 electrones externos,\par 2 que est\u225 n en el orbital 2s y 3 en los orbitales 2p;  por tanto, \par se representa con el s\u237 mbolo del elemento, N, y 5 puntos alrededor.\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_26" value="tipo='texto' dibujar-si='(n=0)&amp;(Z=8)&amp;(lewis=1)' color='azul' expresi&oacute;n='[20,280]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 En la notaci\u243 n de Lewis del Ox\u237 geno, hay 6 electrones externos,\par 2 que est\u225 n en el orbital 2s y 4 en los orbitales 2p;  por tanto, \par se representa con el s\u237 mbolo del elemento, O, y 6 puntos alrededor.\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_27" value="tipo='texto' dibujar-si='(n=0)&amp;(Z=9)&amp;(lewis=1)' color='azul' expresi&oacute;n='[20,280]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 En la notaci\u243 n de Lewis del Fl\u250 or, hay 7 electrones externos,\par 2 que est\u225 n en el orbital 2s y 5 en los orbitales 2p;  por tanto, \par se representa con el s\u237 mbolo del elemento, F, y 7 puntos alrededor.\cf1\f2\fs24\b0\par}' fuente='Arial,BOLD,12'">
+   <param name="G_28" value="tipo='imagen' dibujar-si='(M=1)&amp;(n=1)' expresi&oacute;n='(150,150)' archivo='imagenes8/cov_h2.jpg' coord_abs='si'">
+   <param name="G_29" value="tipo='imagen' dibujar-si='(M=2)&amp;(n=1)' expresi&oacute;n='(150,150)' archivo='imagenes8/cov_f2.jpg' coord_abs='si'">
+   <param name="G_30" value="tipo='imagen' dibujar-si='(M=3)&amp;(n=1)' expresi&oacute;n='(150,150)' archivo='imagenes8/cov_hf.jpg' coord_abs='si'">
+   <param name="G_31" value="tipo='imagen' dibujar-si='(M=4)&amp;(n=1)' expresi&oacute;n='(120,150)' archivo='imagenes8/cov_h2o.jpg' coord_abs='si'">
+   <param name="G_32" value="tipo='imagen' dibujar-si='(M=5)&amp;(n=1)' expresi&oacute;n='(120,130)' archivo='imagenes8/cov_nh3.jpg' coord_abs='si'">
+   <param name="G_33" value="tipo='imagen' dibujar-si='(M=6)&amp;(n=1)' expresi&oacute;n='(120,100)' archivo='imagenes8/cov_ch4.jpg' coord_abs='si'">
+   <param name="G_34" value="tipo='texto' dibujar-si='(n=1)&amp;(M=1)' color='azul' expresi&oacute;n='[15,260]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 Cada \u225 tomo de Hidr\u243 geno tiene 1 electr\u243 n externo. Para tener \par configuraci\u243 n del gas noble He necesita ganar 1 electr\u243 n. \par Al no existir ning\u250 n \u225 tomo que ceda ese electr\u243 n, la soluci\u243 n est\u225  \par en compartir 1 electr\u243 n cada \u225 tomo de H.\par \par                     La f\u243 rmula de esta sustancia es \fs32 H\fs20 2\cf1\f4\fs24\b0  \par \par \par}' fuente='Arial,BOLD,12'">
+   <param name="G_35" value="tipo='texto' dibujar-si='(n=1)&amp;(M=2)' color='azul' expresi&oacute;n='[15,260]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 Cada \u225 tomo de Fl\u250 or tiene 7 electrones externos. Para tener \par configuraci\u243 n del gas noble Ne, necesita ganar 1 electr\u243 n. \par Al no existir ning\u250 n \u225 tomo que ceda ese electr\u243 n, la soluci\u243 n est\u225  \par en compartir 1 electr\u243 n cada \u225 tomo de F.\par \par                     La f\u243 rmula de esta sustancia es \fs32 F\fs20 2\cf1\f4\fs24\b0\par \par \par}' fuente='Arial,BOLD,12'">
+   <param name="G_36" value="tipo='texto' dibujar-si='(n=1)&amp;(M=3)' color='azul' expresi&oacute;n='[15,260]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 El \u225 tomo de Fl\u250 or tiene 7 electrones externos. El \u225 tomo de Hidr\u243 geno\par tiene 1 electr\u243 n externo. Para tener configuraci\u243 n del gas noble Ne, \par el Fl\u250 or necesita ganar 1 electr\u243 n. Para tener configuraci\u243 n del gas\par noble He, el Hidr\u243 geno necesita ganar 1 electr\u243 n.\par La soluci\u243 n est\u225  en compartir un electr\u243 n de un  \u225 tomo de F con un\par electr\u243 n de un \u225 tomo de H.\par                     La f\u243 rmula de esta sustancia es \fs32 HF\cf1\f3\fs24\b0\par \par \par}' fuente='Arial,BOLD,12'">
+   <param name="G_37" value="tipo='texto' dibujar-si='(n=1)&amp;(M=4)' color='azul' expresi&oacute;n='[15,260]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 El \u225 tomo de Ox\u237 geno tiene 6 electrones externos. El \u225 tomo de \par Hidr\u243 geno tiene 1 electr\u243 n externo. Para tener configuraci\u243 n del \par gas noble Ne, el Ox\u237 geno necesita ganar 2 electrones. Para tener \par configuraci\u243 n del gas noble He, el Hidr\u243 geno necesita ganar \par un electr\u243 n. La soluci\u243 n est\u225  en unirse un \u225 tomo de Ox\u237 geno con \par 2 \u225 tomos de Hidr\u243 geno. As\u237  el Ox\u237 geno tiene 8 electrones y cada \par Hidr\u243 geno 2 electrones en su \u250 ltima capa.\par                     La f\u243 rmula de esta sustancia es \fs32 H\fs20 2\fs32 O\cf1\f4\fs24\b0\par \par \par}' fuente='Arial,BOLD,12'">
+   <param name="G_38" value="tipo='texto' dibujar-si='(n=1)&amp;(M=5)' color='azul' expresi&oacute;n='[15,260]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 El \u225 tomo de Nitr\u243 geno tiene 5 electrones externos. El \u225 tomo de \par Hidr\u243 geno tiene 1 electr\u243 n externo. Para tener configuraci\u243 n del \par gas noble Ne, el Nitr\u243 geno necesita ganar 3 electrones. Para tener \par configuraci\u243 n del gas noble He, el Hidr\u243 geno necesita ganar \par un electr\u243 n. La soluci\u243 n est\u225  en unirse un \u225 tomo de Nitr\u243 geno con \par 3 \u225 tomos de Hidr\u243 geno. As\u237  el Nitr\u243 geno tiene 8 electrones y cada \par Hidr\u243 geno 2 electrones en su \u250 ltima capa.\par                     La f\u243 rmula de esta sustancia es \fs32 NH\fs20 3\cf1\f4\fs24\b0\par \par \par}' fuente='Arial,BOLD,12'">
+   <param name="G_39" value="tipo='texto' dibujar-si='(n=1)&amp;(M=6)' color='azul' expresi&oacute;n='[15,260]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue153;\red0\green0\blue255;}\f1\fs24\b\cf0 El \u225 tomo de Carbono tiene 4 electrones externos. El \u225 tomo de \par Hidr\u243 geno tiene 1 electr\u243 n externo. Para tener configuraci\u243 n del \par gas noble Ne, el Carbono necesita ganar 4 electrones. Para tener \par configuraci\u243 n del gas noble He, el Hidr\u243 geno necesita ganar \par un electr\u243 n. La soluci\u243 n est\u225  en unirse un \u225 tomo de Carbono con \par 4 \u225 tomos de Hidr\u243 geno. As\u237  el Carbono tiene 8 electrones y cada \par Hidr\u243 geno 2 electrones en su \u250 ltima capa.\par                     La f\u243 rmula de esta sustancia es \fs32 CH\fs20 4\cf1\f4\fs24\b0\par \par \par}' fuente='Arial,BOLD,12'">
+</ajs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </p>
+              </div></td>
+          </tr>
+        </table>
+      </td>
+      <td rowspan="2" background="imagen4/bor2.gif" width="8"> </td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" height="10" width="800">
+    <tr>
+      <td background="imagen4/es4.gif" height="8" width="8"></td>
+      <td background="imagen4/bor3.gif" height="8"></td>
+      <td background="imagen4/es3.gif" height="8" width="8"></td>
+    </tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684"><div align="right"> </div></td>
+      <td width="30"><div align="center"></div></td>
+      <td width="30">
+        <div align="center"></div>
+      </td>
+    </tr>
+
+</table>
+</div>
+
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vacía para el popup-->
+</div>
+</body>
+</html>

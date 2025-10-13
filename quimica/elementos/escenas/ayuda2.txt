@@ -1,0 +1,14 @@
+<applet name="ayuda2" width=300 height=100
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="ayuda2">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_00" value="tipo='R2' id='E1' ancho='300' alto='100' fijo='s&iacute;' O.y='-20' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no'">
+   <param name="G_00" value="espacio='E1' tipo='texto' expresi&oacute;n='[0,0]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}\f1\fs24 Recuerda que la composici\u243 n centesimal no es \par m\u225 s  que  el  porcentaje  en masa  de cada ele-\par mento en el compuesto.\f2\fs24\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='100' controles='no' auto='s&iacute;' inicio='INITANIM()' hacer='Va=V;Pa=P;DT=0.1*rpm/60;ITERA(2*pi*DT,ent(10/DT));' mientras='1'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

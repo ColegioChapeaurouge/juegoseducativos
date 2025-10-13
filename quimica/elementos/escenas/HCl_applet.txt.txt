@@ -1,0 +1,29 @@
+<applet name="HCl" width=420 height=400
+        code="descinst.Descartes.class"
+        archive="descinst.jar,http://recursostic.educacion.es/descartes/web/plugin/descinst.jar"
+        MAYSCRIPT>
+   <param name="separate_jvm" value="true">
+   <param name="nombre" value="HCl">
+   <param name="Versi&oacute;n" value="4.05, 2009-06-21">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no alto=20">
+   <param name="E_00" value="tipo='R3' id='E1' ancho='420' alto='400' O.y='100' despl_imagen='arr-izq' fondo='fffff1' R3='s&iacute;'">
+   <param name="C_00" value="id='n1' espacio='E1' tipo='num&eacute;rico' interfaz='bot&oacute;n' fijo='s&iacute;' nombre='Animar/pausar' visible='s&iacute;' acci&oacute;n='animar' par&aacute;metro.fuente='Monospaced,PLAIN,12' pos_mensajes='centro' tooltip.fuente='Monospaced,PLAIN,12' Explicaci&oacute;n.fuente='Monospaced,PLAIN,12'">
+   <param name="A_00" value="id='escala' constante='s&iacute;' expresi&oacute;n='0.25' evaluar='una-sola-vez'">
+   <param name="A_01" value="id='e' constante='s&iacute;' expresi&oacute;n='escala' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='x' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='2' archivo='escenas/HCl/HCl_x.txt'">
+   <param name="A_03" value="id='y' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='2' archivo='escenas/HCl/HCl_y.txt'">
+   <param name="A_04" value="id='z' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='2' archivo='escenas/HCl/HCl_z.txt'">
+   <param name="A_05" value="id='a' vector='s&iacute;' evaluar='una-sola-vez' archivo='escenas/HCl/HCl_a.txt'">
+   <param name="A_06" value="id='b' vector='s&iacute;' evaluar='una-sola-vez' archivo='escenas/HCl/HCl_b.txt'">
+   <param name="A_07" value="id='aa' constante='s&iacute;' expresi&oacute;n='9' evaluar='una-sola-vez'">
+   <param name="A_08" value="id='rO' constante='s&iacute;' expresi&oacute;n='0.73' evaluar='una-sola-vez'">
+   <param name="A_09" value="id='rH' constante='s&iacute;' expresi&oacute;n='0.37' evaluar='una-sola-vez'">
+   <param name="A_10" value="id='rCa' constante='s&iacute;' expresi&oacute;n='0.99' evaluar='una-sola-vez'">
+   <param name="A_11" value="id='rF' constante='s&iacute;' expresi&oacute;n='1.36' evaluar='una-sola-vez'">
+   <param name="S_00" value="espacio='E1' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='5e610b' expresi&oacute;n='(x[0]*e,y[0]*e,z[0]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='aa*rF'">
+   <param name="S_01" value="espacio='E1' tipo='punto' fondo='s&iacute;' color='negro' color_reverso='5e610b' expresi&oacute;n='(x[1]*e,y[1]*e,z[1]*e)' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='aa*rF'">
+    <param name="S_31" value="espacio='E1' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;}{\colortbl\red0\green0\blue153;\red255\green0\blue255;}\cf0\f1\fs24 La fluorita (fluoruro de calcio) es un mineral muy difundido en la natura-\par leza. En estado puro es incolora y transparente, aunque en la mayor\u237 a \par de los casos presenta diversas coloraciones  que  se pueden deber a \par impurezas org\u225 nicas o minerales; los m\u225 s habituales van del lila al vio-\par leta pero   la fluorita   tambi\u233 n   puede ser azul, verde, rosa, anaranjada, \par amarillo o de tonos menos definidos. Muchas variedades muestran fluo-\par rescencia.\par En la figura se representan en verde los aniones fluoruro y en gris los \par cationes calcio.\cf1\par}' fuente='Arial,PLAIN,12' fijo='s&iacute;'">
+   <param name="Animaci&oacute;n" value="pausa='100' controles='no' auto='s&iacute;' inicio='p=0;t=0' hacer='p=p+1;p=(p&gt;90)?1:p;t=t+0.15;E1.rot.z=E1.rot.z+10' mientras='p&lt;100'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">J2RE</a>.</font>
+</applet>

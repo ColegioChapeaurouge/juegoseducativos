@@ -1,0 +1,258 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>3q7 3</title>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_reloadPage(init) { //reloads the window if Nav4 resized
+if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+if (event == "init" && args.length > 2) {
+if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+nbArr[nbArr.length] = img;
+for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = args[i+1];
+nbArr[nbArr.length] = img;
+} }
+} else if (event == "over") {
+document.MM_nbOver = nbArr = new Array();
+for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+nbArr[nbArr.length] = img;
+}
+} else if (event == "out" ) {
+for (i=0; i < document.MM_nbOver.length; i++) {
+img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+} else if (event == "down") {
+nbArr = document[grpName];
+if (nbArr)
+for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+document[grpName] = nbArr = new Array();
+for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+if (!img.MM_up) img.MM_up = img.src;
+img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+nbArr[nbArr.length] = img;
+} }
+}
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+<!-- Esta funci&oacute;n popup que aparece a continuaci&oacute;n sirve para que aparezca el cuadro de texto al pasar el rat&oacute;n por encima del enlace -->
+
+function popup(a,msg,look,x,y){ //v1.0.5
+  var d=document; if (!a){var ln='pLayer';dx="";dy="";b=(d.layers)?1:0;
+    nn=(b||d.getElementById &&!d.all)?1:0;l = new Object();
+    l.s=b?d.layers[ln]:MM_findObj(ln).style;l.r=b?d.layers[ln].document:MM_findObj(ln);
+    l.w=function (t) {if(b){l.r.write(t);l.r.close()}else l.r.innerHTML=t}
+	if(b) d.captureEvents(Event.MOUSEMOVE);d.onmousemove=function(e)
+	{dx=(nn)?e.pageX:event.x;dy=(nn)?e.pageY:event.y;}}if (a=='1') {l.s.visibility='hidden'}
+  if (a=='2') {l.w('<span class="'+look+'">'+unescape(msg)+'</span>')
+	if(d.all) dy=dy+d.body.scrollTop;x=(!x)?50:Number(x);
+	y=(!y)?-20:Number(y);l.s.left=dx+x; l.s.top=dy+y;l.s.visibility='visible'}
+}
+
+<!-- Esta funci&oacute;n que viene a continuaci&oacute;n sirve para abrir el popup normal, en una ventana aparte -->
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  }
+}
+//-->
+</script>
+<script type="text/javascript" src="embeddedcontent.js" defer="defer">
+</script>
+<link href="paracidead1.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.Estilo4 {text-align: justify; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.Estilo12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+-->
+</style>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+<body onLoad="MM_preloadImages('imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/atrasb.png','imagen3/paraantes2.png','imagen3/paracont2.png','imagen3/adelanteb.png','imagen3/atrasb.png','imagen3/paraantes3.png','imagen3/paraconte.png','imagen3/paraejer3.png','imagen3/paraejer2.png','imagen3/paraeval3.png','imagen3/paraeval2.png','imagen3/paratut3.png','imagen3/paratut2.png','imagen3/paramas3.png','imagen3/paramas2.png','imagen3/paracont3.png');popup();MM_CheckFlashVersion('7,0,0,0','El contenido de la p&aacute;gina requiere una nueva versi&oacute;n del reproductor Macromedia Flash.  Desea descargarlo ahora?')" bgcolor="#f1f1f1">
+
+<div id="Layer1" style="position: absolute; left: 0; top: 0; width: 800; height: 450px; z-index: 1">
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+      <a href="3q7_centro.htm" target="centro" onClick="MM_nbGroup('down','group1','antes','imagen3/paraantes3.png',1)" onMouseOver="MM_nbGroup('over','antes','imagen3/paraantes2.png','',1)" onMouseOut="MM_nbGroup('out')">
+      <img src="imagen3/paraantes.png" alt name="antes" border="0" onload width="130" height="20"></a></td>
+      <td>
+      <a href="javascript:;" target="centro" onClick="MM_nbGroup('down','group1','contenidos','imagen3/paracont3.png',1)" onMouseOver="MM_nbGroup('over','contenidos','imagen3/paracont2.png','imagen3/paracont3.png',1)" onMouseOut="MM_nbGroup('out')">
+      <img src="imagen3/paracont3.png" alt name="contenidos" onload="MM_nbGroup('init','group1','contenidos','imagen3/paraconte.png',1)" border="0" width="130" height="20"></a></td>
+      <td>
+      <a href="3q7_ejercicios_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','ejercicios','imagen3/paraejer3.png',1)" onMouseOver="MM_nbGroup('over','ejercicios','imagen3/paraejer2.png','',1)" onMouseOut="MM_nbGroup('out')">
+      <img src="imagen3/paraejer.png" alt name="ejercicios" onload border="0" width="130" height="20"></a></td>
+      <td>
+      <a href="3q7_autoevaluacion_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','autoeval','imagen3/paraeval3.png',1)" onMouseOver="MM_nbGroup('over','autoeval','imagen3/paraeval2.png','',1)" onMouseOut="MM_nbGroup('out')">
+      <img src="imagen3/paraeval.png" alt name="autoeval" onload border="0" width="130" height="20"></a></td>
+      <td>
+      <a href="3q7_tutor_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paratutor','imagen3/paratut3.png',1)" onMouseOver="MM_nbGroup('over','paratutor','imagen3/paratut2.png','',1)" onMouseOut="MM_nbGroup('out')">
+      <img src="imagen3/paratut.png" alt name="paratutor" onload border="0" width="130" height="20"></a></td>
+      <td>
+      <a href="3q7_sabermas_1a.htm" target="centro" onClick="MM_nbGroup('down','group1','paramas','imagen3/paramas3.png',1)" onMouseOver="MM_nbGroup('over','paramas','imagen3/paramas2.png','imagen3/paramas3.png',1)" onMouseOut="MM_nbGroup('out')">
+      <img src="imagen3/paramas.png" alt name="paramas" onload border="0" width="130" height="20"></a></td>
+    </tr>
+  </table>
+  <table align="center" border="0" cellspacing="0" height="8" width="800">
+    <tr>
+      <td background="imagen3/es1.gif" height="8" width="8"></td>
+      <td background="imagen3/bor1.gif" height="8"></td>
+      <td background="imagen3/es2.gif" height="8" width="8"></td>
+    </tr>
+  </table>
+  <table align="center" border="0" cellspacing="0" height="404" width="800">
+    <tr>
+      <td background="imagen3/bor4.gif" width="8" height="402"></td>
+      <td bgcolor="#ffffff" height="402" valign="top">
+      <table cellspacing="12" width="95%">
+        <tr>
+          <td width="52%" valign="top"><span class="titulo">
+          <font face="Geneva, Arial, Helvetica, sans-serif">1. Elementos </font>
+          </span></td>
+          <td width="48%">
+          <div align="right">          </div>          </td>
+        </tr>
+        <tr>
+          <td height="396" valign="top">
+          <p class="subtitulo"><font face="Geneva, Arial, Helvetica, sans-serif">&iquest;Qu&eacute; es un elemento? </font></p>
+          <p align="justify" class="Estilo12">Como sabemos, un elemento es una sustancia pura que  no se puede separar m&aacute;s en otras m&aacute;s simples por m&eacute;todos (reacciones) qu&iacute;micos. </p>
+          <p align="justify" class="Estilo12">Cada elemento qu&iacute;mico est&aacute; constituido por &aacute;tomos con las mismas propiedades qu&iacute;micas como la reactividad, el potencial de ionizaci&oacute;n...</p>
+          <p align="justify" class="Estilo12">Los elementos qu&iacute;micos se identifican mediante nombres dados en la
+			antig&uuml;edad, derivados de alguna propiedad de los mismos,  del nombre de su descubridor, del lugar de descubrimiento...</p>
+          <p align="justify" class="Estilo12">En la naturaleza existen 92 elementos que se pueden presentar (a 1 atm de presi&oacute;n y 25 &ordm;C) como s&oacute;lido: hierro, plomo; l&iacute;quido: bromo, mercurio o gas: cloro, ox&iacute;geno...  </p>
+          <p align="justify" class="Estilo12">En los laboratorios se ha conseguido sintetizar algunos elementos como el tecnecio.</p>
+          </td>
+          <td rowspan="2" valign="top"><div align="right" class="Estilo12">
+            <table width="420" height="212" border="3" cellpadding="0" cellspacing="3" bordercolor="#000099">
+             			  <tr>
+                <td height="206"><ajs name="bot&oacute;n" width=420 height=23
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="420x23">
+   <param name="decimal_symbol" value=",">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="bot&oacute;n">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no alto=20">
+   <param name="E_01" value="tipo='R2' id='E1' ancho='420' alto='23' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='n1' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='sur' espacio='E1' nombre='Actividad: Los s&iacute;mbolos qu&iacute;micos de Dalton' expresi&oacute;n='(110,0)' fijo='s&iacute;' visible='s&iacute;' acción='mensaje' par&aacute;metro='Arriba tienes algunos de los s&iacute;mbolos de los elementos usados por Dalton. Revisa la teor&iacute;a at&oacute;mica de Dalton vista en las quincenas anteriores y haz un resumen de su biograf&iacute;a.' par&aacute;metro.fuente='Monospaced,PLAIN,12'">
+</ajs>
+                  <img src="imagenes7/simbolos.gif" alt="simbolos_dalton" width="417" height="205"></td>
+              </tr>
+            </table>
+            </div>
+          <div align="justify" class="Estilo12">
+            <p>&nbsp;</p>
+            <table width="76%" height="75" align="center" cellpadding="10" cellspacing="0" background="imagen3/clipcon.png">
+              <tr>
+                <td height="73" align="center" valign="middle"><p class="Estilo4"><span class="textonormal"><strong>Los &aacute;tomos de un mismo elemento tienen las mismas propiedades qu&iacute;micas. </strong> </span> </td>
+              </tr>
+            </table>
+          </div>
+          <p>&nbsp;</p></td>
+        </tr>
+
+      </table>
+      </td>
+      <td rowspan="2" background="imagen3/bor2.gif" width="8" height="402">
+      </td>
+    </tr>
+  </table>
+  <table align="center" border="0" cellspacing="0" height="2" width="800">
+    <tr>
+      <td background="imagen3/es4.gif" height="2" width="8"></td>
+      <td background="imagen3/bor3.gif" height="2"></td>
+      <td background="imagen3/es3.gif" height="2" width="8"></td>
+    </tr>
+  </table>
+  <table align="center" border="0" cellspacing="0" width="768">
+    <tr>
+      <td width="684">
+      <div align="right">
+      </div>
+      </td>
+      <td width="30">
+      <div align="center">
+        <a href="3q7_centro.htm" target="centro" onMouseOver="MM_swapImage('atras','','imagen3/atrasb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+      </td>
+      <td width="30">
+      <div align="center">
+        <a href="3q7_contenidos_1b.htm" target="centro" onMouseOver="MM_swapImage('adelante','','imagen3/adelanteb.png',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="pLayer" style="position:absolute; width:100; visibility:hidden; z-index:200">
+  <!--Capa vac&iacute;a para el popup-->
+</div>
+
+</body>
+
+</html>

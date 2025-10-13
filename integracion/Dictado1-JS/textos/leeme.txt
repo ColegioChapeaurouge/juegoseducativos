@@ -1,0 +1,12 @@
+El fichero respuestas contiene:
+
+1) El primer dato que es el número de textos, imágenes y sonidos que se usarán en la escena. Debe pedirse este valor en la plantilla.
+
+2) Los textos que deben corresponder en número al valor dado en 1)
+
+La carpeta de imágenes con igual número de imágenes que el valor dado en 1), su tamaño máximo es de 80x80 pixeles
+
+La carpeta de sonidos debe ser construida por el usuario, para ello puede usar el software libre "Audacity"
+
+
+
